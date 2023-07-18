@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connecteurs_PFE")(type "KiCad")(uri "/Users/Tristan/Documents/Git/Power_Selector/KiCad_Library/Connecteurs_PFE.pretty")(options "")(descr ""))
+)
