@@ -1,0 +1,304 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0603N180J500CT
+D 18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)
+F http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf
+$ENDCMP
+#
+$CMP 860010580021
+D CAP 2200 UF 20% 35 V
+K WCAP-ASLL, CAP, 2200UF, 20%, 35V, radial, can, smd
+F http://katalog.we-online.de/pbs/datasheet/860010580021.pdf
+$ENDCMP
+#
+$CMP 860020472006
+D CAP ALUM 47UF 20% 25V RADIAL
+K CAP ALUM, 47UF, 20%, 25V, RADIAL
+F http://katalog.we-online.com/pbs/datasheet/860020472006.pdf
+$ENDCMP
+#
+$CMP 860020680030
+D CAP 2200 UF 20% 50 V
+K WCAP-ASLL, CAP, 2200UF, 20%, 50V
+F http://katalog.we-online.de/pbs/datasheet/860010580021.pdf
+$ENDCMP
+#
+$CMP 860241078002
+D CAP 47UF 20% 200V
+K CAP, 47UF, 20%, 200V
+F https://katalog.we-online.de/pbs/datasheet/860241078002.pdf
+$ENDCMP
+#
+$CMP 860241375001
+D CAP ALUM 6.8UF 20% 400V RADIAL
+K Aluminum Capacitors Radial
+F http://nichicon-us.com/english/products/pdfs/e-uvz.pdf
+$ENDCMP
+#
+$CMP 865060457009
+D CAP 470 UF 20% 25 V
+K WCAP-ASLL, CAP, 470UF, 20%, 25V, radial, can, smd
+F http://katalog.we-online.de/pbs/datasheet/865060457009.pdf
+$ENDCMP
+#
+$CMP 865060463011
+D CAP 2200 UF 20% 25 V
+K WCAP-ASLL, CAP, 2200UF, 20%, 25V, radial, can, smd
+F katalog.we-online.de/pbs/datasheet/865060463011.pdf
+$ENDCMP
+#
+$CMP 865060653010
+D CAP 100 UF 20% 50 V
+K WCAP-ASLL, CAP, 100UF, 20%, 50V, radial, can, smd
+F http://katalog.we-online.de/pbs/datasheet/865060457009.pdf
+$ENDCMP
+#
+$CMP 865060663013
+D CAP 470 UF 20% 50V
+K WCAP-ASLL, CAP, 470UF, 20%, 50V, radial, can, smd
+F http://katalog.we-online.de/pbs/datasheet/865060457009.pdf
+$ENDCMP
+#
+$CMP 885012006039
+D CAP CER 150pF 25V NP0 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012006039.pdf
+$ENDCMP
+#
+$CMP 885012006053
+D CAP CER 22PF 50V X7R 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012006053.pdf
+$ENDCMP
+#
+$CMP 885012007027
+D CAP CER 6.8PF 25V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012007053
+D CAP CER 22PF 50V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012007058
+D CAP CER 150PF 50V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012007061
+D CAP CER 470PF 50V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012106022
+D CAP CER 1UF 25V X5R 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012106022.pdf
+$ENDCMP
+#
+$CMP 885012107005
+D CAP CER 22UF 6.3V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107014
+D CAP CER 10UF 16V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107015
+D CAP CER 1UF 25V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107018
+D CAP CER 4.7UF 25V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012109012
+D CAP CER 4.7UF 25V X5R 1210
+K CAP, CER, 4.7UF, 25V, X5R, 1210
+F http://katalog.we-online.de/pbs/datasheet/885012109014.pdf
+$ENDCMP
+#
+$CMP 885012109013
+D CAP CER 10UF 25V X5R 1210
+K CAP, CER, 10UF, 25V, X5R, 1210
+F https://www.digikey.ca/product-detail/en/wurth-electronics-inc/885012109013/732-7384-1-ND/5454011
+$ENDCMP
+#
+$CMP 885012109014
+D CAP CER 22UF 25V X5R 1210
+K CAP, CER, 22UF, 25V, X5R, 1210
+F http://katalog.we-online.de/pbs/datasheet/885012109014.pdf
+$ENDCMP
+#
+$CMP 885012206073
+D CAP CER 220nF 25V X7R 0603
+K General Purpose, Wurth
+F https://katalog.we-online.de/pbs/datasheet/885012206073.pdf
+$ENDCMP
+#
+$CMP 885012206077
+D CAP CER 100PF 50V X7R 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012206077.pdf
+$ENDCMP
+#
+$CMP 885012206089
+D CAP CER 10nF 50V X7R 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012106022.pdf
+$ENDCMP
+#
+$CMP 885012206095
+D CAP CER 0.1UF 50V X7R 0603
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012206095.pdf
+$ENDCMP
+#
+$CMP 885012207047
+D CAP CER 220nF 16V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207075
+D CAP CER 0.33UF 25V X7R 0805
+K 0.33µF, ±10%, 25V, Ceramic Capacitor, X7R, 0805
+F http://katalog.we-online.com/pbs/datasheet/885012207075.pdf
+$ENDCMP
+#
+$CMP 885012207080
+D CAP CER 100PF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207086
+D CAP CER 1nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207092
+D CAP CER 10nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207096
+D CAP CER 47nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207098
+D CAP CER 0.1UF 100nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207102
+D CAP CER 470nF 0.47UF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207103
+D CAP CER 1UF 50V X7R 0805
+K General Purpose, Wurth
+F https://www.we-online.com/katalog/datasheet/885012107003.pdf
+$ENDCMP
+#
+$CMP 885012208094
+D CAP CER 4.7uF 50V X7R 1206
+K General Purpose, Wurth
+F https://www.we-online.com/katalog/datasheet/885012208094.pdf
+$ENDCMP
+#
+$CMP 885012209048
+D CAP CER 4.7uF 50V X7R 1210
+K General Purpose, Wurth
+F https://www.we-online.de/katalog/datasheet/885012206095.pdf
+$ENDCMP
+#
+$CMP 890324023002CS
+D CAP FILM 5600PF 10% 275VAC RAD
+K CAP, FILM, 5600PF, 10%, 275VAC, RAD
+F http://katalog.we-online.de/pbs/datasheet/890324023002CS.pdf
+$ENDCMP
+#
+$CMP AC0805KRX7RYBB472
+D CAP CER 4700PF 250V X7R 0805
+K CAP, CER, 4700PF, 4.7nF, 250V, X7R, 0805
+F http://www.yageo.com/documents/recent/UPY-AC_NP0X7R_16V-to-630V_6.pdf
+$ENDCMP
+#
+$CMP C0805C180C5GAC7800
+D CAP CER 18PF 50V NP0 0805
+K General Purpose, Capacitors
+F https://static6.arrow.com/aropdfconversion/2f4d44fabe9f739e48400cec23111880d6275262/kem_c1003_c0g_smd.pdf
+$ENDCMP
+#
+$CMP C3216X5R1E336M160AC
+D CAP CER 33UF 25V X5R 1206
+K General Purpose
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+$CMP CGA5L3X7T2E224K160AA
+D CAP CER 0.22UF 250V X7T 1206
+K CAP, CER, 0.22UF, 250V, X7T, 1206
+F https://product.tdk.com/info/en/documents/chara_sheet/CGA5L3X7T2E224K160AA.pdf
+$ENDCMP
+#
+$CMP CL31A106MBHNNNE
+D CAP CER 10nF 50V X7R 0805
+K General Purpose
+$ENDCMP
+#
+$CMP CML0805C0G180JT50V
+D 18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)
+K General Purpose, Capacitors
+F https://www.seielect.com/Catalog/SEI-CML.PDF
+$ENDCMP
+#
+$CMP Capacitor
+D Capacitor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Capacitor_Generic
+D Capacitor Generic
+K Capacitor Generic
+$ENDCMP
+#
+$CMP Capacitor_Generic_Polarised
+D Capacitor Generic Polarised
+K Capacitor Generic Polarised
+$ENDCMP
+#
+$CMP Capacitor_Polarised
+D Capacitor Generic Polarised SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP GRM188R61C106KAALD
+D CAP CER 10UF 16V X5R 0603
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf
+$ENDCMP
+#
+$CMP GRT188C81E475KE13D
+D CAP CER 4.7UF 25V X6S 0603
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C106KAAL-01.pdf
+$ENDCMP
+#
+$CMP SD0805S020S1R0
+D DIODE SCHOTTKY 20V 1A 0805
+K Diode, Schottky, 20V, 1A (DC), Surface Mount, 0805
+F http://datasheets.avx.com/schottky.pdf
+$ENDCMP
+#
+$CMP UVZ1A471MED
+D CAP ALUM 470UF 20% 10V RADIAL
+K Aluminum Capacitors Radial
+F http://nichicon-us.com/english/products/pdfs/e-uvz.pdf
+$ENDCMP
+#
+#End Doc Library

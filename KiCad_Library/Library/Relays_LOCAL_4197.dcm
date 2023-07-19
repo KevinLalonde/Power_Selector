@@ -1,0 +1,49 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 9007-12-01
+D RELAY REED SPST 500mA 12V
+K Relays
+$ENDCMP
+#
+$CMP ALQ112
+D RELAY GEN PURPOSE SPST 10A 12V
+K Relays
+$ENDCMP
+#
+$CMP ALQ312
+D RELAY GEN PURPOSE SPST 10A 12V
+K Relays, 12V, 10A
+F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf
+$ENDCMP
+#
+$CMP ALQ324
+D RELAY GEN PURPOSE SPST 10A 24V
+K Relays, 24V, 10A
+F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf
+$ENDCMP
+#
+$CMP CPC1907B
+D RELAY OPTOMOS SP-NO 6A 8-SOP
+K Solid State Relay, SPST-NO (1 Form A), 8-SOP
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf
+$ENDCMP
+#
+$CMP G2RL-1
+D Omron Subminiature Sensitive SPDT Signal Switching Relay, Single-Side Stable
+K Single Pole Relay SPDT
+F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+$ENDCMP
+#
+$CMP G2RL-1A
+D Low Profile Power Relay with 15.7 mm height, ideal for incorporation in miniature equipments
+K Single Relay SPST
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G6C-2117P-US-DC12
+D RELAY GEN PURPOSE DPST 8A 12V
+K DPST Relay 8A 12V
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6c.pdf
+$ENDCMP
+#
+#End Doc Library

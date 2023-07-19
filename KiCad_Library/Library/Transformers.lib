@@ -1,0 +1,156 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Transformer
+#
+DEF Transformer T 0 0 N N 1 F N
+F0 "T" -200 400 60 H V C CNN
+F1 "Transformer" 0 -450 60 H V C CNN
+F2 "F" 0 -2200 60 H I C CNN
+F3 "D" 0 -2300 60 H I C CNN
+F4 "Supplier" 0 -550 50 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -650 50 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -750 50 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -850 50 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -950 50 H I C CNN "Description"
+F9 "Type" 0 -1050 50 H I C CNN "Type"
+F10 "Voltage - Primary" 0 -1150 50 H I C CNN "Voltage - Primary"
+F11 "Voltage - Secondary (Full Load)" 50 -1250 50 H I C CNN "Voltage - Secondary (Full Load)"
+F12 "Current - Output (Max)" 0 -1350 50 H I C CNN "Current - Output (Max)"
+F13 "Primary Winding(s)" 0 -1450 50 H I C CNN "Primary Winding(s)"
+F14 "Secondary Winding(s)" 0 -1550 50 H I C CNN "Secondary Winding(s)"
+F15 "Center Tap" 0 -1650 50 H I C CNN "Center Tap"
+F16 "Power - Max" 0 -1750 50 H I C CNN "Power - Max"
+F17 "Mounting Type" 0 -1850 50 H I C CNN "Mounting Type"
+F18 "Termination Style" 0 -1950 50 H I C CNN "Termination Style"
+F19 "Voltage - Isolation" 0 -2050 50 H I C CNN "Voltage - Isolation"
+F20 "Ratio" 0 350 60 H V C CNN "Ratio"
+DRAW
+A -120 -250 50 -899 899 0 1 0 N -120 -300 -120 -200
+A -120 -150 50 -899 899 0 1 0 N -120 -200 -120 -100
+A -120 -50 50 -899 899 0 1 0 N -120 -100 -120 0
+A -120 50 50 -899 899 0 1 0 N -120 0 -120 100
+A -120 150 50 -899 899 0 1 0 N -120 100 -120 200
+A -120 250 50 -899 899 0 1 0 N -120 200 -120 300
+A 120 -250 50 901 -901 0 1 0 N 120 -200 120 -300
+A 120 -150 50 901 -901 0 1 0 N 120 -100 120 -200
+A 120 -50 50 901 -901 0 1 0 N 120 0 120 -100
+A 120 50 50 901 -901 0 1 0 N 120 100 120 0
+A 120 150 50 901 -901 0 1 0 N 120 200 120 100
+A 120 250 50 901 -901 0 1 0 N 120 300 120 200
+C -160 250 20 0 1 0 F
+C 160 250 20 0 1 0 F
+P 2 0 1 0 -200 -300 -120 -300 N
+P 2 0 1 0 -200 300 -120 300 N
+P 2 0 1 10 -30 300 -30 -300 N
+P 2 0 1 10 30 300 30 -300 N
+P 2 0 1 0 120 -300 200 -300 N
+P 2 0 1 0 120 300 200 300 N
+X ~ ~ -300 -300 100 R 50 50 1 1 I
+X ~ ~ -300 300 100 R 50 50 1 1 I
+X ~ ~ 300 -300 100 L 50 50 1 1 I
+X ~ ~ 300 300 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Transformer_CT
+#
+DEF Transformer_CT T 0 0 N N 1 F N
+F0 "T" -200 400 60 H V C CNN
+F1 "Transformer_CT" 0 -450 60 H V C CNN
+F2 "F" 0 -2200 60 H I C CNN
+F3 "D" 0 -2300 60 H I C CNN
+F4 "Supplier" 0 -550 50 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -650 50 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -750 50 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -850 50 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -950 50 H I C CNN "Description"
+F9 "Type" 0 -1050 50 H I C CNN "Type"
+F10 "Voltage - Primary" 0 -1150 50 H I C CNN "Voltage - Primary"
+F11 "Voltage - Secondary (Full Load)" 50 -1250 50 H I C CNN "Voltage - Secondary (Full Load)"
+F12 "Current - Output (Max)" 0 -1350 50 H I C CNN "Current - Output (Max)"
+F13 "Primary Winding(s)" 0 -1450 50 H I C CNN "Primary Winding(s)"
+F14 "Secondary Winding(s)" 0 -1550 50 H I C CNN "Secondary Winding(s)"
+F15 "Center Tap" 0 -1650 50 H I C CNN "Center Tap"
+F16 "Power - Max" 0 -1750 50 H I C CNN "Power - Max"
+F17 "Mounting Type" 0 -1850 50 H I C CNN "Mounting Type"
+F18 "Termination Style" 0 -1950 50 H I C CNN "Termination Style"
+F19 "Voltage - Isolation" 0 -2050 50 H I C CNN "Voltage - Isolation"
+F20 "Ratio" 0 350 60 H V C CNN "Ratio"
+DRAW
+A -120 -250 50 -899 899 0 1 0 N -120 -300 -120 -200
+A -120 -150 50 -899 899 0 1 0 N -120 -200 -120 -100
+A -120 -50 50 -899 899 0 1 0 N -120 -100 -120 0
+A -120 50 50 -899 899 0 1 0 N -120 0 -120 100
+A -120 150 50 -899 899 0 1 0 N -120 100 -120 200
+A -120 250 50 -899 899 0 1 0 N -120 200 -120 300
+A 120 -250 50 901 -901 0 1 0 N 120 -200 120 -300
+A 120 -150 50 901 -901 0 1 0 N 120 -100 120 -200
+A 120 -50 50 901 -901 0 1 0 N 120 0 120 -100
+A 120 50 50 901 -901 0 1 0 N 120 100 120 0
+A 120 150 50 901 -901 0 1 0 N 120 200 120 100
+A 120 250 50 901 -901 0 1 0 N 120 300 120 200
+C -160 250 20 0 1 0 F
+C 160 250 20 0 1 0 F
+P 2 0 1 0 -200 -300 -120 -300 N
+P 2 0 1 0 -200 300 -120 300 N
+P 2 0 1 10 -30 300 -30 -300 N
+P 2 0 1 10 30 300 30 -300 N
+P 2 0 1 0 120 -300 200 -300 N
+P 2 0 1 0 120 300 200 300 N
+P 4 0 1 0 200 0 120 0 130 0 120 0 N
+X ~ ~ -300 -300 100 R 50 50 1 1 I
+X ~ ~ -300 300 100 R 50 50 1 1 I
+X ~ ~ 300 -300 100 L 50 50 1 1 I
+X ~ ~ 300 0 100 L 50 50 1 1 I
+X ~ ~ 300 300 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# small_Transformer
+#
+DEF small_Transformer T 0 0 N N 1 F N
+F0 "T" -130 270 60 H V C CNN
+F1 "small_Transformer" 0 -450 60 H V C CNN
+F2 "F" 0 -2200 60 H I C CNN
+F3 "D" 0 -2300 60 H I C CNN
+F4 "S" 0 -550 50 H I C CNN "Supplier"
+F5 "S" 0 -650 50 H I C CNN "Supplier Part Number"
+F6 "M" 0 -750 50 H I C CNN "Manufacturer"
+F7 "M" 0 -850 50 H I C CNN "Manufacturer Part Number"
+F8 "D" 0 -950 50 H I C CNN "Description"
+F9 "T" 0 -1050 50 H I C CNN "Type"
+F10 "V" 0 -1150 50 H I C CNN "Voltage - Primary"
+F11 "C" 50 -1250 50 H I C CNN "Voltage - Secondary (Full Load)"
+F12 "C" 0 -1350 50 H I C CNN "Current - Output (Max)"
+F13 "W" 0 -1450 50 H I C CNN "Primary Winding(s)"
+F14 "W" 0 -1550 50 H I C CNN "Secondary Winding(s)"
+F15 "N" 0 -1650 50 H I C CNN "Center Tap"
+F16 "P" 0 -1750 50 H I C CNN "Power - Max"
+F17 "M" 0 -1850 50 H I C CNN "Mounting Type"
+F18 "T" 0 -1950 50 H I C CNN "Termination Style"
+F19 "V" 0 -2050 50 H I C CNN "Voltage - Isolation"
+F20 "R" -10 270 60 H I C CNN "Ratio"
+DRAW
+A -120 -50 50 -899 899 0 1 0 N -120 -100 -120 0
+A -120 50 50 -899 899 0 1 0 N -120 0 -120 100
+A -120 150 50 -899 899 0 1 0 N -120 100 -120 200
+A 120 -50 50 901 -901 0 1 0 N 120 0 120 -100
+A 120 50 50 901 -901 0 1 0 N 120 100 120 0
+A 120 150 50 901 -901 0 1 0 N 120 200 120 100
+C -150 150 20 0 1 0 F
+C 150 150 20 0 1 0 F
+P 2 0 1 0 -200 -100 -120 -100 N
+P 2 0 1 0 -200 200 -120 200 N
+P 2 0 1 10 -30 200 -30 -100 N
+P 2 0 1 10 30 200 30 -100 N
+P 2 0 1 0 120 -100 200 -100 N
+P 2 0 1 0 120 200 200 200 N
+X ~ ~ -300 -100 100 R 50 50 1 1 I
+X ~ ~ -300 200 100 R 50 50 1 1 I
+X ~ ~ 300 -100 100 L 50 50 1 1 I
+X ~ ~ 300 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,37 @@
+# eeschema
+
+LibDir=../../KiCad_lib/Schematic
+[eeschema/libraries]
+LibName1=ADC/ADC
+LibName2=Amplifiers/Amplifiers
+LibName3=Battery/Battery
+LibName4=Capacitors/Capacitors
+LibName5=Comparators/Comparators
+LibName6=Connectors/Connectors
+LibName7=Crystals/Crystals
+LibName8=DAC/DAC
+LibName9=Diodes/Diodes
+LibName10=Fuses/Fuses
+LibName11=Inductors/Inductors
+LibName12=Interface/Interface
+LibName13=Isolators/Isolators
+LibName14=Microcontrollers/STMicroelectronics/STMicroelectronics
+LibName15=PMIC/PMIC
+LibName16=Power Port/Power_Port
+LibName17=Relays/Relays
+LibName18=Resistors/Resistors
+LibName19=Sensors/Sensors
+LibName20=Switches/Switches
+LibName21=Transformers/Transformers
+LibName22=Transistors/Transistors
+
+# Footprint
+# Nickname      # Library Path
+Capacitors      $(KISYSMOD)/Capacitors.pretty
+Connectors      $(KISYSMOD)/Connectors.pretty
+Crystals        $(KISYSMOD)/Crystals.pretty
+Diodes          $(KISYSMOD)/Diodes.pretty
+IC              $(KISYSMOD)/IC.pretty
+Inductors       $(KISYSMOD)/Inductors.pretty
+Resistors       $(KISYSMOD)/Resistors.pretty
+Switches        $(KISYSMOD)/Switches.pretty

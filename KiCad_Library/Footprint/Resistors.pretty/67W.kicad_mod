@@ -1,0 +1,23 @@
+(module 67W (layer F.Cu) (tedit 5CF11A05)
+  (descr http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_Trimmer_67_0.pdf)
+  (tags 67W)
+  (fp_text reference VR701 (at 6.1594 0.1554 -90) (layer F.SilkS) hide
+    (effects (font (size 0.9 0.9) (thickness 0.2032)))
+  )
+  (fp_text value 67WR500KLF (at 0 4.064) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -5.08 2.54) (end -5.08 -2.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.08 -2.54) (end 5.08 -2.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.08 -2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.08 2.54) (end -5.08 2.54) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -4.572 -3.556) (end -4.5466 -3.7338) (layer F.SilkS) (width 0.15))
+  (pad 3 thru_hole circle (at 2.54 0) (size 1.27 1.27) (drill 0.7112) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 1.27 1.27) (drill 0.7112) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.27 1.27) (drill 0.7112) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Resistors/67W.step
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

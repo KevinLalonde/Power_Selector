@@ -1,0 +1,41 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Fully_Differential
+D Fully Differential Op Amp SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Instrumentation
+D Instrumentation Op Amp SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP LMV321RILT
+D LMV321RILT
+K General Purpose Amplifier, 1 Circuit, Rail-to-Rail, SOT-23-5
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf
+$ENDCMP
+#
+$CMP OP-AMP
+D Op Amp SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP OPA192QDGKRQ1
+D OPA192
+K General Purpose Amplifier 1 Circuit Rail-to-Rail 8-VSSOP
+F http://www.ti.com/lit/ds/symlink/opa192-q1.pdf
+$ENDCMP
+#
+$CMP PGA281AIPWR
+D IC OPAMP PGA 6MHZ RRO 16TSSOP
+K FDA, PGA
+F http://www.ti.com/lit/ds/symlink/pga281.pdf
+$ENDCMP
+#
+$CMP Transconductor
+D Transconductor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library

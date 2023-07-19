@@ -1,0 +1,68 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12_AWG_Hole
+D Trou pour soudure fil 12AWG
+K 12 AWG, 12 Gauge, gauge, awg, trou, hole
+$ENDCMP
+#
+$CMP 61400413321
+D CONN COM TYPE B USB VERT 4POS
+K Connector USB B
+F https://katalog.we-online.com/em/datasheet/61400413321.pdf
+$ENDCMP
+#
+$CMP 61400416121
+D CONN COM TYPE B USB HORZ 4POS
+K Connector USB B
+F https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Communication%20Conn%20WR-COM.pdf
+$ENDCMP
+#
+$CMP 61900611121
+D Male locking header 1x6 2.54mm
+F https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121
+$ENDCMP
+#
+$CMP 649003127222
+D 4.20MM MALE SINGLE ROW RIGHT ANGLE HEADER WITH MOUNTING PEGS
+K 649 0xx 127 222
+F http://katalog.we-online.de/em/datasheet/6490xx127222.pdf
+$ENDCMP
+#
+$CMP 649004127222
+D 4.20MM MALE SINGLE ROW RIGHT ANGLE HEADER WITH MOUNTING PEGS
+K 649 0xx 127 222
+F https://www.we-online.com/catalog/datasheet/649004127222.pdf
+$ENDCMP
+#
+$CMP 649004227222
+F http://katalog.we-online.de/em/datasheet/649016227222.pdf
+$ENDCMP
+#
+$CMP 691317710003
+F https://www.we-online.com/katalog/datasheet/6913177100xx.pdf
+$ENDCMP
+#
+$CMP 691343710003
+F https://www.we-online.com/katalog/datasheet/6913437100xx.pdf
+$ENDCMP
+#
+$CMP Header_Female_Pin_2.54mm_2X19
+F https://drawings-pdf.s3.amazonaws.com/10492.pdf
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X2_Right_Angle
+F D
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X25_,_Unshrouded
+D Connector Header Through Hole 50 position 0.100" (2.54mm)
+K Header 50 pos
+F http://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP Molex_3_2_Angled(Wurt)
+K Connector Header Through Hole, Right Angle 6 position 0.165" (4.20mm)
+F http://katalog.we-online.de/em/datasheet/649006227222.pdf
+$ENDCMP
+#
+#End Doc Library

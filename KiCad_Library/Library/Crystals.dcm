@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7A-8.000MAHJ-T
+D CRYSTAL 8.000MHZ 18PF SMT
+K CRYSTAL
+F http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7A_28.pdf
+$ENDCMP
+#
+$CMP ABLS-8.000MHZ-D-T
+D CRYSTAL 8.0000MHZ 18PF SMD
+K CRYSTAL
+F http://www.abracon.com/Resonators/abls.pdf
+$ENDCMP
+#
+$CMP ABS25-32.768KHZ-6-T
+D CRYSTAL 32.7680KHZ 6PF SMD
+K CRYSTAL
+F http://www.abracon.com/Resonators/abs25.pdf
+$ENDCMP
+#
+$CMP Crystal
+D Crystal SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP WE-XTAL-8.000MHZ
+D CRYSTAL 8.000MHZ 18PF SMT
+K CRYSTAL
+F https://www.we-online.com/catalog/datasheet/830055663.pdf
+$ENDCMP
+#
+#End Doc Library

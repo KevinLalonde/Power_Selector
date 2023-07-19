@@ -1,0 +1,313 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 744052471
+#
+DEF 744052471 L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "744052471" 0 -350 60 H I C CNN
+F2 "Inductors:WE-TPC-SMD" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-3668-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "744052471" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 470UH 140MA 5.5 OHM" 0 -850 60 H I C CNN "Description"
+F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 744311220
+#
+DEF 744311220 L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "744311220" 0 -350 60 H I C CNN
+F2 "Inductors:WE-HCI-6_9x6_9" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/744311220.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-1151-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "744052471" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 2.2UH 9A 11.4 MOHM SMD" 0 -850 60 H I C CNN "Description"
+F9 "2.2µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "9A" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7447715330
+#
+DEF 7447715330 L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "7447715330" 0 -350 60 H I C CNN
+F2 "Inductors:IND_1245" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-2196-6-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "7447715330" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 33UH 2.3A 85 MOHM SMD" 0 -850 60 H I C CNN "Description"
+F9 "33µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "2.3A" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductor
+#
+DEF Inductor L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "Inductor" 0 -350 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Supplier" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -850 60 H I C CNN "Description"
+F9 "Inductance" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "Current Rating" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductor_Shielded
+#
+DEF Inductor_Shielded L 0 0 N N 1 F N
+F0 "L" -10 160 60 H V C CNN
+F1 "Inductor_Shielded" 0 -300 60 H I C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Inductance" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "Current Rating" -10 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -120 60 120 60 N
+P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LBC3225T101KR
+#
+DEF LBC3225T101KR L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "LBC3225T101KR" 0 -350 60 H I C CNN
+F2 "Inductors:LBC3225" 0 -950 60 H I C CNN
+F3 "http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "587-2422-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Taiyo Yuden" 0 -650 60 H I C CNN "Manufacturer"
+F7 "LBC3225T101KR" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 100UH 150MA 1.4 OHM" 0 -850 60 H I C CNN "Description"
+F9 "100µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "150mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LBC3225T470KR
+#
+DEF LBC3225T470KR L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "LBC3225T470KR" 0 -350 60 H I C CNN
+F2 "Inductors:LBC3225" 0 -950 60 H I C CNN
+F3 "http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "587-2430-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Taiyo Yuden" 0 -650 60 H I C CNN "Manufacturer"
+F7 "LBC3225T470KR" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 47UH 220MA 670 MOHM" 0 -850 60 H I C CNN "Description"
+F9 "47µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "220mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LQM31PN4R7M00L
+#
+DEF LQM31PN4R7M00L L 0 0 N N 1 F N
+F0 "L" -10 160 60 H V C CNN
+F1 "LQM31PN4R7M00L" 0 -300 60 H I C CNN
+F2 "Inductors:I1206" 0 -900 60 H I C CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0013.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "490-6706-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Murata Electronics North America" 0 -600 60 H I C CNN "Manufacturer"
+F7 "LQM31PN4R7M00L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 4.7UH 700MA 300 MOHM" 0 -800 60 H I C CNN "Description"
+F9 "4.7µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "700mA" -10 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -120 60 120 60 N
+P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MLZ2012N101LT000
+#
+DEF MLZ2012N101LT000 L 0 0 N N 1 F N
+F0 "L" -10 160 60 H V C CNN
+F1 "MLZ2012N101LT000" 0 -300 60 H I C CNN
+F2 "Inductors:I0805" 0 -900 60 H I C CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz2012_en.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "445-9496-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TDK Corporation" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MLZ2012N101LT000" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 100UH 140MA 3.5 OHM" 0 -800 60 H I C CNN "Description"
+F9 "100µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" -10 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -120 60 120 60 N
+P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RLB0608-331KL
+#
+DEF RLB0608-331KL L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "RLB0608-331KL" 0 -350 60 H I C CNN
+F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "RLB0608-331KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "RLB0608-331KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 330UH 165MA 4.68 OHM" 0 -850 60 H I C CNN "Description"
+F9 "330µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "165mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RLB0608-471KL
+#
+DEF RLB0608-471KL L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "RLB0608-471KL" 0 -350 60 H I C CNN
+F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "RLB0608-471KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "RLB0608-471KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 470UH 140MA 6.5 OHM TH" 0 -850 60 H I C CNN "Description"
+F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SRR1280-3R3Y
+#
+DEF SRR1280-3R3Y L 0 0 N N 1 F N
+F0 "L" -10 160 60 H V C CNN
+F1 "SRR1280-3R3Y" 0 -300 60 H I C CNN
+F2 "" 0 -900 60 H I C CNN
+F3 "" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "SRR1280-3R3YTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bourns" 0 -600 60 H I C CNN "Manufacturer"
+F7 "SRR1280-3R3Y" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 3.3UH 8.8A 12 MOHM SMD" 0 -800 60 H I C CNN "Description"
+F9 "3.3uH" 0 -50 50 H I C CNN "Inductance (Henry)"
+F10 "8.8A" -10 -120 50 H I C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -120 60 120 60 N
+P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SRR6038-3R3YCT
+#
+DEF SRR6038-3R3YCT L 0 0 N N 1 F N
+F0 "L" -10 160 60 H V C CNN
+F1 "SRR6038-3R3YCT" 0 -300 60 H I C CNN
+F2 "" 0 -900 60 H I C CNN
+F3 "" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "SRR6038-3R3YCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bourns" 0 -600 60 H I C CNN "Manufacturer"
+F7 "SRR6038-3R3Y" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 3.3UH 3.5A 20 MOHM SMD" 0 -800 60 H I C CNN "Description"
+F9 "3.3 uH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "3.5A" -10 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -120 60 120 60 N
+P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

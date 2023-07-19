@@ -1,0 +1,2627 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0hms_0.5W
+#
+DEF 0hms_0.5W R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "0hms_0.5W" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "36-5106CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "5106" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "0 Ohms Jumper 0.5W, 1/2W Chip Resistor 0805 (2012 Metric)  Metal Element" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+F11 "Digikey" 0 -400 60 H I C CNN "Supplier"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3522100RFT
+#
+DEF 3522100RFT R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "3522100RFT" 50 -300 50 H I C CNN
+F2 "" 50 -900 30 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "A121118CT-ND " 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity Passive Product" 50 -600 60 H I C CNN "Manufacturer"
+F7 " 3522100RFT " 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 " RES SMD 100 OHM 1% 3W 2512 " 50 -800 60 H I C CNN "Description"
+F9 "100" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "3W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "±1%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 352210RJT
+#
+DEF 352210RJT R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "352210RJT" 50 -300 50 H I C CNN
+F2 "Resistors:R2512" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "A121124CT-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity Passive Product" 50 -600 60 H I C CNN "Manufacturer"
+F7 "352210RJT" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10 OHM 5% 3W 2512" 50 -800 60 H I C CNN "Description"
+F9 "10" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "3W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "±5%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 67WR10KLF
+#
+DEF 67WR10KLF VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "67WR10KLF" 0 -320 50 H I C CNN
+F2 "Resistors:67W" 0 -910 30 H I C CNN
+F3 "http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_Trimmer_67_0.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "987-1088-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/BI" 0 -610 60 H I C CNN "Manufacturer"
+F7 "67WR10KLF" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 10K OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "10K" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 0 -200 50 U 50 50 1 1 P
+X ~ 3 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 67WR200KLF
+#
+DEF 67WR200KLF VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "67WR200KLF" 0 -320 50 H I C CNN
+F2 "Resistors:67W" 0 -910 30 H I C CNN
+F3 "http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_Trimmer_67_0.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "987-1615-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/BI" 0 -610 60 H I C CNN "Manufacturer"
+F7 "67WR200KLF" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 200K OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "200K" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 0 -200 50 U 50 50 1 1 P
+X ~ 3 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 67WR500KLF
+#
+DEF 67WR500KLF VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "67WR500KLF" 0 -320 50 H I C CNN
+F2 "Resistors:67W" 0 -910 30 H I C CNN
+F3 "http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_Trimmer_67_0.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "987-1617-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/BI" 0 -610 60 H I C CNN "Manufacturer"
+F7 "67WR500KLF" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 500K OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "500K" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 0 -200 50 U 50 50 1 1 P
+X ~ 3 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CRCW0603300RFKEA
+#
+DEF CRCW0603300RFKEA R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "CRCW0603300RFKEA" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 -900 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "541-300HCT-ND " 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Vishay Dale" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CRCW0603300RFKEA " 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 300 OHM 1% 1/10W 0603 " 0 -800 60 H I C CNN "Description"
+F9 "300" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 250 -200 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -190 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CRCW0603560RJNEA
+#
+DEF CRCW0603560RJNEA R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "CRCW0603560RJNEA" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 -900 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "541-560GCT-ND " 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Vishay Dale" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CRCW0603560RJNEA " 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 560 OHM 5% 1/10W 0603 " 0 -800 60 H I C CNN "Description"
+F9 "560" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 250 -200 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -190 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CRG0805F30K
+#
+DEF CRG0805F30K R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "CRG0805F30K" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "A126360CT-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "TE" 50 -600 60 H I C CNN "Manufacturer"
+F7 "CRG0805F30K" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 30K OHM 1% 1/8W 0805" 50 -800 60 H I C CNN "Description"
+F9 "30K" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/8" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "1%" 0 -140 50 H I C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CRGCQ0805J15K
+#
+DEF CRGCQ0805J15K R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "CRGCQ0805J15K" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "A130141CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity Passive Product" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CRGCQ0805J15K" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 15K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "15k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CT-6EP
+#
+DEF CT-6EP VR 0 0 Y N 1 F N
+F0 "VR" -160 140 60 H V C CNN
+F1 "CT-6EP" 0 -320 50 H I C CNN
+F2 "Resistors:CT6EP" 0 -910 30 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Copal Electronics Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "CT6EP" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER" 0 -810 60 H I C CNN "Description"
+F9 "Resistance" 430 130 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 420 70 50 H V C CNN "Puissance (Watts)"
+F11 "Tolerance" 820 130 50 H V C CNN "Tolerance (%)"
+DRAW
+T 0 110 0 50 0 0 0 CW Normal 0 C C
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 0 0 110 -50 110 -200 90 -180 130 -180 110 -200 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X 1 1 0 200 50 D 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+X 3 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CT6EP103
+#
+DEF CT6EP103 VR 0 0 Y N 1 F N
+F0 "VR" -160 140 60 H V C CNN
+F1 "CT6EP103" 0 -320 50 H I C CNN
+F2 "Resistors:CT6EP" 0 -910 30 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "CT6EP103-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Copal Electronics Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "CT6EP103" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 10K OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "10k" -150 50 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 50 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -50 50 H I C CNN "Tolerance (%)"
+DRAW
+T 0 110 0 50 0 0 0 CW Normal 0 C C
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 0 0 110 -50 110 -200 90 -180 130 -180 110 -200 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X 1 1 0 200 50 D 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+X 3 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ERA-3APB113V
+#
+DEF ERA-3APB113V R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "ERA-3APB113V" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "P11KAYCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ERA-3APB113V" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 11K OHM 0.1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "11k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ERJ-6LWFR005V
+#
+DEF ERJ-6LWFR005V R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "ERJ-6LWFR005V" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "P19183CT-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 50 -600 60 H I C CNN "Manufacturer"
+F7 "ERJ-6LWFR005V" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "5 mOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense Thick Film" 50 -800 60 H I C CNN "Description"
+F9 "0.005" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/2W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "±1%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LVT12R0100FER
+#
+DEF LVT12R0100FER R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "LVT12R0100FER" 0 -300 50 H I C CNN
+F2 "Resistors:R1206" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "LVT12R0100FERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Ohmite" 0 -600 60 H I C CNN "Manufacturer"
+F7 "LVT12R0100FER" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 0.01 OHM 1% 1W 1206" 0 -800 60 H I C CNN "Description"
+F9 "0.01" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MFP-25BRD52-100K
+#
+DEF MFP-25BRD52-100K R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "MFP-25BRD52-100K" 0 -300 50 H I C CNN
+F2 "Resistors:MFR-25" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "100KADCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MFP-25BRD52-100K" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "100 kOhms ±0.1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film" 0 -800 60 H I C CNN "Description"
+F9 "100k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -200 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MFP-25BRD52-100R
+#
+DEF MFP-25BRD52-100R R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "MFP-25BRD52-100R" 0 -300 50 H I C CNN
+F2 "Resistors:MFR-25" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "100ADCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MFP-25BRD52-100R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "100 Ohms ±0.1% 0.25W, 1/4W Through Hole Resistor Axial Metal Film" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -200 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PV36W105C01B00
+#
+DEF PV36W105C01B00 VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "PV36W105C01B00" 0 -320 50 H I C CNN
+F2 "Resistors:67W" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "490-2877-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "PV36W105C01B00" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 1M OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "1M" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±20%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 0 -200 50 U 50 50 1 1 P
+X ~ 3 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PV36W205C01B00
+#
+DEF PV36W205C01B00 VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "PV36W205C01B00" 0 -320 50 H I C CNN
+F2 "Resistors:67W" 0 -910 30 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/pv36.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "490-2883-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "PV36W205C01B00" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 2M OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "2M" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 0 -200 50 U 50 50 1 1 P
+X ~ 3 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Potentiometer
+#
+DEF Potentiometer VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "Potentiometer" 0 -320 50 H I C CNN
+F2 "F" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Supplier" 0 -510 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -810 60 H I C CNN "Description"
+F9 "Resistance" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 290 -60 50 H V C CNN "Puissance (Watts)"
+F11 "Tolerance" 690 0 50 H V C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ ~ -200 0 50 R 50 50 1 1 P
+X ~ ~ 0 -200 50 U 50 50 1 1 P
+X ~ ~ 0 200 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0402FR-073K9L
+#
+DEF RC0402FR-073K9L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0402FR-073K9L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RC0402FR-073K9L" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "AC0805FR-073K9L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 3.9K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "3.9k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-07100RL
+#
+DEF RC0603FR-07100RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603FR-07100RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-100HRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603FR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100 OHM 1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0712K1L
+#
+DEF RC0603FR-0712K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603FR-0712K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-12.1KHRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603FR-0712K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 12.1K OHM 1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "12.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-07150RL
+#
+DEF RC0603FR-07150RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603FR-07150RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-324KHRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603FR-07150RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" 0 -800 60 H I C CNN "Description"
+F9 "150" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-07324KL
+#
+DEF RC0603FR-07324KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603FR-07324KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-324KHRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603FR-07324KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 324K OHM 1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "324k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0747KL
+#
+DEF RC0603FR-0747KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603FR-0747KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-47.0KHRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603FR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 47K OHM 1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "47k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-070RL
+#
+DEF RC0603JR-070RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-070RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-0.0GRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-070RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0 OHM JUMPER 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "Jumper" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-07100KL
+#
+DEF RC0603JR-07100KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-07100KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-100KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-07100KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "100k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-0710KP
+#
+DEF RC0603JR-0710KP R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-0710KP" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1309CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-0710KP" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-071KL
+#
+DEF RC0603JR-071KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-071KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.0KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-071KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-071ML
+#
+DEF RC0603JR-071ML R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-071ML" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.0MGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-071ML" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1M OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "1M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-07330RL
+#
+DEF RC0603JR-07330RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-07330RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-330GRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-07330RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 330 OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "330" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-0733KL
+#
+DEF RC0603JR-0733KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-0733KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-33KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 33K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-07470KL
+#
+DEF RC0603JR-07470KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-07470KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-470KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-07470KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 470K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "470k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-07470RL
+#
+DEF RC0603JR-07470RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-07470RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-470GRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-07470RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 470 OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "470" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-074K7L
+#
+DEF RC0603JR-074K7L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-074K7L" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-4.7KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 4.7K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-07560KL
+#
+DEF RC0603JR-07560KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-07560KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-560KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-07560KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 560K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "560k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603JR-076K8L
+#
+DEF RC0603JR-076K8L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0603JR-076K8L" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-6.8KGRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-076K8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 6.8K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "6.8k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-07100KL
+#
+DEF RC0805FR-07100KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-07100KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-97.6KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-07100KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "100k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0712K1L
+#
+DEF RC0805FR-0712K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-0712K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-12.1KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0712K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 12.1K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "12.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-07169KL
+#
+DEF RC0805FR-07169KL R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "RC0805FR-07169KL" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "RC0805FR-07169KL" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "yageo" 50 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-07169KL" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 169K OHM 1% 1/8W 0805" 50 -800 60 H I C CNN "Description"
+F9 "169k" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/8W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "1%" 0 -140 50 H I C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-071K1L
+#
+DEF RC0805FR-071K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-071K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.10KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-071K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1.1K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-071M21L
+#
+DEF RC0805FR-071M21L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-071M21L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.21MCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-071M21L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1.21M OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1.21M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-071M37L
+#
+DEF RC0805FR-071M37L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-071M37L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.37MCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-071M37L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1.37M OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1.37M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-07200KL
+#
+DEF RC0805FR-07200KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-07200KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-200KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-071M21L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 200K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "200k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0724KL
+#
+DEF RC0805FR-0724KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-0724KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-24.0KCRCT-ND" 0 -500 60 H I C TNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0724KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 24K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "24k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-07324KL
+#
+DEF RC0805FR-07324KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-07324KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-324KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-07324KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 324K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "324k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0740K2L
+#
+DEF RC0805FR-0740K2L R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "RC0805FR-0740K2L" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "311-40.2KCRCT-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 50 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0740K2L" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 40.2K OHM 1% 1/8W 0805" 50 -800 60 H I C CNN "Description"
+F9 "40,2k" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/8W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "1%" 0 -140 50 H I C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0747KL
+#
+DEF RC0805FR-0747KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-0747KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-47.0KCRCT-ND" 0 -500 60 H I C TNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0747KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 47K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "47k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0776K8L
+#
+DEF RC0805FR-0776K8L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-0776K8L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-76.8KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0776K8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 76.8K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "76.8k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-077K5L
+#
+DEF RC0805FR-077K5L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-077K5L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-7.50KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-077K5L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 7.5K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "7.5k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-077K87L
+#
+DEF RC0805FR-077K87L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-077K87L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-7.87KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-077K87L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 7.87K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "7.87k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0797K6L
+#
+DEF RC0805FR-0797K6L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-0797K6L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-97.6KCRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0797K6L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 97.6K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "97.6k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-079K1L
+#
+DEF RC0805FR-079K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805FR-079K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-9.10KCRCT-ND" 0 -500 60 H I C TNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-079K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 9.1K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "9.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-070RL
+#
+DEF RC0805JR-070RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-070RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-0.0ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-070RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07100KL
+#
+DEF RC0805JR-07100KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07100KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-100KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07100KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "100k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07100RL
+#
+DEF RC0805JR-07100RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07100RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-100ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0710KL
+#
+DEF RC0805JR-0710KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0710KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0710ML
+#
+DEF RC0805JR-0710ML R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0710ML" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10MARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710ML" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10M OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0710RL
+#
+DEF RC0805JR-0710RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0710RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07150RL
+#
+DEF RC0805JR-07150RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07150RL" 0 -250 50 H I C CNN
+F2 "Resistors:R0805" 0 -850 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" 0 -900 30 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "311-150ARCT-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -550 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07150RL" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 150 OHM 5% 1/8W 0805" 0 -750 60 H I C CNN "Description"
+F9 "150" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0715KL
+#
+DEF RC0805JR-0715KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0715KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-15KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0715KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 15K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "15k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-071KL
+#
+DEF RC0805JR-071KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-071KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.0KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-071KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-071ML
+#
+DEF RC0805JR-071ML R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-071ML" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.0MARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-071ML" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1M OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07220KL
+#
+DEF RC0805JR-07220KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07220KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-220KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07220KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 220K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "220k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0722KL
+#
+DEF RC0805JR-0722KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0722KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-22KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0722KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 22K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "22k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0722RL
+#
+DEF RC0805JR-0722RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0722RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-22ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0722RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 22 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "22" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-072K2L
+#
+DEF RC0805JR-072K2L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-072K2L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2.2KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-072K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 2.2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "2.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-072KL
+#
+DEF RC0805JR-072KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-072KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2.0KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-072KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07330KL
+#
+DEF RC0805JR-07330KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07330KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-330KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07330KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 330K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "330k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07330RL
+#
+DEF RC0805JR-07330RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07330RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-330ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07330RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 330 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "330" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0733KL
+#
+DEF RC0805JR-0733KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0733KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-33KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 33K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07360RL
+#
+DEF RC0805JR-07360RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07360RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-360ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07360RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 360 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "360" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07470KL
+#
+DEF RC0805JR-07470KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07470KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-470KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07470KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 470K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "470k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07470RL
+#
+DEF RC0805JR-07470RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07470RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-470ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07470RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 470 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "470" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0747KL
+#
+DEF RC0805JR-0747KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0747KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-47KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0747KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 47K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "47k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-074K7L
+#
+DEF RC0805JR-074K7L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-074K7L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-4.7KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 4.7K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07560KL
+#
+DEF RC0805JR-07560KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07560KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-560KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07560KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 560K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "560k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-075K1L
+#
+DEF RC0805JR-075K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-075K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-5.1KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-075K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 5.1K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "5.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07680KL
+#
+DEF RC0805JR-07680KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07680KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-680KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07680KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 680K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "680k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07680RL
+#
+DEF RC0805JR-07680RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07680RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-680ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07680RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 680 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "680" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0768KL
+#
+DEF RC0805JR-0768KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0768KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-68KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0768KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 68K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "68k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-076K8L
+#
+DEF RC0805JR-076K8L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-076K8L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-6.8KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-076K8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 6.8K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "6.8k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07820KL
+#
+DEF RC0805JR-07820KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07820KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-820KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07820KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 820K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "820k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-078K2L
+#
+DEF RC0805JR-078K2L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-078K2L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-8.2KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-078K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 8.2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "8.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-079K1L
+#
+DEF RC0805JR-079K1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-079K1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-9.1KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-079K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 9.1K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "9.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-079R1L
+#
+DEF RC0805JR-079R1L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-079R1L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-9.1ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-079R1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 9.1 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "9.1" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206JR-07120RL
+#
+DEF RC1206JR-07120RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC1206JR-07120RL" 0 -300 50 H I C CNN
+F2 "Resistors:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-120ERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206JR-07120RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 120 OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "120" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RL0805FR-070R15L
+#
+DEF RL0805FR-070R15L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RL0805FR-070R15L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-.15SCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RL0805FR-070R15L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.15 OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "0R15" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RL1206FR-7W0R01L
+#
+DEF RL1206FR-7W0R01L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RL1206FR-7W0R01L" 0 -300 50 H I C CNN
+F2 "Resistors:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RL_Group_521_RoHS_L_2.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-.01LYCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RL1206FR-7W0R01L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.01 OHM 1% 1/2W 1206" 0 -800 60 H I C CNN "Description"
+F9 "0.01R" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RL1206FR-7W0R33L
+#
+DEF RL1206FR-7W0R33L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RL1206FR-7W0R33L" 0 -300 50 H I C CNN
+F2 "Resistors:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RL_Group_521_RoHS_L%201.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-.33LYCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RL1206FR-7W0R33L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.33 OHM 1% 1/2W 1206" 0 -800 60 H I C CNN "Description"
+F9 "0.33" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RL2512FK-070R01L
+#
+DEF RL2512FK-070R01L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RL2512FK-070R01L" 0 -300 50 H I C CNN
+F2 "Resistors:R2512" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RL_Group_521_RoHS_L%201.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-.010TCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RL2512FK-070R01L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.01 OHM 1% 1W 2512" 0 -800 60 H I C CNN "Description"
+F9 "0.01" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF0805FT4R99
+#
+DEF RMCF0805FT4R99 R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "RMCF0805FT4R99" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "RMCF0805FT4R99TR-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc" 50 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF0805FT4R99" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 4.99 OHM 1% 1/8W 0805" 50 -800 60 H I C CNN "Description"
+F9 "4.99 " 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/8W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "1%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF2512FT1R00
+#
+DEF RMCF2512FT1R00 R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "RMCF2512FT1R00" 0 -200 60 H I C CNN
+F2 "" -200 -1050 60 H I C CNN
+F3 "" -200 -1050 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "RMCF2512FT1R00TR-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF2512FT1R00" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 1 OHM 1% 1W 2512" 0 -950 60 H I C CNN "Description"
+F9 "1.0" 0 -100 60 H V C CNN "Resistance (Ohm)"
+F10 "1%" 100 -850 60 H I C CNN "Tolerance (%)"
+F11 "1W" -100 -850 60 H I C CNN "Puissance (Watt)"
+DRAW
+S -120 0 -150 0 1 1 0 N
+S 150 0 120 0 1 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RNCP0603FTD100R
+#
+DEF RNCP0603FTD100R R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RNCP0603FTD100R" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RNCP0603FTD100RCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RNCP0603FTD100R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 100 OHM 1% 1/8W 0603" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0603BRD0739KL
+#
+DEF RT0603BRD0739KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0603BRD0739KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1649CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0603BRD0739KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 39K OHM 0.1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "39k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0603BRE0711KL
+#
+DEF RT0603BRE0711KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0603BRE0711KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG4616CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0603BRE0711KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 11K OHM 0.1% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "11k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0805BRD0712K7L
+#
+DEF RT0805BRD0712K7L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0805BRD0712K7L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1775CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0805BRD0712K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 12.7K OHM 0.1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "12.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0805BRD07150RL
+#
+DEF RT0805BRD07150RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0805BRD07150RL" 0 -300 50 H I C CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1785CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0805BRD07150RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 150 OHM 0.1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "150" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0805BRD0733KL
+#
+DEF RT0805BRD0733KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0805BRD0733KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1872CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0805BRD0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 33K OHM 0.1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±0.1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT0805DRD074K3L
+#
+DEF RT0805DRD074K3L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RT0805DRD074K3L" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" -10 -870 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2750-1-ND " 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RT0805DRD074K3L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 4.3K OHM 0.5% 1/8W 0805 " 0 -800 60 H I C CNN "Description"
+F9 "4.3K" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 150 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor
+#
+DEF Resistor R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistor" 0 -300 50 H I C CNN
+F2 "F" 0 -900 30 H I C CNN
+F3 "D" 0 -950 30 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "Tolerance" 410 -80 50 H V C CNN "Tolerance (%)"
+F11 "Puissance" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_Generic
+#
+DEF Resistor_Generic R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "Resistor_Generic" 50 -300 50 H I C CNN
+F2 "F" 50 -900 30 H I C CNN
+F3 "D" 50 -950 30 H I C CNN
+F4 "Supplier" 50 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 50 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 50 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "Tolerance" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_Variable
+#
+DEF Resistor_Variable VR 0 0 N Y 1 F N
+F0 "VR" 200 80 60 H V C CNN
+F1 "Resistor_Variable" 500 10 50 H V C CNN
+F2 "F" 0 -950 30 H I C CNN
+F3 "D" 0 -1000 30 H I C CNN
+F4 "Supplier" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -850 60 H I C CNN "Description"
+F9 "Resistance" 330 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 320 -150 50 H V C CNN "Puissance (Watts)"
+F11 "Tolerance" 720 -80 50 H V C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 10 -75 -100 80 110 45 100 85 75 80 110 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ ~ 0 -200 50 U 50 50 1 1 P
+X ~ ~ 0 200 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# T93YA105KT20
+#
+DEF T93YA105KT20 VR 0 0 N N 1 F N
+F0 "VR" 110 115 60 H V C CNN
+F1 "T93YA105KT20" 0 -320 50 H I C CNN
+F2 "Resistors:T93YA105KT20" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "T93YA-1.0M-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Vishay Sfernice" 0 -610 60 H I C CNN "Manufacturer"
+F7 "T93YA105KT20" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 1M OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "1M" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 -100 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -200 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X ~ 1 0 200 50 D 50 50 1 1 P
+X ~ 2 -200 0 50 R 50 50 1 1 P
+X ~ 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TR50JBC100R
+#
+DEF TR50JBC100R R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "TR50JBC100R" 0 -300 50 H I C CNN
+F2 "Resistors:TR50" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-tr.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "TR50JBC100R-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "TR50JBC100R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 100 OHM 50W 5% TO220" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 150 -100 50 H I C CNN "Tolerance (%)"
+F11 "50W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

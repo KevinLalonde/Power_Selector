@@ -1,0 +1,310 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 100DP3T1B2M2QE
+#
+DEF 100DP3T1B2M2QE SW 0 40 Y Y 1 F N
+F0 "SW" 50 525 50 H V C CNN
+F1 "100DP3T1B2M2QE" 50 425 50 H V C CNN
+F2 "Switches:100DP3T1B2M2QE" 25 -1025 50 H I C CNN
+F3 "http://spec_sheets.e-switch.com/specs/T123006.pdf" 25 -1125 50 H I C CNN
+F4 "Digikey" 0 -525 50 H I C CNN "Supplier"
+F5 "100DP3T1B2M2QE-ND" 25 -625 50 H I C CNN "Supplier Part Number"
+F6 "E-Switch" 0 -725 50 H I C CNN "Manufacturer"
+F7 "100DP3T1B2M2QE" 0 -825 50 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH TOGGLE DPDT 5A 120V" 0 -925 50 H I C CNN "Description"
+DRAW
+S -400 200 400 -200 0 1 0 N
+P 2 0 1 0 -200 50 -250 -50 N
+P 2 0 1 0 175 0 -225 0 N
+P 2 0 1 0 200 50 150 -50 N
+X ~ 1 -300 -250 200 U 50 50 1 1 O
+X ~ 2 -200 250 200 D 50 50 1 1 I
+X ~ 3 -100 -250 200 U 50 50 1 1 O
+X ~ 4 100 -250 200 U 50 50 1 1 O
+X ~ 5 200 250 200 D 50 50 1 1 I
+X ~ 6 300 -250 200 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# 1825910-6
+#
+DEF 1825910-6 SW? 0 0 Y N 1 F N
+F0 "SW?" 0 150 60 H V C CNN
+F1 "1825910-6" 0 -250 60 H I C CNN
+F2 "Switches:tactile_switch_6x6x5mm_TH" 0 -850 60 H I C CNN
+F3 "D" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "450-1650-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity ALCOSWITCH Switches" 0 -550 60 H I C CNN "Manufacturer"
+F7 "1825910-6" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH TACTILE SPST-NO 0.05A 24V" 0 -750 60 H I C CNN "Description"
+DRAW
+C -50 -50 7 0 1 10 N
+C 50 -50 7 0 1 10 N
+S -100 0 -100 -100 0 1 0 f
+S -75 0 75 0 0 1 10 f
+S -50 -50 -100 -50 0 1 0 f
+S -25 0 -25 100 0 1 0 f
+S 25 100 -25 100 0 1 0 f
+S 25 100 25 0 0 1 0 f
+S 50 -50 100 -50 0 1 0 f
+S 100 0 100 -100 0 1 0 f
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DIP_SW_3
+#
+DEF DIP_SW_3 SW 0 40 Y Y 1 F N
+F0 "SW" 0 400 60 H V C CNN
+F1 "DIP_SW_3" 0 -450 60 H I C CNN
+F2 "Switches:416131160803" 0 -350 60 H I C CNN
+F3 "" 100 -250 60 H I C CNN
+F4 "Digikey" 150 -600 60 H I C CNN "Supplier"
+F5 "732-3853-1-ND " 350 -700 60 H I C CNN "Digi Key Part Number"
+F6 "SWITCH SLIDE DIP SPST 25MA 24V" 750 -800 60 H I C CNN "Description"
+F7 "4.83000" 200 -900 60 H I C CNN "Price"
+DRAW
+S -200 300 200 -200 0 1 0 N
+P 2 0 1 0 200 200 50 200 N
+P 3 0 1 0 -200 200 -50 200 50 250 N
+P 2 1 1 0 200 -100 50 -100 N
+P 2 1 1 0 200 50 50 50 N
+P 3 1 1 0 -200 -100 -50 -100 50 -50 N
+P 3 1 1 0 -200 50 -50 50 50 100 N
+X ~ 1 -400 200 200 R 50 50 1 1 I
+X ~ 2 -400 50 200 R 50 50 1 1 I
+X ~ 3 -400 -100 200 R 50 50 1 1 I
+X ~ 4 400 -100 200 L 50 50 1 1 I
+X ~ 5 400 50 200 L 50 50 1 1 I
+X ~ 6 400 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 800AWSP9M2RE
+#
+DEF 800AWSP9M2RE SW 0 0 Y N 1 F N
+F0 "SW" 0 150 60 H V C CNN
+F1 "800AWSP9M2RE" 0 -225 60 H V C CNN
+F2 "Switches:800AWSP9M2RE" 0 -825 60 H I C CNN
+F3 "" 0 -800 60 H I C CNN
+F4 "Digikey" 0 -325 60 H I C CNN "Supplier"
+F5 "EG2606-ND" 0 -425 60 H I C CNN "Supplier Part Number"
+F6 "E-Switch" 0 -525 60 H I C CNN "Manufacturer"
+F7 "800AWSP9M2RE" 0 -625 60 H I C CNN "Manufacturer Part Number"
+F8 "Pushbutton Switch SPST-NO Standard Through Hole" 0 -725 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -100 -50 -100 0 N
+P 2 0 1 0 -100 0 -50 0 N
+P 2 0 1 0 -30 10 -50 10 N
+P 2 0 1 0 30 10 50 10 N
+P 2 0 1 0 100 -50 100 0 N
+P 2 0 1 0 100 0 50 0 N
+P 5 0 1 0 -30 10 -30 90 30 90 30 10 -30 10 N
+X ~ 1 200 -50 98 L 50 50 1 1 I
+X r 3 -200 -50 98 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GW12LBP
+#
+DEF GW12LBP SW 0 0 Y N 1 F N
+F0 "SW" 0 150 60 H V C CNN
+F1 "GW12LBP" 0 -250 60 H I C CNN
+F2 "Switches:NKK_ROCKER_SPDT" 0 -850 60 H I C CNN
+F3 "https://www.nkkswitches.com/pdf/GW.pdf" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "360-2799-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "NKK Switches" 0 -550 60 H I C CNN "Manufacturer"
+F7 "GW12LBP" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "Rocker Switch SPDT 0.4VA (AC/DC) 28V Through Hole" 0 -750 60 H I C CNN "Description"
+DRAW
+T 0 100 -50 50 0 0 0 OFF Normal 0 R C
+T 0 100 50 50 0 0 0 ON Normal 0 R C
+S -150 100 100 -100 0 1 0 f
+P 2 0 0 0 -100 0 -50 -50 N
+P 2 0 1 0 -100 0 -150 0 N
+X OFF 4 200 -50 100 L 50 50 1 1 P
+X eComm 5 -250 0 100 R 50 50 1 1 P
+X ON 6 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GW12LCP
+#
+DEF GW12LCP SW 0 0 Y N 1 F N
+F0 "SW" 0 150 60 H V C CNN
+F1 "GW12LCP" 0 -250 60 H I C CNN
+F2 "Switches:NKK_ROCKER_SPDT" 0 -850 60 H I C CNN
+F3 "https://www.nkkswitches.com/pdf/GW.pdf" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "GW12LCP-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "NKK Switches" 0 -550 60 H I C CNN "Manufacturer"
+F7 "GW12LCP" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "Rocker Switch SPDT 0.4VA (AC/DC) 28V Through Hole" 0 -750 60 H I C CNN "Description"
+DRAW
+T 0 100 -50 50 0 1 0 OFF Normal 0 R C
+T 0 100 50 50 0 1 0 ON Normal 0 R C
+S -150 100 100 -100 0 1 0 f
+P 2 1 0 0 -100 0 -50 -50 N
+P 2 0 1 0 -100 0 -150 0 N
+P 2 1 1 0 -100 0 -150 0 N
+X OFF 4 200 -50 100 L 50 50 1 1 P
+X eComm 5 -250 0 100 R 50 50 1 1 P
+X ON 6 200 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# K12PBK15N
+#
+DEF K12PBK15N SW 0 0 Y N 1 F N
+F0 "SW" 0 150 60 H V C CNN
+F1 "K12PBK15N" 0 -225 60 H V C CNN
+F2 "Switches:K12PBK15N" 0 -825 60 H I C CNN
+F3 "http://www.ckswitches.com/media/1339/k12.pdf" 0 -800 60 H I C CNN
+F4 "Digi-Key" 0 -325 60 H I C CNN "Supplier"
+F5 "CKN10033-ND " 0 -425 60 H I C CNN "Supplier Part Number"
+F6 "C&K" 0 -525 60 H I C CNN "Manufacturer"
+F7 "K12PBK15N" 0 -625 60 H I C CNN "Manufacturer Part Number"
+F8 " SWITCH PUSH SPST-NO 0.1A 30V " 0 -725 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -100 -50 -100 0 N
+P 2 0 1 0 -100 0 -50 0 N
+P 2 0 1 0 -30 10 -50 10 N
+P 2 0 1 0 30 10 50 10 N
+P 2 0 1 0 100 -50 100 0 N
+P 2 0 1 0 100 0 50 0 N
+P 5 0 1 0 -30 10 -30 90 30 90 30 10 -30 10 N
+X ~ 1 200 -50 98 L 50 50 1 1 I
+X r 2 -200 -50 98 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PTS645SM43SMTR92
+#
+DEF PTS645SM43SMTR92 SW? 0 0 Y N 1 F N
+F0 "SW?" 0 150 60 H V C CNN
+F1 "PTS645SM43SMTR92" 0 -250 60 H I C CNN
+F2 "Switches:PTS645_6X6X4_SMD" 0 -850 60 H I C CNN
+F3 "http://www.ckswitches.com/media/1471/pts645.pdf" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "CKN9112CT-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "C&K" 0 -550 60 H I C CNN "Manufacturer"
+F7 "PTS645SM43SMTR92 LFS" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH TACTILE SPST-NO 0.05A 12V" 0 -750 60 H I C CNN "Description"
+DRAW
+C -50 -50 7 0 1 10 N
+C 50 -50 7 0 1 10 N
+S -100 0 -100 -100 0 1 0 f
+S -75 0 75 0 0 1 10 f
+S -50 -50 -100 -50 0 1 0 f
+S -25 0 -25 100 0 1 0 f
+S 25 100 -25 100 0 1 0 f
+S 25 100 25 0 0 1 0 f
+S 50 -50 100 -50 0 1 0 f
+S 100 0 100 -100 0 1 0 f
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Rocker_SPDT_illuminated
+#
+DEF Rocker_SPDT_illuminated SW 0 40 Y Y 1 F N
+F0 "SW" 0 400 60 H V C CNN
+F1 "Rocker_SPDT_illuminated" 0 -450 60 H I C CNN
+F2 "Switches:SWITCH_ROCKER" 0 -350 60 H I C CNN
+F3 "http://www.nkkswitches.com/pdf/gwillum.pdf" 100 -250 60 H I C CNN
+F4 "Digikey" 150 -600 60 H I C CNN "Supplier"
+F5 "360-2112-ND" 350 -700 60 H I C CNN "Digi Key Part Number"
+F6 "SWITCH ROCKER SPDT 0.4VA 28V" 750 -800 60 H I C CNN "Description"
+F7 "6.26000" 200 -900 60 H I C CNN "Price"
+DRAW
+S -200 300 200 -200 0 1 0 N
+X 1 1 -400 200 200 R 50 50 1 1 I
+X COM 2 -400 50 200 R 50 50 1 1 I
+X 3 3 -400 -100 200 R 50 50 1 1 I
+X Red 4 400 200 200 L 50 50 1 1 I
+X VCC 5 400 50 200 L 50 50 1 1 I
+X Green 6 400 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Tact_switch
+#
+DEF Tact_switch SW? 0 0 Y N 1 F N
+F0 "SW?" 0 150 60 H V C CNN
+F1 "Tact_switch" 0 -250 60 H I C CNN
+F2 "F" 0 -850 60 H I C CNN
+F3 "D" 0 -950 60 H I C CNN
+F4 "Supplier" 0 -350 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -550 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -750 60 H I C CNN "Description"
+DRAW
+C -50 -50 7 0 1 10 N
+C 50 -50 7 0 1 10 N
+S -100 0 -100 -100 0 1 0 f
+S -75 0 75 0 0 1 10 f
+S -50 -50 -100 -50 0 1 0 f
+S -25 0 -25 100 0 1 0 f
+S 25 100 -25 100 0 1 0 f
+S 25 100 25 0 0 1 0 f
+S 50 -50 100 -50 0 1 0 f
+S 100 0 100 -100 0 1 0 f
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Tact_switch_SYMBOL
+#
+DEF Tact_switch_SYMBOL SW? 0 0 Y N 1 F N
+F0 "SW?" 0 150 60 H V C CNN
+F1 "Tact_switch_SYMBOL" 0 -250 60 H I C CNN
+F2 "F" 0 -850 60 H I C CNN
+F3 "D" 0 -950 60 H I C CNN
+F4 "Supplier" 0 -350 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -550 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -750 60 H I C CNN "Description"
+DRAW
+C -50 -50 7 0 1 10 N
+C 50 -50 7 0 1 10 N
+S -100 0 -100 -100 0 1 0 f
+S -75 0 75 0 0 1 10 f
+S -50 -50 -100 -50 0 1 0 f
+S -25 0 -25 100 0 1 0 f
+S 25 100 -25 100 0 1 0 f
+S 25 100 25 0 0 1 0 f
+S 50 -50 100 -50 0 1 0 f
+S 100 0 100 -100 0 1 0 f
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Template_Lib
+#
+DEF Template_Lib U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Template_Lib" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

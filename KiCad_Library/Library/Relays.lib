@@ -1,0 +1,374 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 9007-12-01
+#
+DEF 9007-12-01 RL 0 40 Y Y 1 F N
+F0 "RL" 0 400 60 H V C CNN
+F1 "9007-12-01" 0 -200 60 H V C CNN
+F2 "Relays:9007-12-01" 50 -780 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Coto%20Technology%20PDFS/9000_Spartan_Series.pdf" 0 -880 60 H I C CNN
+F4 "Digikey" 0 -300 60 H I C CNN "Supplier"
+F5 "306-1280-ND" 0 -400 60 H I C CNN "Supplier Part Number"
+F6 "Coto Technology" 0 -500 60 H I C CNN "Manufacturer"
+F7 "9007-12-01" 0 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY REED SPST 500MA 12V" 0 -680 60 H I C CNN "Description"
+F9 "Optional diode is connected to pin #2 (+) and pin #3(-). Correct coil polarity must be observed." -10 -980 60 H I C CNN "Note"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S 50 150 -50 50 0 1 0 N
+S 150 150 150 150 0 1 0 N
+S 350 0 -350 300 0 1 0 f
+S 1650 250 1650 250 0 1 0 N
+P 2 0 1 0 100 200 50 200 N
+P 3 0 1 0 -50 100 -100 100 -100 0 N
+P 3 0 1 0 50 100 100 100 100 0 N
+P 3 0 1 0 100 200 300 200 300 0 N
+P 4 0 1 0 0 250 -50 200 -300 200 -300 0 N
+X ~ 1 -300 -100 100 U 50 50 1 1 P
+X ~ 2 -100 -100 100 U 50 50 1 1 P
+X ~ 3 100 -100 100 U 50 50 1 1 P
+X ~ 4 300 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ADW1112HT
+#
+DEF ADW1112HT RL 0 40 Y Y 1 F N
+F0 "RL" 0 300 60 H V C CNN
+F1 "ADW1112HT" 50 -100 60 H V C CNN
+F2 "Relays:ADW1" 0 -750 60 H I C CNN
+F3 "" 0 -850 60 H I C CNN
+F4 "Digikey" 0 -250 60 H I C CNN "Supplier"
+F5 "255-5172-ND" 0 -350 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electric Works" 0 -450 60 H I C CNN "Manufacturer"
+F7 "ADW1112HT" 0 -550 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPST 16A 12V" 0 -650 60 H I C CNN "Description"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S -150 250 150 0 0 1 0 f
+P 3 0 1 0 -50 100 -50 50 -150 50 N
+P 3 0 1 0 100 100 100 50 150 50 N
+P 4 0 1 0 150 200 100 200 100 150 50 100 N
+P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
+X ~ 1 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 5 250 50 100 L 50 50 1 1 P
+X ~ 6 -250 50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ALQ112
+#
+DEF ALQ112 RL 0 40 Y Y 1 F N
+F0 "RL" 0 300 60 H V C CNN
+F1 "ALQ112" 50 -100 60 H V C CNN
+F2 "Relays:ALQ112" 0 -900 60 H I C CNN
+F3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "255-3562-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electric Works" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ALQ112" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPST 10A 12V" 0 -800 60 H I C CNN "Description"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S -150 250 150 0 0 1 0 f
+P 3 0 1 0 -50 100 -50 50 -150 50 N
+P 3 0 1 0 100 100 100 50 150 50 N
+P 4 0 1 0 150 200 100 200 100 150 50 100 N
+P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
+X ~ 1 -250 50 100 R 50 50 1 1 P
+X ~ 2 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 4 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ALQ112-C
+#
+DEF ALQ112-C RL 0 40 Y Y 1 F N
+F0 "RL" 0 1000 60 H V C CNN
+F1 "ALQ112-C" 0 -250 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 " 255-3562-ND " 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electric Works" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ALQ112" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPDT 10A 12V " 0 -800 60 H I C CNN "Description"
+F9 "SPDT" 0 -1100 60 H I C CNN "Relay Type"
+F10 "Non Latching" 0 -1200 60 H I C CNN "Coil Type"
+F11 "Coil Current: 33.3mA" 0 -1300 60 H I C CNN "Coil Current"
+F12 "Coil Voltage: 12VDC" 0 -1400 60 H I C CNN "Coil Voltage"
+F13 "SPDT(1 Form C)" 0 -1500 60 H I C CNN "Contact Form"
+F14 "Contact Rating (Current): 10A" 0 -1600 60 H I C CNN "Contact Rating (Current)"
+F15 "Switching Voltage: 250VAC - Max" 0 -1700 60 H I C CNN "Switching Voltage"
+DRAW
+T 0 -160 490 60 0 1 0 + Normal 0 C C
+S -400 550 400 150 1 1 10 f
+S -325 425 -75 275 1 1 10 N
+P 2 1 0 0 100 500 100 550 N
+P 2 1 0 0 300 500 300 550 N
+P 4 1 0 0 300 500 300 450 275 475 300 500 N
+P 2 1 1 10 -300 275 -100 425 N
+P 2 1 1 0 -200 150 -200 275 N
+P 2 1 1 0 -200 550 -200 425 N
+P 2 1 1 10 -75 350 -50 350 N
+P 2 1 1 10 -25 350 0 350 N
+P 2 1 1 10 25 350 50 350 N
+P 2 1 1 10 25 350 50 350 N
+P 2 1 1 10 75 350 100 350 N
+P 2 1 1 10 125 350 150 350 N
+P 2 1 1 20 200 250 125 500 N
+P 2 1 1 0 200 250 200 150 N
+P 3 1 1 0 100 450 125 475 100 500 F
+X ~ 1 -200 650 100 D 50 50 1 1 P
+X ~ 2 100 650 100 D 50 50 1 1 P
+X ~ 3 300 650 100 D 50 50 1 1 P
+X ~ 4 200 50 100 U 50 50 1 1 P
+X ~ 5 -200 50 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ALQ312
+#
+DEF ALQ312 RL 0 40 Y Y 1 F N
+F0 "RL" 0 300 60 H V C CNN
+F1 "ALQ312" 50 -100 60 H V C CNN
+F2 "Relays:ALQ312" 0 -900 60 H I C CNN
+F3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "255-3556-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electric Works" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ALQ312" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPST 10A 12V" 0 -800 60 H I C CNN "Description"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S -150 250 150 0 0 1 0 f
+P 3 0 1 0 -50 100 -50 50 -150 50 N
+P 3 0 1 0 100 100 100 50 150 50 N
+P 4 0 1 0 150 200 100 200 100 150 50 100 N
+P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
+X ~ 1 -250 50 100 R 50 50 1 1 P
+X ~ 2 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 4 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ALQ324
+#
+DEF ALQ324 RL 0 40 Y Y 1 F N
+F0 "RL" 0 300 60 H V C CNN
+F1 "ALQ324" 50 -100 60 H V C CNN
+F2 "Relays:ALQ312" 0 -900 60 H I C CNN
+F3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "255-3554-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electric Works" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ALQ324" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPST 10A 24V" 0 -800 60 H I C CNN "Description"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S -150 250 150 0 0 1 0 f
+P 3 0 1 0 -50 100 -50 50 -150 50 N
+P 3 0 1 0 100 100 100 50 150 50 N
+P 4 0 1 0 150 200 100 200 100 150 50 100 N
+P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
+X ~ 1 -250 50 100 R 50 50 1 1 P
+X ~ 2 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 4 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CPC1907B
+#
+DEF CPC1907B RL 0 40 Y Y 1 F N
+F0 "RL" 0 750 60 H V C CNN
+F1 "CPC1907B" 50 -100 60 H V C CNN
+F2 "Relays:CPC1907B" 0 -900 60 H I C CNN
+F3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "CLA394-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "IXYS Integrated Circuits Division" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CPC1907B" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY OPTOMOS SP-NO 6A 8-SOP" 0 -800 60 H I C CNN "Description"
+DRAW
+S -150 500 150 0 0 1 0 f
+P 2 0 1 0 0 200 -100 200 N
+P 2 0 1 0 50 300 100 250 N
+P 2 0 1 0 50 350 50 300 N
+P 3 0 1 0 -50 200 -50 150 -150 150 N
+P 3 0 1 0 -50 300 -50 350 -150 350 N
+P 3 0 1 0 50 150 50 50 150 50 N
+P 3 0 1 0 50 200 50 150 150 150 N
+P 4 0 1 0 150 450 50 450 50 350 150 350 N
+P 6 0 1 0 -50 300 -50 250 -100 250 -50 200 0 250 -50 250 N
+X ~ 1 -350 450 200 R 50 50 1 1 I
+X ~ 2 -350 350 200 R 50 50 1 1 I
+X ~ 3 -350 150 200 R 50 50 1 1 I
+X ~ 4 -350 50 200 R 50 50 1 1 I
+X ~ 5 350 50 200 L 50 50 1 1 I
+X ~ 6 350 150 200 L 50 50 1 1 I
+X ~ 7 350 350 200 L 50 50 1 1 I
+X ~ 8 350 450 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# G2RL-1
+#
+DEF G2RL-1 K 0 40 Y Y 1 F N
+F0 "K" 450 150 50 H V L CNN
+F1 "G2RL-1" 450 50 50 H V L CNN
+F2 "Relays:G2RL-1" 1130 -30 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Relays:G2RL-1
+$ENDFPLIST
+DRAW
+T 0 -160 140 60 0 0 0 + Normal 0 C C
+S -400 200 400 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 2 0 0 0 100 150 100 200 N
+P 2 0 0 0 300 150 300 200 N
+P 4 0 0 0 300 150 300 100 275 125 300 150 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 10 125 0 150 0 N
+P 2 0 1 20 200 -100 125 150 N
+P 2 0 1 0 200 -100 200 -200 N
+P 3 0 1 0 100 100 125 125 100 150 F
+X ~ 1 -200 300 100 D 50 50 1 1 P
+X ~ 2 100 300 100 D 50 50 1 1 P
+X ~ 3 300 300 100 D 50 50 1 1 P
+X ~ 4 200 -300 100 U 50 50 1 1 P
+X ~ 5 -200 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G2RL-1A
+#
+DEF G2RL-1A U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "G2RL-1A" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -160 -310 60 0 1 0 + Normal 0 C C
+S -400 -250 400 -650 1 1 10 f
+S -325 -375 -75 -525 1 1 10 N
+P 2 1 0 0 300 -300 300 -250 N
+P 4 1 0 0 300 -300 300 -350 275 -325 300 -300 N
+P 2 1 1 10 -300 -525 -100 -375 N
+P 2 1 1 0 -200 -650 -200 -525 N
+P 2 1 1 0 -200 -250 -200 -375 N
+P 2 1 1 10 -75 -450 -50 -450 N
+P 2 1 1 10 -25 -450 0 -450 N
+P 2 1 1 10 25 -450 50 -450 N
+P 2 1 1 10 25 -450 50 -450 N
+P 2 1 1 10 75 -450 100 -450 N
+P 2 1 1 10 125 -450 150 -450 N
+P 2 1 1 20 200 -550 125 -300 N
+P 2 1 1 0 200 -550 200 -650 N
+X ~ 1 -200 -150 100 D 50 50 1 1 P
+X ~ 3 300 -150 100 D 50 50 1 1 P
+X ~ 4 200 -750 100 U 50 50 1 1 P
+X ~ 5 -200 -750 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# G6C-2117P-US-DC12
+#
+DEF G6C-2117P-US-DC12 RL 0 40 Y Y 1 F N
+F0 "RL" 0 450 50 H V C CNN
+F1 "G6C-2117P-US-DC12" 0 -450 50 H V C CNN
+F2 "Relays:G6C" -450 0 50 V I C CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6c.pdf" 34 -940 50 H I C CNN
+F4 "Digikey" -14 -826 50 H I C CNN "Supplier"
+F5 "Z3626-ND" 86 -726 50 H I C CNN "Supplier Part Number"
+F6 "Omron Electronics Inc-EMC Div" 186 -626 50 H I C CNN "Manufacturer"
+F7 "G6C-2117P-US-DC12" 286 -526 50 H I C CNN "Manufacturer Part Number"
+DRAW
+T 900 160 -160 60 0 1 0 + Normal 0 C C
+S -74 -150 72 -244 0 1 0 N
+S -200 -400 200 400 1 1 10 f
+P 2 1 0 0 -150 300 -200 300 N
+P 4 1 0 0 2 276 2 326 27 301 2 276 N
+P 4 1 0 0 136 326 136 276 111 301 136 326 N
+P 2 0 1 0 -200 100 -84 100 N
+P 2 0 1 0 -184 -160 -138 -160 N
+P 2 0 1 0 -148 300 2 300 N
+P 2 0 1 0 -84 100 -2 100 N
+P 2 0 1 0 -2 100 64 300 N
+P 2 0 1 0 100 200 100 100 N
+P 2 0 1 0 100 200 100 300 N
+P 2 0 1 0 200 300 138 300 N
+P 2 1 1 0 -200 -200 -75 -200 N
+P 2 1 1 0 98 100 198 100 N
+P 2 1 1 0 200 -200 75 -200 N
+X ~ 1 -300 -200 100 R 50 50 1 1 P
+X ~ 3 -300 100 100 R 50 50 1 1 P
+X ~ 4 -300 300 100 R 50 50 1 1 P
+X ~ 5 300 300 100 L 50 50 1 1 P
+X ~ 6 300 100 100 L 50 50 1 1 I
+X ~ 8 300 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PCN-124D3MHZ,001
+#
+DEF PCN-124D3MHZ,001 RL 0 40 Y Y 1 F N
+F0 "RL" 0 300 60 H V C CNN
+F1 "PCN-124D3MHZ,001" 50 -100 60 H V C CNN
+F2 "Relays:PCN-124D3MHZ" 0 -900 60 H I C CNN
+F3 "" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "PB2559-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity Potter & Brumfield Relays" 0 -600 60 H I C CNN "Manufacturer"
+F7 "PCN-124D3MHZ,001" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY GEN PURPOSE SPST 5A 24V" 0 -800 60 H I C CNN "Description"
+DRAW
+S -150 250 -150 250 0 1 0 N
+S -150 250 150 0 0 1 0 f
+P 3 0 1 0 -50 100 -50 50 -150 50 N
+P 3 0 1 0 100 100 100 50 150 50 N
+P 4 0 1 0 150 200 100 200 100 150 50 100 N
+P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
+X ~ 1 -250 50 100 R 50 50 1 1 P
+X ~ 2 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 4 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template_Lib
+#
+DEF Template_Lib U 0 40 Y Y 1 F N
+F0 "U" 0 50 60 H V C CNN
+F1 "Template_Lib" 0 150 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Relay Type" 0 -1100 60 H I C CNN "Relay Type"
+F10 "Coil Type" 0 -1200 60 H I C CNN "Coil Type"
+F11 "Coil Current" 0 -1300 60 H I C CNN "Coil Current"
+F12 "Coil Voltage" 0 -1400 60 H I C CNN "Coil Voltage"
+F13 "Contact Form" 0 -1500 60 H I C CNN "Contact Form"
+F14 "Contact Rating (Current)" 0 -1600 60 H I C CNN "Contact Rating (Current)"
+F15 "Switching Voltage" 0 -1700 60 H I C CNN "Switching Voltage"
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,1615 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 12_AWG_Hole
+#
+DEF 12_AWG_Hole H 0 40 Y Y 1 F N
+F0 "H" 1 128 50 H V C CNN
+F1 "12_AWG_Hole" 17 -193 50 H V C CNN
+F2 "Connectors:12_AWG_Hole" 1 -297 50 H I C CNN
+F3 "" 1 128 50 H I C CNN
+F4 "Ø 2.1 mm" 15 -395 50 H I C CNN "Diameter IN"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
+X ~ 1 174 1 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 1432350_1436709
+#
+DEF 1432350_1436709 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "1432350_1436709" 0 -350 60 H V C CNN
+F2 "Connectors:1432350_1436709" 0 -1000 60 H I C CNN
+F3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1432350.pdf" 0 -1100 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "277-17099-ND - 277-16527-ND" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
+F7 "1432350_1436709" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN MALE INSERT 5POS GOLD SLDR - CONN INSERT SHELL PANEL MNT" 0 -900 60 H I C CNN "Description"
+F9 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1436709_Rev_B_Dwg.pdf" 250 -1200 60 H I C CNN "Datasheet"
+DRAW
+T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
+T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
+T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
+T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
+T 900 -150 0 30 0 0 0 "M12-5 Male Pins VERT" Normal 0 C C
+T 0 -10 200 30 0 0 0 Shield Normal 0 C C
+S 100 250 -120 -250 0 1 0 f
+X Shield 1 200 200 100 L 50 50 1 1 I
+X CAN_PWR 2 200 100 100 L 50 50 1 1 I
+X CAN_GND 3 200 0 100 L 50 50 1 1 I
+X CAN_H 4 200 -100 100 L 50 50 1 1 I
+X CAN_L 5 200 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 1528280
+#
+DEF 1528280 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "1528280" 0 -350 60 H V C CNN
+F2 "Connectors:1528280" 0 -1000 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1528280.pdf" 0 -1100 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "277-10962-ND " 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
+F7 "1528280 " 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN RCPT FMALE 5POS GOLD SOLDER" 0 -900 60 H I C CNN "Description"
+DRAW
+T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
+T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
+T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
+T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
+T 900 -150 0 30 0 0 0 "M12-5 Female Pins VERT" Normal 0 C C
+T 0 -10 200 30 0 0 0 Shield Normal 0 C C
+S 100 250 -120 -250 0 1 0 f
+X Shield 1 200 200 100 L 50 50 1 1 I
+X CAN_PWR 2 200 100 100 L 50 50 1 1 I
+X CAN_GND 3 200 0 100 L 50 50 1 1 I
+X CAN_H 4 200 -100 100 L 50 50 1 1 I
+X CAN_L 5 200 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 1694224
+#
+DEF 1694224 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "1694224" 0 -350 60 H V C CNN
+F2 "Connectors:1694224" 0 -1000 60 H I C CNN
+F3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1694224.pdf" 0 -1100 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "277-2689-ND" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
+F7 "1694224" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN PLUG 5POS PANEL MOUNT Male Pins" 0 -900 60 H I C CNN "Description"
+DRAW
+T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
+T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
+T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
+T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
+T 900 -150 0 30 0 0 0 "M12-5 Male Pins" Normal 0 C C
+T 0 -10 200 30 0 0 0 Shield Normal 0 C C
+S 100 250 -120 -250 0 1 0 f
+X Shield 1 200 200 100 L 50 50 1 1 I
+X CAN_PWR 2 200 100 100 L 50 50 1 1 I
+X CAN_GND 3 200 0 100 L 50 50 1 1 I
+X CAN_H 4 200 -100 100 L 50 50 1 1 I
+X CAN_L 5 200 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 1694240
+#
+DEF 1694240 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "1694240" 0 -350 60 H V C CNN
+F2 "Connectors:1694240" 0 -1000 60 H I C CNN
+F3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1694240.pdf" 0 -1100 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "277-2707-ND" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
+F7 "1694240" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN SOCKET 5POS PANEL MOUNT Receptacle" 0 -900 60 H I C CNN "Description"
+DRAW
+T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
+T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
+T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
+T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
+T 900 -150 0 30 0 0 0 "M12-5 Receptacle" Normal 0 C C
+T 0 -10 200 30 0 0 0 Shield Normal 0 C C
+S 100 250 -120 -250 0 1 0 f
+X Shield 1 200 200 100 L 50 50 1 1 I
+X CAN_PWR 2 200 100 100 L 50 50 1 1 I
+X CAN_GND 3 200 0 100 L 50 50 1 1 I
+X CAN_H 4 200 -100 100 L 50 50 1 1 I
+X CAN_L 5 200 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 1935161
+#
+DEF 1935161 J 0 0 Y N 1 F N
+F0 "J" -100 200 60 H V C CNN
+F1 "1935161" 0 -320 50 H I C CNN
+F2 "Connectors:1935161" 0 -910 30 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "277-1667-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
+F7 "1935161" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TERM BLOCK PCB 2POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1935174
+#
+DEF 1935174 J 0 0 Y N 1 F N
+F0 "J" -100 300 60 H V C CNN
+F1 "1935174" 0 -320 50 H I C CNN
+F2 "Connectors:1935174" 0 -910 30 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "277-1578-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
+F7 "1935174" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TERM BLOCK PCB 3POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1935187
+#
+DEF 1935187 J 0 0 Y N 1 F N
+F0 "J" -100 400 60 H V C CNN
+F1 "1935187" 0 -320 50 H I C CNN
+F2 "Connectors:1935187" 0 -910 30 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "277-1579-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
+F7 "1935187" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TERM BLOCK PCB 4POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 350 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 61400413321
+#
+DEF 61400413321 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "61400413321" 0 -300 60 H V C CNN
+F2 "Connectors:61400413321" 0 -900 60 H I C CNN
+F3 "https://katalog.we-online.com/em/datasheet/61400413321.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-2734-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "61400413321" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN COM TYPE B USB HORZ 4POS" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 250 100 -150 0 1 0 f
+X 1 1 200 200 100 L 50 50 1 1 I
+X 2 2 200 100 100 L 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+X 5 5 -200 -100 100 R 50 50 1 1 I
+X 6 6 -200 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 61400416121
+#
+DEF 61400416121 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "61400416121" 0 -300 60 H V C CNN
+F2 "Connectors:61400416121" 0 -900 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Communication%20Conn%20WR-COM.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-2108-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "61400416121" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN COM TYPE B USB HORZ 4POS" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 250 100 -150 0 1 0 f
+X 1 1 200 200 100 L 50 50 1 1 I
+X 2 2 200 100 100 L 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+X 5 5 -200 -100 100 R 50 50 1 1 I
+X 6 6 -200 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 61900611121
+#
+DEF 61900611121 J 0 0 Y N 1 F N
+F0 "J" -50 600 60 H V C CNN
+F1 "61900611121" 0 -320 50 H I C CNN
+F2 "Connectors:61900611121" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Wurth" 0 -510 60 H I C CNN "Supplier"
+F5 "61900611121" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Wurth" 0 -610 60 H I C CNN "Manufacturer"
+F7 "61900611121" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Male Locking Header 1x6 2.54mm" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 550 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 64900221122
+#
+DEF 64900221122 J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "64900221122" 0 -150 60 H V C CNN
+F2 "Connectors:64900221122" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/6490xx21122.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1927-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "64900221122" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 2P" 0 -800 60 H I C CNN "Description"
+$FPLIST
+ 64900221122
+$ENDFPLIST
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649002227222
+#
+DEF 649002227222 J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "649002227222" 0 -150 60 H V C CNN
+F2 "Connectors:649002227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1937-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649002227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 2P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649003127222
+#
+DEF 649003127222 J 0 40 Y Y 1 F N
+F0 "J" 0 550 60 H V C CNN
+F1 "649003127222" 0 450 60 H V C CNN
+F2 "Connectors:649003127222" -150 -175 60 H I C CNN
+F3 "" 125 -225 60 H I C CNN
+F4 "Wurth Electronik" -25 -350 60 H I C CNN "Manufacturer"
+F5 "649003127222" 0 -450 60 H I C CNN "Manufacturer Part Number"
+F6 "732-4677-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F7 "Digikey" 0 -650 60 H I C CNN "Supplier"
+DRAW
+S -225 125 225 375 0 1 0 N
+X ~ 1 -125 -75 200 U 50 50 1 1 I
+X ~ 2 0 -75 200 U 50 50 1 1 I
+X ~ 3 125 -75 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 649004127222
+#
+DEF 649004127222 J 0 40 Y Y 1 F N
+F0 "J" 0 550 60 H V C CNN
+F1 "649004127222" 0 450 60 H V C CNN
+F2 "Connectors:649004127222" -150 -175 60 H I C CNN
+F3 "" 125 -225 60 H I C CNN
+F4 "Wurth Electronik" -25 -350 60 H I C CNN "Manufacturer"
+F5 "649003127222" 0 -450 60 H I C CNN "Manufacturer Part Number"
+F6 "649004127222" 0 -550 60 H I C CNN "Supplier Part Number"
+F7 "Wurth Electronik" 0 -650 60 H I C CNN "Supplier"
+DRAW
+S -250 125 375 375 0 1 0 f
+X ~ 1 -125 -75 200 U 50 50 1 1 B
+X ~ 2 0 -75 200 U 50 50 1 1 B
+X ~ 3 125 -75 200 U 50 50 1 1 B
+X ~ 4 250 -75 200 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 649004227222
+#
+DEF 649004227222 J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "649004227222" 0 -150 60 H V C CNN
+F2 "Connectors:649004227222" 0 -900 60 H I C CNN
+F3 "" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1938-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649004227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 4P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+X 3 3 200 100 100 L 50 50 1 1 P
+X 4 4 -200 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 64900621122
+#
+DEF 64900621122 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "64900621122" 0 -150 60 H V C CNN
+F2 "Connectors:64900621122" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/6490xx21122.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1929-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "64900621122" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE 4.20MM DUAL VERT 6P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 250 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 -200 0 100 R 50 50 1 1 P
+X 3 3 200 100 100 L 50 50 1 1 P
+X 4 4 -200 100 100 R 50 50 1 1 P
+X 5 5 200 200 100 L 50 50 1 1 P
+X 6 6 -200 200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649012227222
+#
+DEF 649012227222 J 0 0 Y N 1 F N
+F0 "J" 0 1350 60 H V C CNN
+F1 "649012227222" 0 -150 60 H V C CNN
+F2 "Connectors:649012227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/6490xx227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-4771-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649012227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 12P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 1250 50 0 0 1 0 f
+X 1 1 150 1200 100 L 50 50 1 1 P
+X 10 10 150 300 100 L 50 50 1 1 P
+X 11 11 150 200 100 L 50 50 1 1 P
+X 12 12 150 100 100 L 50 50 1 1 P
+X 2 2 150 1100 100 L 50 50 1 1 P
+X 3 3 150 1000 100 L 50 50 1 1 P
+X 4 4 150 900 100 L 50 50 1 1 P
+X 5 5 150 800 100 L 50 50 1 1 P
+X 6 6 150 700 100 L 50 50 1 1 P
+X 7 7 150 600 100 L 50 50 1 1 P
+X 8 8 150 500 100 L 50 50 1 1 P
+X 9 9 150 400 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649016227222
+#
+DEF 649016227222 J 0 0 Y N 1 F N
+F0 "J" 0 1700 60 H V C CNN
+F1 "649016227222" 0 -150 60 H V C CNN
+F2 "Connectors:649016227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-4777-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649022227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 16P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 1600 50 0 0 1 0 f
+X 1 1 150 1550 100 L 50 50 1 1 P
+X 10 10 150 650 100 L 50 50 1 1 P
+X 11 11 150 550 100 L 50 50 1 1 P
+X 12 12 150 450 100 L 50 50 1 1 P
+X 13 13 150 350 100 L 50 50 1 1 P
+X 14 14 150 250 100 L 50 50 1 1 P
+X 15 15 150 150 100 L 50 50 1 1 P
+X 16 16 150 50 100 L 50 50 1 1 P
+X 2 2 150 1450 100 L 50 50 1 1 P
+X 3 3 150 1350 100 L 50 50 1 1 P
+X 4 4 150 1250 100 L 50 50 1 1 P
+X 5 5 150 1150 100 L 50 50 1 1 P
+X 6 6 150 1050 100 L 50 50 1 1 P
+X 7 7 150 950 100 L 50 50 1 1 P
+X 8 8 150 850 100 L 50 50 1 1 P
+X 9 9 150 750 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649022227222
+#
+DEF 649022227222 J 0 0 Y N 1 F N
+F0 "J" -50 2300 60 H V C CNN
+F1 "649022227222" 0 -150 60 H V C CNN
+F2 "Connectors:649022227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649022227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-4785-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649022227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 22P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 2200 0 0 0 1 0 f
+X 1 1 100 2150 100 L 50 50 1 1 P
+X 10 10 100 1250 100 L 50 50 1 1 P
+X 11 11 100 1150 100 L 50 50 1 1 P
+X 12 12 100 1050 100 L 50 50 1 1 P
+X 13 13 100 950 100 L 50 50 1 1 P
+X 14 14 100 850 100 L 50 50 1 1 P
+X 15 15 100 750 100 L 50 50 1 1 P
+X 16 16 100 650 100 L 50 50 1 1 P
+X 17 17 100 550 100 L 50 50 1 1 P
+X 18 18 100 450 100 L 50 50 1 1 P
+X 19 19 100 350 100 L 50 50 1 1 P
+X 2 2 100 2050 100 L 50 50 1 1 P
+X 20 20 100 250 100 L 50 50 1 1 P
+X 21 21 100 150 100 L 50 50 1 1 P
+X 22 22 100 50 100 L 50 50 1 1 P
+X 3 3 100 1950 100 L 50 50 1 1 P
+X 4 4 100 1850 100 L 50 50 1 1 P
+X 5 5 100 1750 100 L 50 50 1 1 P
+X 6 6 100 1650 100 L 50 50 1 1 P
+X 7 7 100 1550 100 L 50 50 1 1 P
+X 8 8 100 1450 100 L 50 50 1 1 P
+X 9 9 100 1350 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 66100211622
+#
+DEF 66100211622 J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "66100211622" 0 -150 60 H V C CNN
+F2 "Connectors:66100211622" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.com/em/datasheet/6610xx11622.pdf" 0 -1000 60 H I C CNN
+F4 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F5 "66100211622" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F6 "HEADER MALE VERTICAL SHROUDED 2.54mm WR-WTB" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 691317710003
+#
+DEF 691317710003 J 0 0 Y N 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "691317710003" 0 -150 50 H V C CNN
+F2 "Connectors:691317710003" 0 -760 30 H I C CNN
+F3 "" 0 -810 30 H I C CNN
+F4 "Wurth Elektronik" 0 -360 60 H I C CNN "Supplier"
+F5 "691317710003" 0 -260 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Elektronik" 0 -460 60 H I C CNN "Manufacturer"
+F7 "691317710003" 0 -560 60 H I C CNN "Manufacturer Part Number"
+F8 "5.00 MM TERMINAL BLOCK HEADER,H" 0 -660 60 H I C CNN "Description"
+DRAW
+S 50 -100 -100 200 0 1 0 f
+X ~ 1 150 -50 100 L 50 50 1 1 P
+X ~ 2 150 50 100 L 50 50 1 1 P
+X ~ 3 150 150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 691343710003
+#
+DEF 691343710003 J 0 0 Y N 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "691343710003" 0 -150 50 H V C CNN
+F2 "" 0 -760 30 H I C CNN
+F3 "" 0 -810 30 H I C CNN
+F4 "Wurth Elektronik" 0 -360 60 H I C CNN "Supplier"
+F5 "691343710003" 0 -260 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Elektronik" 0 -460 60 H I C CNN "Manufacturer"
+F7 "691343710003" 0 -560 60 H I C CNN "Manufacturer Part Number"
+F8 "5.00 MM TERMINAL BLOCK PLUG, VER" 0 -660 60 H I C CNN "Description"
+DRAW
+S 50 -100 -100 200 0 1 0 f
+X ~ 1 -200 -50 100 R 50 50 1 1 P
+X ~ 2 -200 50 100 R 50 50 1 1 P
+X ~ 3 -200 150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CT3149-0
+#
+DEF CT3149-0 J 0 0 N N 1 F N
+F0 "J" 0 100 60 H V C CNN
+F1 "CT3149-0" 50 -150 60 H V C CNN
+F2 "Connectors:CT3149-X" 0 -900 60 H I C CNN
+F3 "http://www.caltestelectronics.com/images/attachments/CT3149_drawing.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "BKCT3149-0-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Cal Test Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CT3149-0" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "SAFETY JACK SHORT PIN PCB M" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 50 100 -50 0 1 0 f
+X TP 1 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CT3149-2
+#
+DEF CT3149-2 J 0 0 N N 1 F N
+F0 "J" 0 100 60 H V C CNN
+F1 "CT3149-2" 50 -150 60 H V C CNN
+F2 "Connectors:CT3149-X" 0 -900 60 H I C CNN
+F3 "http://www.caltestelectronics.com/images/attachments/CT3149_drawing.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "BKCT3149-2-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Cal Test Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CT3149-2" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "SAFETY JACK SHORT PIN PCB RED" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 50 100 -50 0 1 0 f
+X TP 1 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Header_Female_Pin_2.54mm_2X19
+#
+DEF Header_Female_Pin_2.54mm_2X19 J 0 0 Y N 1 F N
+F0 "J" -50 -50 60 H V C CNN
+F1 "Header_Female_Pin_2.54mm_2X19" 0 -320 50 H I C CNN
+F2 "Connectors:Female_Headers_2.54mm_2X19" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "S7122-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Sullins Connector Solutions" 0 -610 60 H I C CNN "Manufacturer"
+F7 "PPPC192LFBN-RC" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HDR 38POS 0.1 GOLD PCB" 0 -810 60 H I C CNN "Description"
+DRAW
+S 50 0 -150 1900 0 0 0 f
+X ~ 1 -250 1850 100 R 50 40 1 1 P
+X ~ 10 150 1450 100 L 50 30 1 1 P
+X ~ 11 -250 1350 100 R 50 35 1 1 P
+X ~ 12 150 1350 100 L 50 30 1 1 P
+X ~ 13 -250 1250 100 R 50 35 1 1 P
+X ~ 14 150 1250 100 L 50 30 1 1 P
+X ~ 15 -250 1150 100 R 50 35 1 1 P
+X ~ 16 150 1150 100 L 50 30 1 1 P
+X ~ 17 -250 1050 100 R 50 40 1 1 P
+X ~ 18 150 1050 100 L 50 40 1 1 P
+X ~ 19 -250 950 100 R 50 50 1 1 P
+X ~ 2 150 1850 100 L 50 40 1 1 P
+X ~ 20 150 950 100 L 50 50 1 1 P
+X ~ 21 -250 850 100 R 50 35 1 1 P
+X ~ 22 150 850 100 L 50 30 1 1 P
+X ~ 23 -250 750 100 R 50 35 1 1 P
+X ~ 24 150 750 100 L 50 30 1 1 P
+X ~ 25 -250 650 100 R 50 35 1 1 P
+X ~ 26 150 650 100 L 50 30 1 1 P
+X ~ 27 -250 550 100 R 50 35 1 1 P
+X ~ 28 150 550 100 L 50 30 1 1 P
+X ~ 29 -250 450 100 R 50 35 1 1 P
+X ~ 3 -250 1750 100 R 50 50 1 1 P
+X ~ 30 150 450 100 L 50 30 1 1 P
+X ~ 31 -250 350 100 R 50 35 1 1 P
+X ~ 32 150 350 100 L 50 30 1 1 P
+X ~ 33 -250 250 100 R 50 35 1 1 P
+X ~ 34 150 250 100 L 50 30 1 1 P
+X ~ 35 -250 150 100 R 50 35 1 1 P
+X ~ 36 150 150 100 L 50 30 1 1 P
+X ~ 37 -250 50 100 R 50 35 1 1 P
+X ~ 38 150 50 100 L 50 30 1 1 P
+X ~ 4 150 1750 100 L 50 50 1 1 P
+X ~ 5 -250 1650 100 R 50 35 1 1 P
+X ~ 6 150 1650 100 L 50 30 1 1 P
+X ~ 7 -250 1550 100 R 50 35 1 1 P
+X ~ 8 150 1550 100 L 50 30 1 1 P
+X ~ 9 -250 1450 100 R 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X10_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X10_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 1000 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X10_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X10" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 950 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X11_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X11_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 1100 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X11_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X11" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 1050 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 11 100 1000 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X12_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X12_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 1200 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X12_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X12" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 1150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 11 100 1000 100 L 50 50 1 1 P
+X ~ 12 100 1100 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X2_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 200 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X2_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X2" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X2_Right_Angle
+#
+DEF Header_Male_Pin_2.54mm_1X2_Right_Angle J 0 0 Y N 1 F N
+F0 "J" -50 200 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X2_Right_Angle" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X2_Right_Angle" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Right Angle Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X33_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X33_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 3300 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X33_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X33" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 3250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 11 100 1000 100 L 50 50 1 1 P
+X ~ 12 100 1100 100 L 50 50 1 1 P
+X ~ 13 100 1200 100 L 50 50 1 1 P
+X ~ 14 100 1300 100 L 50 50 1 1 P
+X ~ 15 100 1400 100 L 50 50 1 1 P
+X ~ 16 100 1500 100 L 50 50 1 1 P
+X ~ 17 100 1600 100 L 50 50 1 1 P
+X ~ 18 100 1700 100 L 50 50 1 1 P
+X ~ 19 100 1800 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 20 100 1900 100 L 50 50 1 1 P
+X ~ 21 100 2000 100 L 50 50 1 1 P
+X ~ 22 100 2100 100 L 50 50 1 1 P
+X ~ 23 100 2200 100 L 50 50 1 1 P
+X ~ 24 100 2300 100 L 50 50 1 1 P
+X ~ 25 100 2400 100 L 50 50 1 1 P
+X ~ 26 100 2500 100 L 50 50 1 1 P
+X ~ 27 100 2600 100 L 50 50 1 1 P
+X ~ 28 100 2700 100 L 50 50 1 1 P
+X ~ 29 100 2800 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 30 100 2900 100 L 50 50 1 1 P
+X ~ 31 100 3000 100 L 50 50 1 1 P
+X ~ 32 100 3100 100 L 50 50 1 1 P
+X ~ 33 100 3200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X38_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X38_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 3800 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X38_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X38" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 3750 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 11 100 1000 100 L 50 50 1 1 P
+X ~ 12 100 1100 100 L 50 50 1 1 P
+X ~ 13 100 1200 100 L 50 50 1 1 P
+X ~ 14 100 1300 100 L 50 50 1 1 P
+X ~ 15 100 1400 100 L 50 50 1 1 P
+X ~ 16 100 1500 100 L 50 50 1 1 P
+X ~ 17 100 1600 100 L 50 50 1 1 P
+X ~ 18 100 1700 100 L 50 50 1 1 P
+X ~ 19 100 1800 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 20 100 1900 100 L 50 50 1 1 P
+X ~ 21 100 2000 100 L 50 50 1 1 P
+X ~ 22 100 2100 100 L 50 50 1 1 P
+X ~ 23 100 2200 100 L 50 50 1 1 P
+X ~ 24 100 2300 100 L 50 50 1 1 P
+X ~ 25 100 2400 100 L 50 50 1 1 P
+X ~ 26 100 2500 100 L 50 50 1 1 P
+X ~ 27 100 2600 100 L 50 50 1 1 P
+X ~ 28 100 2700 100 L 50 50 1 1 P
+X ~ 29 100 2800 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 30 100 2900 100 L 50 50 1 1 P
+X ~ 31 100 3000 100 L 50 50 1 1 P
+X ~ 32 100 3100 100 L 50 50 1 1 P
+X ~ 33 100 3200 100 L 50 50 1 1 P
+X ~ 34 100 3300 100 L 50 50 1 1 P
+X ~ 35 100 3400 100 L 50 50 1 1 P
+X ~ 36 100 3500 100 L 50 50 1 1 P
+X ~ 37 100 3600 100 L 50 50 1 1 P
+X ~ 38 100 3700 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X3_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X3_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 300 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X3_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X3" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X40_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X40_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 4000 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X40_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X40" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 3950 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 100 900 100 L 50 50 1 1 P
+X ~ 11 100 1000 100 L 50 50 1 1 P
+X ~ 12 100 1100 100 L 50 50 1 1 P
+X ~ 13 100 1200 100 L 50 50 1 1 P
+X ~ 14 100 1300 100 L 50 50 1 1 P
+X ~ 15 100 1400 100 L 50 50 1 1 P
+X ~ 16 100 1500 100 L 50 50 1 1 P
+X ~ 17 100 1600 100 L 50 50 1 1 P
+X ~ 18 100 1700 100 L 50 50 1 1 P
+X ~ 19 100 1800 100 L 50 50 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 20 100 1900 100 L 50 50 1 1 P
+X ~ 21 100 2000 100 L 50 50 1 1 P
+X ~ 22 100 2100 100 L 50 50 1 1 P
+X ~ 23 100 2200 100 L 50 50 1 1 P
+X ~ 24 100 2300 100 L 50 50 1 1 P
+X ~ 25 100 2400 100 L 50 50 1 1 P
+X ~ 26 100 2500 100 L 50 50 1 1 P
+X ~ 27 100 2600 100 L 50 50 1 1 P
+X ~ 28 100 2700 100 L 50 50 1 1 P
+X ~ 29 100 2800 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 30 100 2900 100 L 50 50 1 1 P
+X ~ 31 100 3000 100 L 50 50 1 1 P
+X ~ 32 100 3100 100 L 50 50 1 1 P
+X ~ 33 100 3200 100 L 50 50 1 1 P
+X ~ 34 100 3300 100 L 50 50 1 1 P
+X ~ 35 100 3400 100 L 50 50 1 1 P
+X ~ 36 100 3500 100 L 50 50 1 1 P
+X ~ 37 100 3600 100 L 50 50 1 1 P
+X ~ 38 100 3700 100 L 50 50 1 1 P
+X ~ 39 100 3800 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 40 100 3900 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X4_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X4_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 400 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X4_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X4" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 350 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X5_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X5_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 500 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X5_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X5" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 450 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X6_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X6_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 600 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X6_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X6" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 550 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X7_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X7_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 700 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X7_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X7" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 650 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X8_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X8_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 800 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X8_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X8" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 750 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_1X9_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_1X9_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 900 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X9_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X9" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 850 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+X ~ 7 100 600 100 L 50 50 1 1 P
+X ~ 8 100 700 100 L 50 50 1 1 P
+X ~ 9 100 800 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X10_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X10_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 1000 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X10_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X10" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 950 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 11 100 500 100 L 50 35 1 1 P
+X ~ 12 -300 500 100 R 50 30 1 1 P
+X ~ 13 100 600 100 L 50 35 1 1 P
+X ~ 14 -300 600 100 R 50 30 1 1 P
+X ~ 15 100 700 100 L 50 35 1 1 P
+X ~ 16 -300 700 100 R 50 30 1 1 P
+X ~ 17 100 800 100 L 50 35 1 1 P
+X ~ 18 -300 800 100 R 50 30 1 1 P
+X ~ 19 100 900 100 L 50 35 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 20 -300 900 100 R 50 30 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X25_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X25_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" 0 1250 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X25_,_Unshrouded" 0 -1370 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X25" 0 -1960 30 H I C CNN
+F3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 -2010 30 H I C CNN
+F4 "Digikey" 0 -1560 60 H I C CNN "Supplier"
+F5 "SAM10857-ND" 0 -1460 60 H I C CNN "Supplier Part Number"
+F6 "Samtec Inc." 0 -1660 60 H I C CNN "Manufacturer"
+F7 "TSW-125-14-F-D" 0 -1760 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HEADER 50POS .100\" DBL" 0 -1860 60 H I C CNN "Description"
+DRAW
+S -100 1200 100 -1300 0 1 0 f
+X ~ 1 -200 1150 100 R 50 50 1 1 I
+X ~ 10 -200 250 100 R 50 50 1 1 I
+X ~ 11 -200 150 100 R 50 50 1 1 I
+X ~ 12 -200 50 100 R 50 50 1 1 I
+X ~ 13 -200 -50 100 R 50 50 1 1 I
+X ~ 14 -200 -150 100 R 50 50 1 1 I
+X ~ 15 -200 -250 100 R 50 50 1 1 I
+X ~ 16 -200 -350 100 R 50 50 1 1 I
+X ~ 17 -200 -450 100 R 50 50 1 1 I
+X ~ 18 -200 -550 100 R 50 50 1 1 I
+X ~ 19 -200 -650 100 R 50 50 1 1 I
+X ~ 2 -200 1050 100 R 50 50 1 1 I
+X ~ 20 -200 -750 100 R 50 50 1 1 I
+X ~ 21 -200 -850 100 R 50 50 1 1 I
+X ~ 22 -200 -950 100 R 50 50 1 1 I
+X ~ 23 -200 -1050 100 R 50 50 1 1 I
+X ~ 24 -200 -1150 100 R 50 50 1 1 I
+X ~ 25 -200 -1250 100 R 50 50 1 1 I
+X ~ 26 200 -1250 100 L 50 50 1 1 I
+X ~ 27 200 -1150 100 L 50 50 1 1 I
+X ~ 28 200 -1050 100 L 50 50 1 1 I
+X ~ 29 200 -950 100 L 50 50 1 1 I
+X ~ 3 -200 950 100 R 50 50 1 1 I
+X ~ 30 200 -850 100 L 50 50 1 1 I
+X ~ 31 200 -750 100 L 50 50 1 1 I
+X ~ 32 200 -650 100 L 50 50 1 1 I
+X ~ 33 200 -550 100 L 50 50 1 1 I
+X ~ 34 200 -450 100 L 50 50 1 1 I
+X ~ 35 200 -350 100 L 50 50 1 1 I
+X ~ 36 200 -250 100 L 50 50 1 1 I
+X ~ 37 200 -150 100 L 50 50 1 1 I
+X ~ 38 200 -50 100 L 50 50 1 1 I
+X ~ 39 200 50 100 L 50 50 1 1 I
+X ~ 4 -200 850 100 R 50 50 1 1 I
+X ~ 40 200 150 100 L 50 50 1 1 I
+X ~ 41 200 250 100 L 50 50 1 1 I
+X ~ 42 200 350 100 L 50 50 1 1 I
+X ~ 43 200 450 100 L 50 50 1 1 I
+X ~ 44 200 550 100 L 50 50 1 1 I
+X ~ 45 200 650 100 L 50 50 1 1 I
+X ~ 46 200 750 100 L 50 50 1 1 I
+X ~ 47 200 850 100 L 50 50 1 1 I
+X ~ 48 200 950 100 L 50 50 1 1 I
+X ~ 49 200 1050 100 L 50 50 1 1 I
+X ~ 5 -200 750 100 R 50 50 1 1 I
+X ~ 50 200 1150 100 L 50 50 1 1 I
+X ~ 6 -200 650 100 R 50 50 1 1 I
+X ~ 7 -200 550 100 R 50 50 1 1 I
+X ~ 8 -200 450 100 R 50 50 1 1 I
+X ~ 9 -200 350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X2_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X2_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 200 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X2_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X2" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X3_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X3_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 300 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X3_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X3" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X4_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X4_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 400 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X4_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X4" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 350 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X5_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X5_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 500 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X5_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X5" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 450 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X6_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X6_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 600 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X6_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X6" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 550 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 11 100 500 100 L 50 35 1 1 P
+X ~ 12 -300 500 100 R 50 30 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X7_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X7_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 700 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X7_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X7" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 650 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 11 100 500 100 L 50 35 1 1 P
+X ~ 12 -300 500 100 R 50 30 1 1 P
+X ~ 13 100 600 100 L 50 35 1 1 P
+X ~ 14 -300 600 100 R 50 30 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X8_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X8_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 800 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X8_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X8" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 750 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 11 100 500 100 L 50 35 1 1 P
+X ~ 12 -300 500 100 R 50 30 1 1 P
+X ~ 13 100 600 100 L 50 35 1 1 P
+X ~ 14 -300 600 100 R 50 30 1 1 P
+X ~ 15 100 700 100 L 50 35 1 1 P
+X ~ 16 -300 700 100 R 50 30 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_Male_Pin_2.54mm_2X9_,_Unshrouded
+#
+DEF Header_Male_Pin_2.54mm_2X9_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -100 900 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_2X9_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_2X9" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 850 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 10 -300 400 100 R 50 30 1 1 P
+X ~ 11 100 500 100 L 50 35 1 1 P
+X ~ 12 -300 500 100 R 50 30 1 1 P
+X ~ 13 100 600 100 L 50 35 1 1 P
+X ~ 14 -300 600 100 R 50 30 1 1 P
+X ~ 15 100 700 100 L 50 35 1 1 P
+X ~ 16 -300 700 100 R 50 30 1 1 P
+X ~ 17 100 800 100 L 50 35 1 1 P
+X ~ 18 -300 800 100 R 50 30 1 1 P
+X ~ 2 -300 0 100 R 50 40 1 1 P
+X ~ 3 100 100 100 L 50 50 1 1 P
+X ~ 4 -300 100 100 R 50 50 1 1 P
+X ~ 5 100 200 100 L 50 35 1 1 P
+X ~ 6 -300 200 100 R 50 30 1 1 P
+X ~ 7 100 300 100 L 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+X ~ 9 100 400 100 L 50 35 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_2_1_(Wurt)
+#
+DEF Molex_2_1_(Wurt) J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "Molex_2_1_(Wurt)" 0 -150 60 H V C CNN
+F2 "Connectors:64900221122" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/64900221122.pdf" 0 -1000 60 H I C CNN
+F4 "Wurth Electronics Inc." 0 -400 60 H I C CNN "Supplier"
+F5 "64900221122" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "64900221122" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE 4.20MM DUAL VERT 2P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_2_1_Angled_(Wurt)
+#
+DEF Molex_2_1_Angled_(Wurt) J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "Molex_2_1_Angled_(Wurt)" 0 -150 60 H V C CNN
+F2 "Connectors_Molex:Molex_Microfit3_Header_02x01_Angled_43045-020x" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" 0 -1000 60 H I C CNN
+F4 "Wurth Electronics Inc." 0 -400 60 H I C CNN "Supplier"
+F5 "649002227222" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649002227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "4.20mm Male Dual Row Angled Header w. Mounting Pegs WR-MPC4" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_3_2_Angled(Wurt)
+#
+DEF Molex_3_2_Angled(Wurt) J 0 0 Y N 1 F N
+F0 "J" 0 -150 60 H V C CNN
+F1 "Molex_3_2_Angled(Wurt)" 0 -250 60 H V C CNN
+F2 "Connectors:649006227222" 0 -900 60 H I C CNN
+F3 "" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1939-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649006227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 6P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 350 100 -50 0 1 0 f
+X 7 7 200 300 100 L 50 50 0 0 P
+X 8 8 -200 300 100 R 50 50 0 0 P
+X 1 1 200 0 100 L 50 50 1 1 I
+X 2 2 -200 0 100 R 50 50 1 1 I
+X 3 3 200 100 100 L 50 50 1 1 I
+X 4 4 -200 100 100 R 50 50 1 1 I
+X 5 5 200 200 100 L 50 50 1 1 I
+X 6 6 -200 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Molex_4_2
+#
+DEF Molex_4_2 J 0 0 Y N 1 F N
+F0 "J" -100 400 60 H V C CNN
+F1 "Molex_4_2" 0 -320 50 H I C CNN
+F2 "Connectors:Molex_2x4_Wurth" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Wurt" 0 -510 60 H I C CNN "Supplier"
+F5 "649008227222" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Wurt" 0 -610 60 H I C CNN "Manufacturer"
+F7 "649008227222" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "4.20mm Male Dual Row Angled Header w. Mounting Pegs WR-MPC4" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 350 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 40 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 -300 0 100 R 50 35 1 1 P
+X ~ 6 -300 100 100 R 50 30 1 1 P
+X ~ 7 -300 200 100 R 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_4_2_Angled(Wurt)
+#
+DEF Molex_4_2_Angled(Wurt) J 0 0 Y N 1 F N
+F0 "J" -100 400 60 H V C CNN
+F1 "Molex_4_2_Angled(Wurt)" -50 -100 50 H V C CNN
+F2 "Connectors_Molex:Molex_MegaFit_2x04x5.70mm_Angled" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Wurth Electronics Inc." 0 -510 60 H I C CNN "Supplier"
+F5 "649008227222" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "649008227222" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "4.20mm Male Dual Row Angled Header w. Mounting Pegs WR-MPC4" 0 -810 60 H I C CNN "Description"
+DRAW
+S -200 350 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 40 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 -300 0 100 R 50 35 1 1 P
+X ~ 6 -300 100 100 R 50 30 1 1 P
+X ~ 7 -300 200 100 R 50 35 1 1 P
+X ~ 8 -300 300 100 R 50 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Series_3177_3
+#
+DEF Series_3177_3 J 0 0 Y N 1 F N
+F0 "J" -100 300 60 H V C CNN
+F1 "Series_3177_3" 0 -150 50 H V C CNN
+F2 "Connectors:691317710003" 0 -760 30 H I C CNN
+F3 "http://katalog.we-online.com/em/datasheet/6913177100xx.pdf" 0 -810 30 H I C CNN
+F4 "Wurth Elektronik" 0 -360 60 H I C CNN "Supplier"
+F5 "691317710003" 0 -260 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Elektronik" 0 -460 60 H I C CNN "Manufacturer"
+F7 "691317710003" 0 -560 60 H I C CNN "Manufacturer Part Number"
+F8 "5.00MM CLOSE HORIZONTAL PCB HEADER 3 POS" 0 -660 60 H I C CNN "Description"
+DRAW
+S -150 250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Series_3177_4
+#
+DEF Series_3177_4 J 0 0 Y N 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "Series_3177_4" 0 -150 50 H V C CNN
+F2 "Connectors:691317710004" 0 -760 30 H I C CNN
+F3 "http://katalog.we-online.com/em/datasheet/6913177100xx.pdf" 0 -810 30 H I C CNN
+F4 "Wurth Elektronik" 0 -360 60 H I C CNN "Supplier"
+F5 "691317710004" 0 -260 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Elektronik" 0 -460 60 H I C CNN "Manufacturer"
+F7 "691317710004" 0 -560 60 H I C CNN "Manufacturer Part Number"
+F8 "5.00MM CLOSE HORIZONTAL PCB HEADER 4 POS" 0 -660 60 H I C CNN "Description"
+DRAW
+S 50 -100 -100 300 0 1 0 f
+X ~ 1 150 -50 100 L 50 40 1 1 P
+X ~ 2 150 50 100 L 50 50 1 1 P
+X ~ 3 150 150 100 L 50 50 1 1 P
+X ~ 3 150 150 100 L 50 50 1 1 P
+X ~ 4 150 250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Solder_Bridge
+#
+DEF Solder_Bridge SB 0 0 N N 1 F N
+F0 "SB" 0 150 60 H V C CNN
+F1 "Solder_Bridge" 0 -300 60 H I C CNN
+F2 "Connectors:Solder_Bridge_Circle" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+A 0 -25 112 1534 266 0 1 0 N -100 25 100 25
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Template_Lib
+#
+DEF Template_Lib U 0 40 Y Y 1 F N
+F0 "U" 0 50 60 H V C CNN
+F1 "Template_Lib" 0 150 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# Test_Point_THM
+#
+DEF Test_Point_THM TP 0 0 N N 1 F N
+F0 "TP" 0 100 60 H V C CNN
+F1 "Test_Point_THM" 0 -300 60 H I C CNN
+F2 "Connectors:Keystone_5001" 0 -900 60 H I C CNN
+F3 "http://keyelco.com/userAssets/file/M65p56.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "36-5001-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "5001" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "TEST POINT PC MINI .040\"D BLACK" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 50 100 -50 0 1 0 f
+X TP 1 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

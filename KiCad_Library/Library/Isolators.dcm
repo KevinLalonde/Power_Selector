@@ -1,0 +1,84 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CPC1017NTR
+D RELAY OPTOMOS 150MA 4-SOP NO
+K RELAY, OPTOMOS, 150MA, 4-SOP, NO
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
+$ENDCMP
+#
+$CMP CPC1117NTR
+D RELAY OPTOMOS 150MA 4-SOP NC
+K RELAY, OPTOMOS, 150MA, 4-SOP, NC
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
+$CMP CPC5002GSTR
+D OPTOISO 3.75KV 2CH OPEN DRN 8SMD
+K OPTOISO 3.75KV 2CH OPEN DRN 8SMD
+F http://ixapps.ixys.com/DataSheet/CPC5002.pdf
+$ENDCMP
+#
+$CMP ISO7341CQDWQ1
+D General Purpose Digital Isolator 3000Vrms 4 Channel 25Mbps 25kV/µs CMTI 16-SOIC (0.295", 7.50mm Width)
+F https://www.ti.com/lit/ds/symlink/iso7340-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1648920938853&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fiso7340-q1
+$ENDCMP
+#
+$CMP Isolator_INFO
+D Isolator INFO
+K INFO
+$ENDCMP
+#
+$CMP LTV-816S
+D OPTOISOLATR 5KV TRANSISTOR 4-SMD
+K Optoisolator Transistor
+F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf
+$ENDCMP
+#
+$CMP Optocoupler
+D Optocoupler SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP SI8422AB-D-IS
+D DGTL ISO 2.5KV GEN PURP 8SOIC
+K DGTL ISO 2.5KV GEN PURP 8SOIC
+F https://www.silabs.com/documents/public/data-sheets/si841x-2x-datasheet.pdf
+$ENDCMP
+#
+$CMP SI8602AC-B-IS
+D DGTL ISO 3.75KV 2CH I2C 8SOIC
+K I²C, Capacitive Coupling
+F http://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
+$CMP SI8640AB-B-IS1
+D DGTL ISO 2.5KV GEN PURP 16SOIC
+K General Purpose 3/1, Capacitive Coupling
+F http://www.silabs.com/documents/public/data-sheets/Si86xx.pdf
+$ENDCMP
+#
+$CMP SI8641AB-B-IS1
+D DGTL ISO 2.5KV GEN PURP 16SOIC
+K General Purpose 3/1, Capacitive Coupling
+F http://www.silabs.com/documents/public/data-sheets/Si86xx.pdf
+$ENDCMP
+#
+$CMP SI8651BB-B-IS1
+D DGTL ISO 2.5KV GEN PURP 16SOIC
+K General Purpose 4/1, Capacitive Coupling
+F http://www.silabs.com/documents/public/data-sheets/si865x-datasheet.pdf
+$ENDCMP
+#
+$CMP SI8661BB-B-IS1
+D DGTL ISO 2.5KV GEN PURP 16SOIC
+K General Purpose 5/1, Capacitive Coupling
+F https://www.silabs.com/documents/public/data-sheets/Si866x.pdf
+$ENDCMP
+#
+$CMP TLP3543A(TP1,F
+D SSR RELAY SPST-NO 5A 0-30V
+K SSR RELAY SPST-NO 5A 0-30V
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=60317&prodName=TLP3543A
+$ENDCMP
+#
+#End Doc Library

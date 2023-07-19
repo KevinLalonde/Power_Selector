@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Battery
+#
+DEF Battery BT 0 0 N N 1 F N
+F0 "BT" 130 240 60 H V C CNN
+F1 "Battery" 210 150 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Vmin - Vmax" 400 -50 60 H I C CNN "Voltage"
+DRAW
+T 0 -50 120 60 0 0 0 + Normal 0 C C
+S -100 35 100 35 0 1 20 f
+P 2 0 1 0 -200 65 200 65 N
+X + ~ 0 200 131 D 50 50 1 1 I
+X - ~ 0 -100 131 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Battery_mc
+#
+DEF Battery_mc BT 0 0 N N 1 F N
+F0 "BT" 110 240 60 H V C CNN
+F1 "Battery_mc" 280 150 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Vmin - Vmax" 550 50 60 H I C CNN "Voltage"
+DRAW
+T 0 -50 140 60 0 0 0 + Normal 0 C C
+S -100 -65 100 -65 0 1 20 f
+S -100 -5 100 -5 0 1 20 f
+S -100 55 100 55 0 1 20 f
+P 2 0 1 0 -200 -35 200 -35 N
+P 2 0 1 0 -200 25 200 25 N
+P 2 0 1 0 -200 85 200 85 N
+X + ~ 0 200 112 D 50 50 1 1 I
+X - ~ 0 -200 131 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

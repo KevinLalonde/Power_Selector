@@ -1,0 +1,402 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 047706.3MRET1P
+#
+DEF 047706.3MRET1P F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "047706.3MRET1P" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "18-047706.3MRET1PCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "047706.3MRET1P" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE CERM 500VAC/400VDC AXIAL 6.3A" 0 -800 60 H I C CNN "Description"
+F9 "6.3A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "400" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "500" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+X ~ ~ -150 0 30 R 50 50 1 1 P
+X ~ ~ 150 0 30 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0697H0800-01
+#
+DEF 0697H0800-01 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "0697H0800-01" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0697H%20Mar2016.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1905-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "0697H0800-01" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 800MA 350VAC 100VDC SB" 0 -800 60 H I C CNN "Description"
+F9 "800mA" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "350VAC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "100VDC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0697H9120-01
+#
+DEF 0697H9120-01 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "0697H9120-01" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0697H%20Mar2016.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1917-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "0697H9120-01" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BRD MNT 12A 350VAC 72VDC" 0 -800 60 H I C CNN "Description"
+F9 "12A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "72VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "350VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0698Q2000-02
+#
+DEF 0698Q2000-02 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "0698Q2000-02" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" -50 -800 30 H I C CNN
+F3 "" -50 -850 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1850-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "BK/PCC-3-R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "2A" 0 -100 50 H V C CNN "Current Rating (A)"
+F9 "140VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F10 "350VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0698Q6300-01
+#
+DEF 0698Q6300-01 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "0698Q6300-01" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0698Q%20Mar2016.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1848-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "0698Q6300-01" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 6.3A 350VAC 140VDC" 0 -800 60 H I C CNN "Description"
+F9 "6.3A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "140VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "350VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1812L075_33DR
+#
+DEF 1812L075_33DR F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "1812L075_33DR" 0 -200 50 H I C CNN
+F2 "" 0 -750 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf" 0 -800 30 H I C CNN
+F4 "Digi-Key" 0 -300 60 H I C CNN "Supplier"
+F5 "F3355CT-ND " 0 -400 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -500 60 H I C CNN "Manufacturer"
+F7 "1812L075/33DR " 0 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "PTC RESET FUSE 33V 750MA 1812 " 0 -700 60 H I C CNN "Description"
+F9 "750mA" 0 -100 50 H V C CNN "Current Rating (A)"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39505000440
+#
+DEF 39505000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "39505000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK4341BK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "39505000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 500mA 125VAC RADIAL" 0 -800 60 H I C CNN "Description"
+F9 "500mA" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "-" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+F12 "Fuse Holder" 0 -1100 60 H I C CNN "Fuse Holder"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39511000440
+#
+DEF 39511000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "39511000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK4348BK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "39511000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 1A 125VAC RADIAL" 0 -800 60 H I C CNN "Description"
+F9 "1A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "-" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+F12 "Fuse Holder" 0 -1100 60 H I C CNN "Fuse Holder"
+F13 "Digikey" 0 -1200 60 H I C CNN "Supplier"
+F14 "WK0009-ND" 0 -1300 60 H I C CNN "Supplier Part Number"
+F15 "Littelfuse Inc." 0 -1450 60 H I C CNN "Manufacturer"
+F16 "56200001009" 0 -1600 60 H I C CNN "Manufacturer Part Number"
+F17 "FUSE HOLDER RADIAL 250V 6.3A PCB" 0 -1750 60 H I C CNN "Description"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7100.1016.13
+#
+DEF 7100.1016.13 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "7100.1016.13" 0 -200 50 H I C CNN
+F2 "" 0 -750 30 H I C CNN
+F3 "" 0 -800 30 H I C CNN
+F4 "Digi-Key" 0 -300 60 H I C CNN "Supplier"
+F5 "486-4455-ND" 0 -400 60 H I C CNN "Supplier Part Number"
+F6 "Schurter Inc." 0 -500 60 H I C CNN "Manufacturer"
+F7 "THROUGH HOLE FUSE 250V 1.25A" 0 -700 60 H I C CNN "Description"
+F8 "1.25A" 0 -100 50 H V C CNN "Current Rating (A)"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 80812000440
+#
+DEF 80812000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "80812000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK6289-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "80812000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 2A 250VAC 450VDC" 0 -800 60 H I C CNN "Description"
+F9 "2A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "450V" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "250V" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BK_PCC-3-R
+#
+DEF BK_PCC-3-R F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "BK_PCC-3-R" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2034_PC_Tron_Series.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "283-2768-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Eaton" 0 -600 60 H I C CNN "Manufacturer"
+F7 "BK/PCC-3-R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 3A 250VAC 450VDC" 0 -800 60 H I C CNN "Description"
+F9 "3A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "450VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "250VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BK_PCC-4-R
+#
+DEF BK_PCC-4-R F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "BK_PCC-4-R" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2034_PC_Tron_Series.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "283-2768-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Eaton" 0 -600 60 H I C CNN "Manufacturer"
+F7 "BK/PCC-4-R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 4A 250VAC 450VDC" 0 -800 60 H I C CNN "Description"
+F9 "4A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "450VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "250VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BK_PCC-5-R
+#
+DEF BK_PCC-5-R F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "BK_PCC-5-R" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2034_PC_Tron_Series.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 " 283-3052-ND " 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Eaton" 0 -600 60 H I C CNN "Manufacturer"
+F7 "BK/PCC-5-R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 5A 125VAC 400VDC" 0 -800 60 H I C CNN "Description"
+F9 "5A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "400VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse
+#
+DEF Fuse F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "Fuse" 0 -300 50 H I C CNN
+F2 "F" 0 -900 30 H I C CNN
+F3 "D" 0 -950 30 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "C" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "V" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RSTA_3.15_AMMO
+#
+DEF RSTA_3.15_AMMO F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "RSTA_3.15_AMMO" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1870-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "FUSE BOARD MNT 3.15A 250VAC 63VDC" 0 -800 60 H I C CNN "Description"
+F8 "3.15A" 0 -100 50 H V C CNN "Current Rating (A)"
+F9 "63VDC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F10 "250VAC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RST_250-BULK
+#
+DEF RST_250-BULK F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "RST_250-BULK" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "https://belfuse.com/resources/CircuitProtection/datasheets/0697H%20Mar2016.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "507-1170-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Bel Fuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "0697H0800-01" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 250MA 250VAC 100VDC SB" 0 -800 60 H I C CNN "Description"
+F9 "250mA" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "250VAC" -200 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "100VDC" 200 -200 60 H I C CNN "Voltage Rating - AC"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

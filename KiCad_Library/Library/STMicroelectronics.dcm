@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STLINK-V3MODS
+D STLINK-V3MODS
+K programmer, stlink, mods
+F https://www.st.com/resource/en/user_manual/dm00555046-stlink-v3mods-and-stlink-v3mini-mini-debuggers-programmers-for-stm32-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP STM32F446RE
+D STM32F446RE
+K mcu, 32-Bit
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf
+$ENDCMP
+#
+#End Doc Library

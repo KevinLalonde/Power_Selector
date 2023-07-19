@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 742792605
+#
+DEF ~742792605 FB 0 0 N N 1 F N
+F0 "FB" 0 150 60 H V C CNN
+F1 "742792605" 0 -350 60 H I C CNN
+F2 "Filter:FB0603" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-3668-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "742792605" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FERRITE BEAD 33 OHM 0603 1LN" 0 -850 60 H I C CNN "Description"
+F9 "500mA" 0 -100 50 H V C CNN "Current"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -125 50 125 50 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 744230900
+#
+DEF ~744230900 FL 0 0 N N 1 F N
+F0 "FL" 0 150 60 H V C CNN
+F1 "744230900" 0 -350 60 H I C CNN
+F2 "Filter:744230900" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-2582-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "744230900" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CMC 550MA 2LN 90 OHM SMD" 0 -850 60 H I C CNN "Description"
+DRAW
+A -100 100 50 -1799 -1 0 1 0 N -150 100 -50 100
+A -100 -100 50 1 1799 1 1 0 N -50 -100 -150 -100
+A 0 -100 50 1 1799 1 1 0 N 50 -100 -50 -100
+A 0 100 50 -1799 -1 1 1 0 N -50 100 50 100
+A 100 -100 50 1 1799 1 1 0 N 150 -100 50 -100
+A 100 100 50 -1799 -1 1 1 0 N 50 100 150 100
+P 2 0 1 0 -150 25 150 25 N
+P 2 0 1 0 150 -25 -150 -25 N
+X 1 1 -250 -100 100 R 50 50 1 1 I
+X 2 2 250 -100 100 L 50 50 1 1 I
+X 3 3 250 100 100 L 50 50 1 1 I
+X 4 4 -250 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

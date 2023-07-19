@@ -1,0 +1,216 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Fully_Differential
+#
+DEF Fully_Differential U 0 0 N N 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "Fully_Differential" 0 -300 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+T 0 -125 0 30 0 0 0 Vocm Normal 0 C C
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+P 4 0 1 0 100 -100 60 -100 50 -100 50 -80 N
+X +Input ~ -300 100 100 R 50 50 1 1 I
+X +Output ~ 300 -100 200 L 50 50 1 1 I
+X -Input ~ -300 -100 100 R 50 50 1 1 I
+X -Output ~ 300 100 270 L 50 50 1 1 I I
+X Vocm ~ -300 0 100 R 50 50 1 1 I
+X Vs+ ~ 0 200 100 D 50 50 1 1 I
+X Vs- ~ 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Instrumentation
+#
+DEF Instrumentation U 0 0 N N 1 F N
+F0 "U" -170 450 60 H V C CNN
+F1 "Instrumentation" 0 -450 60 H V C CNN
+F2 "F" 0 -1050 60 H I C CNN
+F3 "D" 0 -1150 60 H I C CNN
+F4 "Supplier" 0 -550 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -750 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -950 60 H I C CNN "Description"
+DRAW
+T 0 160 -45 30 0 0 0 REF Normal 0 C C
+T 0 0 160 30 0 0 0 V+ Normal 0 C C
+T 0 0 -160 30 0 0 0 V- Normal 0 C C
+P 2 0 1 0 -270 -300 -210 -300 N
+P 2 0 1 0 -270 300 -210 300 N
+P 2 0 1 0 -240 330 -240 270 N
+P 2 0 1 0 200 -70 200 -100 N
+P 4 0 1 10 -300 400 -300 -400 300 0 -300 400 f
+X +Input ~ -400 300 100 R 50 50 1 1 I
+X +Vs ~ 0 300 100 D 50 50 1 1 I
+X -Input ~ -400 -300 100 R 50 50 1 1 I
+X -Vs ~ 0 -300 100 U 50 50 1 1 I
+X Output ~ 400 0 100 L 50 50 1 1 O
+X REF ~ 200 -200 100 U 50 50 1 1 I
+X RG ~ -400 -200 100 R 50 50 1 1 I
+X RG ~ -400 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LMV321RILT
+#
+DEF LMV321RILT U 0 0 N N 1 F N
+F0 "U" -100 300 60 H V C CNN
+F1 "LMV321RILT" 0 -300 60 H V C CNN
+F2 "IC:SOT-23-5" 0 -900 60 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "497-4942-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "LMV321RILT" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" 0 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+X Output 1 300 0 100 L 50 50 1 1 I
+X VDD 2 0 -200 100 U 50 50 1 1 I
+X +Input 3 -300 100 100 R 50 50 1 1 P
+X -Input 4 -300 -100 100 R 50 50 1 1 P
+X VCC 5 0 200 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OP-AMP
+#
+DEF OP-AMP U 0 0 N N 1 F N
+F0 "U" -100 300 60 H V C CNN
+F1 "OP-AMP" 0 -300 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+X +Input ~ -300 100 100 R 50 50 1 1 I
+X -Input ~ -300 -100 100 R 50 50 1 1 I
+X Output ~ 300 0 100 L 50 50 1 1 I
+X Vs+ ~ 0 200 100 D 50 50 1 1 I
+X Vs- ~ 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OPA192QDGKRQ1
+#
+DEF OPA192QDGKRQ1 U 0 0 N N 1 F N
+F0 "U" -100 300 60 H V C CNN
+F1 "OPA192QDGKRQ1" 0 -400 60 H V C CNN
+F2 "IC:VSSOP-8_DGK" 0 -1000 60 H I C CNN
+F3 "" 0 -900 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "296-50479-1-ND" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 0 -700 60 H I C CNN "Manufacturer"
+F7 "OPA192QDGKRQ1" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "General Purpose Amplifier 1 Circuit Rail-to-Rail 8-VSSOP" 0 -900 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+X -Input 2 -300 -100 100 R 50 50 1 1 P
+X +Input 3 -300 100 100 R 50 50 1 1 P
+X VDD 4 0 -200 100 U 50 50 1 1 I
+X Output 6 300 0 100 L 50 50 1 1 I
+X VCC 7 0 200 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PGA281AIPWR
+#
+DEF PGA281AIPWR U 0 0 Y N 1 F N
+F0 "U" 0 750 60 H V C CNN
+F1 "PGA281AIPWR" 0 650 60 H V C CNN
+F2 "IC:TSSOP-16" 0 -1900 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/pga281.pdf" 0 -2000 60 H I C CNN
+F4 "Digikey" 0 -1400 60 H I C CNN "Supplier"
+F5 "296-40483-1-ND" 0 -1500 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 0 -1600 60 H I C CNN "Manufacturer"
+F7 "PGA281AIPWR" 0 -1700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC OPAMP PGA 6MHZ RRO 16TSSOP" 0 -1800 60 H I C CNN "Description"
+DRAW
+T 0 350 -700 60 0 0 0 DVDD Normal 0 C C
+T 0 400 -500 60 0 0 0 EF Normal 0 C C
+T 0 -400 -800 60 0 0 0 G0 Normal 0 C C
+T 0 -200 -800 60 0 0 0 G1 Normal 0 C C
+T 0 0 -800 60 0 0 0 G2 Normal 0 C C
+T 0 200 -800 60 0 0 0 G3 Normal 0 C C
+T 0 400 -800 60 0 0 0 G4 Normal 0 C C
+T 0 -400 -100 60 0 0 0 INN Normal 0 C C
+T 0 -400 100 60 0 0 0 INP Normal 0 C C
+T 0 350 100 60 0 0 0 VOCM Normal 0 C C
+T 0 400 -100 60 0 0 0 "VON " Normal 0 C C
+T 0 400 300 60 0 0 0 "VOP " Normal 0 C C
+T 0 -400 -300 60 0 0 0 VSN Normal 0 C C
+T 0 350 -300 60 0 0 0 VSON Normal 0 C C
+T 0 350 500 60 0 0 0 VSOP Normal 0 C C
+T 0 -400 300 60 0 0 0 VSP Normal 0 C C
+S -500 600 500 -900 0 0 0 f
+X DVDD 1 600 -700 100 L 50 50 1 1 I
+X VOCM 10 600 100 100 L 50 50 1 1 I
+X VSOP 11 600 500 100 L 50 50 1 1 I
+X VSON 12 600 -300 100 L 50 50 1 1 I
+X VSP 13 -600 300 100 R 50 50 1 1 I
+X INP 14 -600 100 100 R 50 50 1 1 I
+X INN 15 -600 -100 100 R 50 50 1 1 I
+X VSN 16 -600 -300 100 R 50 50 1 1 I
+X EF 2 600 -500 100 L 50 50 1 1 I
+X G4 3 400 -1000 100 U 50 50 1 1 I
+X G3 4 200 -1000 100 U 50 50 1 1 I
+X G2 5 0 -1000 100 U 50 50 1 1 I
+X G1 6 -200 -1000 100 U 50 50 1 1 I
+X G0 7 -400 -1000 100 U 50 50 1 1 I
+X VON 8 600 -100 100 L 50 50 1 1 I
+X VOP 9 600 300 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Transconductor
+#
+DEF Transconductor U 0 0 N N 1 F N
+F0 "U" -50 170 60 H V C CNN
+F1 "Transconductor" 0 -400 60 H V C CNN
+F2 "F" 0 -1000 60 H I C CNN
+F3 "D" 0 -1100 60 H I C CNN
+F4 "Supplier" 0 -500 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -700 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -900 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 -30 100 -90 N
+P 2 0 1 0 0 90 0 -90 N
+P 2 0 1 0 100 -130 0 -70 N
+P 2 0 1 0 100 -100 100 -90 N
+P 2 0 1 0 100 100 0 40 N
+P 4 0 1 0 0 -30 40 -80 60 -40 0 -30 F
+P 4 0 1 0 100 -130 60 -80 40 -120 100 -130 F
+X B ~ -200 0 200 R 50 50 1 1 I
+X C ~ 100 300 200 D 50 50 1 1 I
+X E ~ 100 -300 200 U 50 50 1 1 I
+X E ~ 100 -300 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

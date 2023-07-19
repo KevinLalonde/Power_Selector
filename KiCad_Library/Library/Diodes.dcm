@@ -1,0 +1,310 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 150060BS75000
+D LED BLUE CLEAR 0603 SMD
+K LED BLUE CLEAR
+F https://www.we-online.de/katalog/datasheet/150060BS75000.pdf
+$ENDCMP
+#
+$CMP 150060GS75000
+D LED GREEN CLEAR 0603 SMD
+K LED GREEN CLEAR
+F https://www.we-online.de/katalog/datasheet/150060GS75000.pdf
+$ENDCMP
+#
+$CMP 150060RS75000
+D LED RED CLEAR 0603 SMD
+K LED RED CLEAR
+F https://www.we-online.de/katalog/datasheet/150060RS75000.pdf
+$ENDCMP
+#
+$CMP 150060YS75000
+D LED YELLOW CLEAR 0603 SMD
+K LED YELLOW CLEAR
+F https://www.we-online.de/katalog/datasheet/150060YS75000.pdf
+$ENDCMP
+#
+$CMP 150080BS75000
+D LED BLUE CLEAR 0805 SMD
+K LED BLUE CLEAR
+F http://katalog.we-online.de/led/datasheet/150080BS75000.pdf
+$ENDCMP
+#
+$CMP 150080RS75000
+D LED RED CLEAR 0805 SMD
+K LED RED CLEAR
+F http://katalog.we-online.de/led/datasheet/150080RS75000.pdf
+$ENDCMP
+#
+$CMP 150080VS75000
+D LED GREEN CLEAR 0805 SMD
+K LED GREEN CLEAR
+F http://katalog.we-online.de/led/datasheet/150080VS75000.pdf
+$ENDCMP
+#
+$CMP 150080YS75000
+D LED YELLOW CLEAR 0805 SMD
+K LED YELLOW CLEAR
+F http://katalog.we-online.de/led/datasheet/150080YS75000.pdf
+$ENDCMP
+#
+$CMP 150353RS74500
+D LED RED 590NM SMD
+K LED BLUE CLEAR
+F http://katalog.we-online.de/led/datasheet/150080BS75000.pdf
+$ENDCMP
+#
+$CMP 150353YS74500
+D LED YELLOW 590NM SMD
+K LED YELLOW HP
+F http://katalog.we-online.com/led/datasheet/150353YS74500.pdf
+$ENDCMP
+#
+$CMP 30BQ200TR
+D DIODE SCHOTTKY 200V 3A
+K DIODE, SCHOTTKY, 200V, 3A
+F http://www.smc-diodes.com/propdf/30BQ200%20N0026%20REV.A.pdf
+$ENDCMP
+#
+$CMP 8240026
+D TVS DIODE 5V 9V SOT143-4
+K esd protection usb 2.0
+F http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf
+$ENDCMP
+#
+$CMP B240AQ-13-F
+D DIODE SCHOTTKY 40V 2A SMA
+K DIODE, SCHOTTKY, 40V, 2A, SMA
+F https://www.diodes.com/assets/Datasheets/ds13004.pdf
+$ENDCMP
+#
+$CMP Bridge_Rectifier
+D Bridge Rectifier SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP C3D04060A
+D DIODE SCHOTTKY 600V 4A TO220-2
+K DIODE SCHOTTKY, 600V, 4A,TO220-2
+F http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf
+$ENDCMP
+#
+$CMP CDBZ310200H-HF
+D DIODE SCHOTTKY 200V 10A TO277
+K DIODE, SCHOTTKY, 200V, 10A, TO277
+F http://www.comchiptech.com/cms/UserFiles/CDBZ310200H-HF RevA.pdf
+$ENDCMP
+#
+$CMP CDBZ320200-HF
+D DIODE SCHOTTKY 200V 20A TO277
+K DIODE, SCHOTTKY, 200V, 20A, TO277
+F http://www.comchiptech.com/admin/files/product/CDBZ320200-HF%20%20RevA.pdf
+$ENDCMP
+#
+$CMP D1213A
+D Zener SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP D1213A-02SOL-7
+D TVS DIODE 3.3VWM 10VC SOT23
+K Steering (Rail to Rail)
+F https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf
+$ENDCMP
+#
+$CMP Diode
+D Diode SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP LED
+D LED SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP MMBZ12VALT1G
+D TVS DIODE 8.5VWM 17VC SOT23
+K TVS
+F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
+$ENDCMP
+#
+$CMP MMSZ5244ET1G
+D Zener SYMBOL
+K SYMBOL
+F https://www.onsemi.com/pdf/datasheet/mmsz5221et1-d.pdf
+$ENDCMP
+#
+$CMP MMSZ5245B-TP
+D TVS DIODE 13VWM 21.5VC DFLAT
+K TVS, DIODE, 13VWM, 21.5VC, DFLAT
+F https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf
+$ENDCMP
+#
+$CMP NRVBS3200T3G
+D DIODE SCHOTTKY 200V 3A SMB
+K DIODE, SCHOTTKY, 200V, 3A, SMB
+F http://www.onsemi.com/pub/Collateral/MBRS3200T3-D.PDF
+$ENDCMP
+#
+$CMP NSR0530HT1G
+D DIODE SCHOTTKY 30V 500MA SOD323
+K DIODE, SCHOTTKY, 30V, 500MA, SOD323
+F http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF
+$ENDCMP
+#
+$CMP P4SMAJ13ADF-13
+D TVS DIODE 13VWM 21.5VC DFLAT
+K TVS, DIODE, 13VWM, 21.5VC, DFLAT
+F https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf
+$ENDCMP
+#
+$CMP P4SMAJ26ADF-13
+D TVS DIODE 26VWM 42.1VC DFLAT
+K TVS, DIODE, 26VWM, 42.1VC, DFLAT
+F https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf
+$ENDCMP
+#
+$CMP PMEG045T100EPDZ
+D DIODE SCHOTTKY 45V 10A
+K DIODE SCHOTTKY, 45V, 10A
+F https://assets.nexperia.com/documents/data-sheet/PMEG045T100EPD.pdf
+$ENDCMP
+#
+$CMP PMEG3005AEA,115
+D Diode Schottky 30 V 500mA (DC) Surface Mount SOD-323
+F https://assets.nexperia.com/documents/data-sheet/PMEG3005AEA.pdf
+$ENDCMP
+#
+$CMP RBR3MM40BTFTR
+D DIODE SCHOTTKY 40V 3A SOD-123F
+K DIODE, SCHOTTKY, 40V, 3A, SOD-123F
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbr3mm40btftr-e.pdf
+$ENDCMP
+#
+$CMP S1KB-13-F
+D DIODE GEN PURP 800V 1A SMB
+K DIODE GEN PURP 800V 1A SMB
+F https://www.diodes.com/assets/Datasheets/ds16003.pdf
+$ENDCMP
+#
+$CMP SD0805_copy
+D DIODE SCHOTTKY 20V 1A 0805
+K DIODE, SCHOTTKY, 20V, 1A, 0805
+F http://datasheets.avx.com/schottky.pdf
+$ENDCMP
+#
+$CMP SK3200B-LTP
+D DIODE SCHOTTKY 200V 3A SMB
+K DIODE, SCHOTTKY, 200V, 3A, SMB
+F http://www.smc-diodes.com/propdf/SK320B%20N1457%20REV.A.pdf
+$ENDCMP
+#
+$CMP SK320ATR
+D DIODE SCHOTTKY 200V 3A SMB
+K DIODE, SCHOTTKY, 200V, 3A, SMB
+F http://www.smc-diodes.com/propdf/SK320B%20N1457%20REV.A.pdf
+$ENDCMP
+#
+$CMP SK320BTR
+D DIODE SCHOTTKY 200V 3A SMB
+K DIODE, SCHOTTKY, 200V, 3A, SMB
+F http://www.smc-diodes.com/propdf/SK320B%20N1457%20REV.A.pdf
+$ENDCMP
+#
+$CMP SK34BTR
+D DIODE SCHOTTKY 40V 3A DO-214AA
+K DIODE SCHOTTKY, 40V, 3A,DO-214AA
+F http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf
+$ENDCMP
+#
+$CMP SM74611KTTR
+D Smart Bypass Diode
+K Smart, Bypass, Diode
+F https://www.ti.com/lit/ds/symlink/sm74611.pdf
+$ENDCMP
+#
+$CMP SMAJ160A
+D TVS DIODE 160VWM 259VC SMA
+K Diode, Zener, 160V, SMA
+F https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf
+$ENDCMP
+#
+$CMP SMAJ26A
+D TVS DIODE 26VWM 42.1VC DFLAT
+K TVS, DIODE, 26VWM, 42.1VC, DFLAT
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMAJ26AQ-13-F
+D TVS DIODE 26V 42.1VC 400W DFLAT
+K TVS, DIODE, 26VWM, 42.1VC, DFLAT
+F https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf
+$ENDCMP
+#
+$CMP SMBJ14CA
+D TVS Bidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP SMBJ3V3
+D Zener SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP SZESD8351HT1G
+D Zener SYMBOL
+K SYMBOL
+F https://www.onsemi.com/pdf/datasheet/esd8351p2-d.pdf
+$ENDCMP
+#
+$CMP Schottky
+D Schottky SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP TVS_Bidirectional
+D TVS Bidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP TVS_Unidirectional
+D TVS Unidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP V15P45HM3_A_H
+D DIODE SCHOTTKY 45V 15A TO277
+K DIODE, SCHOTTKY, 45V, 15A, TO277
+F https://www.mouser.ca/datasheet/2/427/VISH_S_A0009260890_1-2570452.pdf
+$ENDCMP
+#
+$CMP XSDG43MB
+D LED GREEN DIFF 3MM SQUARE T/H
+K SunLED
+F http://www.sunledusa.com/products/spec/XSDG43MB.pdf
+$ENDCMP
+#
+$CMP XSMDK43MB
+D LED RED DIFF 3MM SQUARE T/H
+K SunLED
+F http://www.sunledusa.com/products/spec/XSMDK43MB.pdf
+$ENDCMP
+#
+$CMP XSMOK43MB
+D LED ORANGE DIFF 3MM SQUARE T/H
+K SunLED
+F http://www.sunledusa.com/products/spec/XSMOK43MB.pdf
+$ENDCMP
+#
+$CMP XSMYK43MB
+D LED YELLOW DIFF 3MM SQUARE T/H
+K SunLED
+F http://www.sunledusa.com/products/spec/XSMYK43MB.pdf
+$ENDCMP
+#
+$CMP Zener
+D Zener SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library

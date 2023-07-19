@@ -1,0 +1,264 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS711ELCTR-12AB-T
+D Current Sensor 12.5A 1 Channel Hall Effect, Open Loop Bidirectional 8-SOIC
+K Current Sensor Bidirectional
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS711-Datasheet.ashx
+$ENDCMP
+#
+$CMP AL8807W5-7
+D IC LED DRVR REG PWM 1A TSOT25
+K LED Driver
+F https://www.diodes.com/assets/Datasheets/AL8807.pdf
+$ENDCMP
+#
+$CMP AL8860MP-13
+D IC LED DRVR 8MSOP
+K LED Driver
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
+$CMP AP2202K-ADJTRG1
+D IC REG LDO ADJ 0.15A SOT25
+K LDO
+F https://www.diodes.com/assets/Datasheets/AP2202.pdf
+$ENDCMP
+#
+$CMP AP3012KTR-G1
+D IC REG BOOST ADJ 0.5A SOT-23-5
+K BOOST
+F https://www.diodes.com/assets/Datasheets/AP3012.pdf
+$ENDCMP
+#
+$CMP AP3015KTR-G1
+D IC REG BOOST ADJ 0.3A SOT25
+K BOOST
+F https://www.diodes.com/assets/Datasheets/AP3015_A.pdf
+$ENDCMP
+#
+$CMP AZ1117IH-3.3TRG1
+D IC REG LDO 3.3V 0.8A SOT223
+K LDO 3.3V 800mA
+F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
+$ENDCMP
+#
+$CMP AZ1117IH-5.0TRG1
+D IC REG LDO 5V 0.8A SOT223
+K LDO 5V 800mA
+F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
+$ENDCMP
+#
+$CMP AZ34063UMTR-G1
+D IC REG BUCK BOOST INV ADJ 8SOIC
+K Step-Up, Step-Down,Positive or Negative
+F https://www.diodes.com/assets/Datasheets/AZ34063U.pdf
+$ENDCMP
+#
+$CMP BTS50060-1TEA
+D IC REG BOOST ADJ 0.3A SOT25
+K BOOST
+F https://www.diodes.com/assets/Datasheets/AP3015_A.pdf
+$ENDCMP
+#
+$CMP Current_Regulation_Management_INFO
+D Current_Regulation_Management_INFO
+K INFO
+$ENDCMP
+#
+$CMP DC-DC_Switching_Controllers_INFO
+D DC-DC_Switching_Controllers_INFO
+K INFO
+$ENDCMP
+#
+$CMP DC-DC_Switching_Regulators_INFO
+D DC-DC_Switching_Regulators_INFO
+K INFO
+$ENDCMP
+#
+$CMP GO_20_SME_SP3
+D CURRENT SENSOR 20A 1 CHANNEL HALL EFFECT
+K Current sensor
+F https://media.digikey.com/pdf/Data%20Sheets/LEM%20USA%20PDFs/go_10-20-sme_sp3_series.pdf
+$ENDCMP
+#
+$CMP INA219BIDR
+D IC MONITOR PWR/CURR BIDIR 8-SOIC
+K Current Monitor Bidirectional
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+$CMP LM4040CYM3-4.1-TR
+D IC VREF SHUNT 4.096V SOT23
+K Shunt Voltage Reference
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005757A.pdf
+$ENDCMP
+#
+$CMP LM4040D25FTA
+D IC VREF SHUNT 2.5V SOT23-3
+K Shunt Voltage Reference
+F https://www.diodes.com/assets/Datasheets/LM4040.pdf
+$ENDCMP
+#
+$CMP LTC2992HMS#PBF
+D Power Supply Controller Telecommunications 16-MSOP
+K Current Sensor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2992.pdf
+$ENDCMP
+#
+$CMP LTC3119
+D IC REG BCK BST 18V 5A TSSOP28
+K IC, REG, BUCK BOOST, 18V, 5A, TSSOP28
+F http://cds.linear.com/docs/en/datasheet/4412fb.pdf
+$ENDCMP
+#
+$CMP LTC4412
+D IC OR CTRLR SRC SELECT TSOT23-6
+K IC, OR, CTRLR, SRC, SELECT, TSOT23-6
+F http://cds.linear.com/docs/en/datasheet/4412fb.pdf
+$ENDCMP
+#
+$CMP LTC4412HV
+D IC OR CTRLR SRC SELECT TSOT23-6
+K IC, OR, CTRLR, SRC, SELECT, TSOT23-6
+F https://www.mouser.ca/datasheet/2/609/ltc4412hvf-1948688.pdf
+$ENDCMP
+#
+$CMP MAX6101EUR+T
+D IC VREF SERIES 0.4% SOT23-3
+K Series Voltage Reference
+F https://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
+$ENDCMP
+#
+$CMP MAX9938
+D IC OPAMP CURR SENS 60KHZ SOT23-5
+K IC, OPAMP, CURR, SENS, 60KHZ, SOT23-5
+F https://datasheets.maximintegrated.com/en/ds/MAX9938.pdf
+$ENDCMP
+#
+$CMP NCP1117LPST33T3G
+D IC REG LDO 3.3V 1A SOT223
+K LDO 3.3V 1A
+F http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF
+$ENDCMP
+#
+$CMP NCP1117ST50T3G
+D IC REG LDO 5V 1A SOT223
+K LDO 5V 1A
+F http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCS1S2405SC
+D Isolated Module DC DC Converter 1 Output 5V 200mA 9V - 36V Input
+K Isolated Module, DC DC Converter, 1 Output, 5V, 200mA, 9V - 36V Input
+F http://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-12_1.0-W36H-C
+D DC DC CONVERTER 12V 12W
+K Linear Regulator Replacement DC DC Converter 1 Output 12V - - - 1A 15V - 36V Input
+F https://www.murata.com/products/productdata/8807037992990/oki-78sr.pdf?1583754815000
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36-C
+D DC/DC CONVERTER 5V 8W
+K Linear Regulator Replacement, Vertical
+F http://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36H-C
+D DC/DC CONVERTER 5V 8W
+K Linear Regulator Replacement, Horizontal
+F http://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP PQMC3-D12-D15-S
+D DC/DC CONVERTER +/-15V 100MA 3W
+K Isolated Module
+F http://www.cui.com/product/resource/pqmc3-s.pdf
+$ENDCMP
+#
+$CMP R1SE-0505-R
+D Isolated Module DC DC Converter 1 Output 5V    200mA 4.5V - 5.5V Input
+K Isolated Module DC DC Converter 1 Output 5V    200mA 4.5V - 5.5V Input
+F https://www.recom-power.com/pdf/Econoline/R1SE.pdf
+$ENDCMP
+#
+$CMP Shunt_Regulator_SYMBOL
+D Shunt Regulator SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP TEN_87211WI
+D DC/DC CONVERTER 12V 8W
+K Linear Regulator Replacement
+$ENDCMP
+#
+$CMP TEN_87212WI
+D DC/DC CONVERTER 12V 8W
+K Linear Regulator Replacement
+$ENDCMP
+#
+$CMP TL431AIDBZR
+D IC VREF SHUNT ADJ SOT23-3
+K Shunt Voltage Reference
+F http://www.ti.com/lit/ds/symlink/tl431a.pdf
+$ENDCMP
+#
+$CMP TMR_3-7212WIR
+D DC/DC CONVERTER 12V 3W
+K Linear Regulator Replacement
+$ENDCMP
+#
+$CMP V110B24C150BL
+D Isolated Module DC DC Converter 1 Output 24V 6.25A 66V - 154V Input
+K Vicor, Isolated Module, DC DC Converter, 1 Output, 24V, 6.25A, 66V - 154V Input
+F http://cdn.vicorpower.com/documents/datasheets/ds_110vin-micro-family.pdf
+$ENDCMP
+#
+$CMP V110B24C200BL
+D Isolated Module DC DC Converter 1 Output 24V 8.33A 66V - 154V Input
+K Vicor, Isolated Module, DC DC Converter, 1 Output, 24V, 8.33A, 66V - 154V Input
+F http://cdn.vicorpower.com/documents/datasheets/ds_110vin-micro-family.pdf
+$ENDCMP
+#
+$CMP V110C12C100BL
+D Isolated Module DC DC Converter 1 Output 12V 8.33A 66V - 154V Input
+K VICOR, CONVERTER MOD, DC/DC, 12V, 100W
+F http://cdn.vicorpower.com/documents/datasheets/ds_110vin-micro-family.pdf
+$ENDCMP
+#
+$CMP V150C12T150BL
+D CONVERTER MOD DC/DC 12V 150W
+K vicor, micro, 12V, 150W, DC/DC
+F http://cdn.vicorpower.com/documents/datasheets/ds_150vin-micro-family.pdf
+$ENDCMP
+#
+$CMP V150C24T150BL
+D CONVERTER MOD DC/DC 24V 150W
+K vicor, micro, 24V, 150W, DC/DC
+F http://cdn.vicorpower.com/documents/datasheets/ds_24vin-micro-family.pdf
+$ENDCMP
+#
+$CMP VI-2T1-CV
+D Isolated Module DC DC Converter 1 Output 12V 12.5A 66V - 160V Input
+K Vicor, Isolated Module, DC DC Converter, 1 Output, 12V, 12.5A, 66V - 160V Input
+F http://www.vicorpower.com/documents/datasheets/ds_vi-200.pdf
+$ENDCMP
+#
+$CMP VNB14NV04TR-E
+D IC  POWER SWITCH 36V 12A
+K POWER SWITCH, 36V, 12A
+F http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF
+$ENDCMP
+#
+$CMP Voltage_Reference_INFO
+D Voltage_Reference_INFO
+K INFO
+$ENDCMP
+#
+$CMP Voltage_Regulators-Linear_INFO
+D Voltage_Regulators-Linear_INFO
+K INFO
+$ENDCMP
+#
+#End Doc Library

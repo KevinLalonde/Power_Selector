@@ -1,0 +1,83 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ADCMP350YKSZ-REEL7
+#
+DEF ADCMP350YKSZ-REEL7 U 0 0 N N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "ADCMP350YKSZ-REEL7" 0 -250 60 H V C CNN
+F2 "IC:SC70-4" 0 -900 60 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "ADCMP350YKSZ-REEL7CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Analog Devices Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "ADCMP350YKSZ-REEL7" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC COMP/REF OD ACTIVE LOW SC70-4" 0 -800 60 H I C CNN "Description"
+DRAW
+T 0 -100 -100 50 0 0 0 GND Normal 0 C C
+T 0 100 -100 50 0 0 0 OUT Normal 0 C C
+T 0 100 100 50 0 0 0 VCC Normal 0 C C
+T 0 -100 100 50 0 0 0 Vin Normal 0 C C
+S -200 -150 200 150 0 0 0 f
+X Vin 1 -300 100 100 R 50 50 1 1 I
+X GND 2 -300 -100 100 R 50 50 1 1 I
+X Output 3 300 -100 100 L 50 50 1 1 I
+X Vcc 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Comparator_hysteresis
+#
+DEF Comparator_hysteresis U 0 0 N N 1 F N
+F0 "U" -100 300 60 H V C CNN
+F1 "Comparator_hysteresis" 0 -300 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 2 0 1 0 -100 -70 -40 -70 N
+P 2 0 1 0 -40 -70 0 70 N
+P 2 0 1 0 -40 70 -80 -70 N
+P 2 0 1 0 -40 70 20 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+X +Input ~ -300 100 100 R 50 50 1 1 I
+X -Input ~ -300 -100 100 R 50 50 1 1 I
+X Output ~ 300 0 100 L 50 50 1 1 I
+X Vs+ ~ 0 200 100 D 50 50 1 1 I
+X Vs- ~ 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OP-AMP
+#
+DEF OP-AMP U 0 0 N N 1 F N
+F0 "U" -100 300 60 H V C CNN
+F1 "OP-AMP" 0 -300 60 H V C CNN
+F2 "F" 0 -900 60 H I C CNN
+F3 "D" 0 -1000 60 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -170 -100 -110 -100 N
+P 2 0 1 0 -170 100 -110 100 N
+P 2 0 1 0 -140 130 -140 70 N
+P 4 0 1 10 -200 200 -200 -200 200 0 -200 200 f
+X +Input ~ -300 100 100 R 50 50 1 1 I
+X -Input ~ -300 -100 100 R 50 50 1 1 I
+X Output ~ 300 0 100 L 50 50 1 1 I
+X Vs+ ~ 0 200 100 D 50 50 1 1 I
+X Vs- ~ 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

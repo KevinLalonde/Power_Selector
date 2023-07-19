@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1825910-6
+D SWITCH TACTILE SPST-NO 0.05A 24V TH
+K SWITCH TACTILE SPST-NO TH
+$ENDCMP
+#
+$CMP DIP_SW_3
+F https://www.we-online.de/katalog/datasheet/4161311608xx.pdf
+$ENDCMP
+#
+$CMP 800AWSP9M2RE
+D SWITCH PUSH SPST-NO 0.4VA 20V
+K switch
+F http://spec_sheets.e-switch.com/specs/T833007.pdf
+$ENDCMP
+#
+$CMP K12PBK15N
+D SWITCH PUSH SPST-NO 0.1A 30V
+K switch
+F http://www.ckswitches.com/media/1339/k12.pdf
+$ENDCMP
+#
+$CMP PTS645SM43SMTR92
+D SWITCH PUSH SPST-NO 0.1A 30V
+K SW
+F http://www.ckswitches.com/media/1339/k12.pdf
+$ENDCMP
+#
+$CMP Tact_switch
+D Tact Switch SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library

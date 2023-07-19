@@ -1,0 +1,123 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002KW
+D MOSFET N-CH 60V 310MA SC70
+F https://www.onsemi.com/pdf/datasheet/2n7002kw-d.pdf
+$ENDCMP
+#
+$CMP 2N7002P,215
+D MOSFET N-CH 60V 0.36A SOT-23
+K N-Channel
+F http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf
+$ENDCMP
+#
+$CMP AO3401
+D MOSFET P-CH 30V 4A SOT23
+K P-Channel
+F http://www.aosmd.com/pdfs/datasheet/AO3401.pdf
+$ENDCMP
+#
+$CMP BC849BLT1G
+D BC849BLT1G
+K Bipolar (BJT), Transistor NPN, 30V 100mA, SOT-23-3 (TO-236)
+F http://www.onsemi.com/pub/Collateral/BC846ALT1-D.PDF
+$ENDCMP
+#
+$CMP BSS806NH6327XTSA1
+D MOSFET N-CH 20V 2.3A SOT23
+K N-Channel
+F http://www.infineon.com/dgdl/BSS806N_Rev2.3_.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131185f0553451c
+$ENDCMP
+#
+$CMP CPH6347-TL-W
+D MOSFET P-CH 20V 6A CPH6
+K P-Channel
+F http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF
+$ENDCMP
+#
+$CMP DMP3036SSD
+D MOSFET 2P-CH 30V 10.6A 8-SO
+K MOSFET, 2P-CH, 30V, 10.6A, 8-SO
+F https://www.diodes.com/assets/Datasheets/DMP3036SSD.pdf
+$ENDCMP
+#
+$CMP FDC608PZ
+D P-Channel 20 V 5.8A (Ta) 1.6W (Ta) Surface Mount SuperSOT™-6
+F https://www.onsemi.com/pdf/datasheet/fdc608pz-d.pdf
+$ENDCMP
+#
+$CMP IRF7324TRPBF
+D MOSFET 2P-CH 20V 9A 8-SOIC
+K MOSFET, 2, P-CH, 20V, 9A, 8-SOIC
+F https://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b
+$ENDCMP
+#
+$CMP IRF9Z34NPBF
+D MOSFET P-CH 55V 19A TO-220AB
+K P-Channel
+F http://www.infineon.com/dgdl/irf9z34npbf.pdf?fileId=5546d462533600a40153561220af1ddd
+$ENDCMP
+#
+$CMP IRFZ24NPBF
+D MOSFET N-CH 55V 17A TO-220AB
+K N-Channel
+F http://www.infineon.com/dgdl/irfz24npbf.pdf?fileId=5546d462533600a40153563af6ce21f7
+$ENDCMP
+#
+$CMP MMBT2222A
+D TRANS NPN 40V 1A SOT-23
+K NPN
+F https://www.fairchildsemi.com/datasheets/MM/MMBT2222A.pdf
+$ENDCMP
+#
+$CMP N-Channel_MOSFET
+D N-Channel MOSFET SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP NJT4031NT1G
+D TRANS NPN 40V 3A SOT223
+K NPN
+F http://www.onsemi.com/pub/Collateral/NJT4031N-D.PDF
+$ENDCMP
+#
+$CMP NPN
+D NPN Transistor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP NXV55UNR
+D MOSFET N-CH 30V 1.9A TO-220AB
+K N-Channel
+F http://www.infineon.com/dgdl/irfz24npbf.pdf?fileId=5546d462533600a40153563af6ce21f7
+$ENDCMP
+#
+$CMP P-Channel_MOSFET
+D P-Channel MOSFET SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP PNP
+D PNP Transistor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP SH8JB5TB1
+D MOSFET 2P-CH 40V 8.5A 8-SO
+K MOSFET, 2P-CH, 40V, 8.5A, 8-SO
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/sh8jb5tb1-e.pdf
+$ENDCMP
+#
+$CMP SPB07N60S5
+D MOSFET N-CH 600V 7.3A TO-263
+K N-Channel
+F http://www.infineon.com/dgdl/SPB07N60S5_Rev.2.3.pdf?folderId=db3a304412b407950112b408e8c90004&fileId=db3a304412b407950112b42d57bd485b
+$ENDCMP
+#
+$CMP SQ2364EES-T1_GE3
+D MOSFET N-CH 60V 2A SOT-23-3
+K N-Channel
+F https://www.vishay.com/docs/75975/sq2364ees.pdf
+$ENDCMP
+#
+#End Doc Library

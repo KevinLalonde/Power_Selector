@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADCMP350YKSZ-REEL7
+D IC COMP/REF OD ACTIVE LOW SC70-4
+K with Voltage Reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP Comparator_hysteresis
+D Comparator hysteresis SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP OP-AMP
+D Op Amp SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library

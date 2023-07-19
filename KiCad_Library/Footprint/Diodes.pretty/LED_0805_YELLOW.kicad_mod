@@ -1,0 +1,18 @@
+(module LED_0805_YELLOW (layer F.Cu) (tedit 58F8AF1B)
+  (fp_text reference REF** (at 1.79 -2.05) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
+  (fp_text value LED_0805_YELLOW (at 1.73 2.33) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_circle (center -0.2 1.3) (end -0.1 1.28) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 0.6 -1) (end 1.45 -1) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0.6 1) (end 1.45 1) (layer F.SilkS) (width 0.254))
+  (pad 1 smd rect (at 0 0) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.05 0) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
+  (model Diodes/WL_SMCW-0805_YELLOW.wrl
+    (at (xyz 0.03937 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+)

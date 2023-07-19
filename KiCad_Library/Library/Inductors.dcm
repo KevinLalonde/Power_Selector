@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 744052471
+D FIXED IND 470UH 140MA 5.5 OHM
+K Wirewound
+F http://katalog.we-online.de/pbs/datasheet/744052471.pdf
+$ENDCMP
+#
+$CMP 744311220
+D FIXED IND 2.2UH 9A 11.4 MOHM SMD
+K Wirewound
+F http://katalog.we-online.de/pbs/datasheet/744311220.pdf
+$ENDCMP
+#
+$CMP 7447715330
+D FIXED IND 33UH 2.3A 85 MOHM SMD
+K Wirewound
+F http://katalog.we-online.de/pbs/datasheet/7447715330.pdf
+$ENDCMP
+#
+$CMP Inductor
+D Inductor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Inductor_Shielded
+D Inductor Shielded SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP LBC3225T101KR
+D FIXED IND 100UH 150MA 1.4 OHM
+K Wirewound
+F http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf
+$ENDCMP
+#
+$CMP LBC3225T470KR
+D FIXED IND 47UH 220MA 670 MOHM
+K Wirewound
+F http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf
+$ENDCMP
+#
+$CMP LQM31PN4R7M00L
+D FIXED IND 4.7UH 700MA 300 MOHM
+K Multilayer, Shielded
+F http://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0013.pdf
+$ENDCMP
+#
+$CMP MLZ2012N101LT000
+D FIXED IND 100UH 140MA 3.5 OHM
+K Multilayer, Shielded
+F https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz2012_en.pdf
+$ENDCMP
+#
+$CMP RLB0608-331KL
+D FIXED IND 330UH 165MA 4.68 OHM
+K Wirewound
+F http://www.bourns.com/docs/Product-Datasheets/rlb.pdf
+$ENDCMP
+#
+$CMP RLB0608-471KL
+D FIXED IND 470UH 140MA 6.5 OHM TH
+K Wirewound
+F http://www.bourns.com/docs/Product-Datasheets/rlb.pdf
+$ENDCMP
+#
+#End Doc Library

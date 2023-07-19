@@ -1,0 +1,1418 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ACS711ELCTR-12AB-T
+#
+DEF ACS711ELCTR-12AB-T U 0 0 Y N 1 F N
+F0 "U" 0 450 60 H V C CNN
+F1 "ACS711ELCTR-12AB-T" -10 -100 60 H V C CNN
+F2 "IC:SOIC-8" 10 -740 60 H I C CNN
+F3 "" 10 -840 60 H I C CNN
+F4 "Digikey" 10 -240 60 H I C CNN "Supplier"
+F5 "620-1370-1-ND" 10 -340 60 H I C CNN "Supplier Part Number"
+F6 "Allegro MicroSystems, LLC" 10 -440 60 H I C CNN "Manufacturer"
+F7 "ACS711ELCTR-12AB-T" 10 -540 60 H I C CNN "Manufacturer Part Number"
+F8 "SENSOR CURRENT HALL 12.5A AC/DC" 10 -640 60 H I C CNN "Description"
+DRAW
+T 0 200 50 50 0 0 0 GND Normal 0 C C
+T 0 -200 250 50 0 0 0 IP+ Normal 0 C C
+T 0 -200 350 50 0 0 0 IP+ Normal 0 C C
+T 0 -200 50 50 0 0 0 IP- Normal 0 C C
+T 0 -200 180 50 0 0 0 IP- Normal 0 C T
+T 0 200 350 50 0 0 0 VCC Normal 0 C C
+T 0 200 250 50 0 0 0 VIOUT Normal 0 C C
+T 0 200 150 50 0 0 0 "~FAULT" Normal 0 C C
+S -300 400 300 0 0 0 0 f
+X IP+ 1 -500 350 200 R 50 50 1 1 I
+X IP+ 2 -500 250 200 R 50 50 1 1 I
+X IP- 3 -500 150 200 R 50 50 1 1 I
+X IP- 4 -500 50 200 R 50 50 1 1 I
+X GND 5 500 50 200 L 50 50 1 1 I
+X ~FAULT 6 500 150 200 L 50 50 1 1 I
+X VIOUT 7 500 250 200 L 50 50 1 1 I
+X VCC 8 500 350 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AL8807W5-7
+#
+DEF AL8807W5-7 U 0 40 N Y 1 F N
+F0 "U" -50 350 60 H V C CNN
+F1 "AL8807W5-7" 350 -400 60 H V C CNN
+F2 "IC:SOT-23-5" 50 -1100 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AL8807.pdf" 100 -1200 60 H I C CNN
+F4 "Digikey" 0 -600 60 H I C CNN "Supplier"
+F5 "AL8808WT-7DICT-ND" 0 -700 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -800 60 H I C CNN "Manufacturer"
+F7 "AL8808WT-7" 0 -900 60 H I C CNN "Manufacturer Part Number"
+F8 "IC LED DRVR REG PWM 1A TSOT25" 0 -1000 60 H I C CNN "Description"
+DRAW
+S -300 250 300 -300 0 1 0 f
+X SW 1 500 -100 200 L 50 50 1 1 I
+X GND 2 0 -500 200 U 50 50 1 1 I
+X CTRL 3 -500 -100 200 R 50 50 1 1 I
+X SET 4 200 450 200 D 50 50 1 1 I
+X VIN 5 -200 450 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AL8860MP-13
+#
+DEF AL8860MP-13 U 0 40 N Y 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "AL8860MP-13" 0 -400 60 H V C CNN
+F2 "IC:MSOP-8-EP" 0 -700 60 H I C CNN
+F3 "http://www.diodes.com/_files/datasheets/AL8860.pdf" 0 -800 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "AL8860MP-13DICT-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "AL8860MP-13" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "LED Driver IC 1 Output DC DC Regulator Step-Down Analog, PWM Dimming 1.5A 8-MSOP-EP" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X SET 1 500 200 200 L 50 50 1 1 I
+X GND 2 -500 -200 200 R 50 50 1 1 I
+X GND 3 -500 -200 200 R 50 50 1 1 I N
+X CTRL 4 -500 0 200 R 50 50 1 1 I
+X SW 5 500 -200 200 L 50 50 1 1 I
+X SW 6 500 -200 200 L 50 50 1 1 I N
+X Vin 8 -500 200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AP2202K-ADJTRG1
+#
+DEF AP2202K-ADJTRG1 U 0 0 Y N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "AP2202K-ADJTRG1" 0 -340 60 H V C CNN
+F2 "IC:SOT-23-5" 0 -1605 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2202.pdf" 0 -1705 60 H I C CNN
+F4 "Digikey" 0 -1105 60 H I C CNN "Supplier"
+F5 "AP2202K-ADJTRG1DICT-ND" 0 -1205 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1305 60 H I C CNN "Manufacturer"
+F7 "AP2202K-ADJTRG1" 0 -1405 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO ADJ 0.15A SOT25" 0 -1505 60 H I C CNN "Description"
+F9 "Positive Adjustable" 5 -445 50 H I C CNN "Regulator Topology"
+F10 "2.3 V ~ 13.2 V" -5 -530 50 H I C CNN "Voltage - Output"
+F11 "150mA" 5 -640 50 H I C CNN "Current - Output"
+F12 "0.165V @ 150mA" 10 -745 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "1" -10 -835 50 H I C CNN "Number of Regulators"
+F14 "2.5 V ~ 13.2 V" -10 -915 50 H I C CNN "Voltage - Input"
+F15 "-" -10 -995 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 100 0 50 0 0 0 ADJ Normal 0 C C
+T 0 -130 0 50 0 0 0 EN Normal 0 C C
+T 0 -110 -200 50 0 0 0 GND Normal 0 C C
+T 0 -120 200 50 0 0 0 Vin Normal 0 C C
+T 0 90 200 50 0 0 0 Vout Normal 0 C C
+S -200 250 200 -250 0 0 0 f
+X Vin 1 -300 200 100 R 50 50 1 1 I
+X GND 2 -300 -200 100 R 50 50 1 1 I
+X EN 3 -300 0 100 R 50 50 1 1 I
+X ADJ 4 300 0 100 L 50 50 1 1 I
+X Vout 5 300 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AP3012KTR-G1
+#
+DEF AP3012KTR-G1 U 0 0 Y N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "AP3012KTR-G1" 50 -300 60 H V C CNN
+F2 "IC:SOT-23-5" 0 -2125 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP3012.pdf" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "AP3012KTR-G1DICT-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1825 60 H I C CNN "Manufacturer"
+F7 "AP3012KTR-G1" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG BOOST ADJ 0.5A SOT23-5" 0 -2025 60 H I C CNN "Description"
+F9 "Step-Up" 5 -445 50 H I C CNN "Function"
+F10 "Positive" -5 -530 50 H I C CNN "Output Configuration"
+F11 "Boost" 5 -640 50 H I C CNN "Topology"
+F12 "Adjustable" 10 -745 50 H I C CNN "Output Type"
+F13 "1" -10 -835 50 H I C CNN "Number of Outputs"
+F14 "2.6V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F15 "16V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F16 "1.25V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F17 "29V" -5 -1185 50 H I C CNN "Voltage - Output (Max)"
+F18 "500mA (Switch)" 5 -1300 50 H I C CNN "Current - Output"
+F19 "1.5MHz" 0 -1410 50 H I C CNN "Frequency - Switching"
+F20 "No" 0 -1505 50 H I C CNN "Synchronous Rectifier"
+DRAW
+T 0 200 0 60 0 0 0 FB Normal 0 C C
+T 0 -175 -200 60 0 0 0 GND Normal 0 C C
+T 0 -150 0 60 0 0 0 SHDN Normal 0 C C
+T 0 200 200 60 0 0 0 SW Normal 0 C C
+T 0 -200 200 60 0 0 0 Vin Normal 0 C C
+S -300 250 300 -250 0 0 0 f
+P 2 0 0 0 -250 50 -50 50 N
+X SW 1 400 200 100 L 50 50 1 1 I
+X GND 2 -400 -200 100 R 50 50 1 1 I
+X FB 3 400 0 100 L 50 50 1 1 I
+X SHDN 4 -400 0 100 R 50 50 1 1 I
+X Vin 5 -400 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AP3015KTR-G1
+#
+DEF AP3015KTR-G1 U 0 0 Y N 1 F N
+F0 "U" 0 320 60 H V C CNN
+F1 "AP3015KTR-G1" 0 -340 60 H V C CNN
+F2 "IC:SOT-23-5" 0 -2425 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP3015_A.pdf" 0 -2525 60 H I C CNN
+F4 "Digikey" 0 -1925 60 H I C CNN "Supplier"
+F5 "AP3015KTR-G1" 0 -2025 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -2125 60 H I C CNN "Manufacturer"
+F7 "AP3015KTR-G1" 0 -2225 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG BOOST ADJ 0.3A SOT25" 0 -2325 60 H I C CNN "Description"
+F9 "Step-Up" 5 -745 50 H I C CNN "Function"
+F10 "Positive" -5 -830 50 H I C CNN "Output Configuration"
+F11 "Boost" 5 -940 50 H I C CNN "Topology"
+F12 "Adjustable" 10 -1045 50 H I C CNN "Output Type"
+F13 "1" -10 -1135 50 H I C CNN "Number of Outputs"
+F14 "1.2V" -10 -1215 50 H I C CNN "Voltage - Input (Min)"
+F15 "12V" -10 -1295 50 H I C CNN "Voltage - Input (Max)"
+F16 "1.23V" -10 -1385 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F17 "34V" -5 -1485 50 H I C CNN "Voltage - Output (Max)"
+F18 "300mA" 5 -1600 50 H I C CNN "Current - Output"
+F19 "Pulse Frequency Modulation" 0 -1710 50 H I C CNN "Frequency - Switching"
+F20 "No" 0 -1805 50 H I C CNN "Synchronous Rectifier"
+DRAW
+T 0 130 0 50 0 0 0 FB Normal 0 C C
+T 0 -110 -200 50 0 0 0 GND Normal 0 C C
+T 0 -80 0 50 0 0 0 SHDN Normal 0 C C
+T 0 120 200 50 0 0 0 SW Normal 0 C C
+T 0 -120 200 50 0 0 0 Vin Normal 0 C C
+S -200 250 200 -250 0 0 0 f
+P 2 0 0 0 -170 40 10 40 N
+X SW 1 300 200 100 L 50 50 1 1 I
+X GND 2 -300 -200 100 R 50 50 1 1 I
+X FB 3 300 0 100 L 50 50 1 1 I
+X SHDN 4 -300 0 100 R 50 50 1 1 I
+X Vin 5 -300 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AZ1117IH-3.3TRG1
+#
+DEF AZ1117IH-3.3TRG1 U 0 0 Y N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "AZ1117IH-3.3TRG1" 0 -400 60 H V C CNN
+F2 "IC:SOT-223-3" 0 -1805 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf" 0 -1905 60 H I C CNN
+F4 "Digikey" 0 -1305 60 H I C CNN "Supplier"
+F5 "AZ1117IH-3.3TRG1DICT-ND" 0 -1405 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1505 60 H I C CNN "Manufacturer"
+F7 "AZ1117IH-3.3TRG1" 0 -1605 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 3.3V 0.8A SOT223" 0 -1705 60 H I C CNN "Description"
+F9 "Linear" 5 -645 50 H I C CNN "Regulator Topology"
+F10 "3.3V" -5 -730 50 H I C CNN "Voltage - Output"
+F11 "800mA" 5 -840 50 H I C CNN "Current - Output"
+F12 "1.2V @ 800mA" 10 -945 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Up to 15V" -10 -1115 50 H I C CNN "Voltage - Input"
+F14 "800mA" -10 -1195 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 100 100 60 0 0 0 TAB Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 150 0 0 0 f
+X GND 1 0 -300 100 U 50 50 1 1 I
+X Vout 2 300 0 100 L 50 50 1 1 I
+X Vin 3 -300 0 100 R 50 50 1 1 I
+X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AZ1117IH-5.0TRG1
+#
+DEF AZ1117IH-5.0TRG1 U 0 0 Y N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "AZ1117IH-5.0TRG1" 0 -400 60 H V C CNN
+F2 "IC:SOT-223-3" 0 -1805 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf" 0 -1905 60 H I C CNN
+F4 "Digikey" 0 -1305 60 H I C CNN "Supplier"
+F5 "AZ1117IH-5.0TRG1DICT-ND" 0 -1405 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1505 60 H I C CNN "Manufacturer"
+F7 "AZ1117IH-5.0TRG1" 0 -1605 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 5V 0.8A SOT223" 0 -1705 60 H I C CNN "Description"
+F9 "Linear" 5 -645 50 H I C CNN "Regulator Topology"
+F10 "5V" -5 -730 50 H I C CNN "Voltage - Output"
+F11 "800mA" 5 -840 50 H I C CNN "Current - Output"
+F12 "1.2V @ 800mA" 10 -945 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Up to 15V" -10 -1115 50 H I C CNN "Voltage - Input"
+F14 "800mA" -10 -1195 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 100 100 60 0 0 0 TAB Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 150 0 0 0 f
+X GND 1 0 -300 100 U 50 50 1 1 I
+X Vout 2 300 0 100 L 50 50 1 1 I
+X Vin 3 -300 0 100 R 50 50 1 1 I
+X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AZ34063UMTR-G1
+#
+DEF AZ34063UMTR-G1 U 0 0 Y N 1 F N
+F0 "U" -200 400 60 H V C CNN
+F1 "AZ34063UMTR-G1" -10 -425 60 H V C CNN
+F2 "IC:SOIC-8" 0 -2250 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf" 0 -2350 60 H I C CNN
+F4 "Digikey" 0 -1750 60 H I C CNN "Supplier"
+F5 "AZ34063UMTR-G1DICT-ND" 0 -1850 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1950 60 H I C CNN "Manufacturer"
+F7 "AZ34063UMTR-G1" 0 -2050 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG BUCK BOOST INV ADJ 8SOIC" 0 -2150 60 H I C CNN "Description"
+F9 "Step-Up, Step-Down" 5 -570 50 H I C CNN "Function"
+F10 "Positive or Negative" -5 -655 50 H I C CNN "Output Configuration"
+F11 "Buck, Boost" 5 -765 50 H I C CNN "Topology"
+F12 "Adjustable" 10 -870 50 H I C CNN "Output Type"
+F13 "1" -10 -960 50 H I C CNN "Number of Outputs"
+F14 "3V" -10 -1040 50 H I C CNN "Voltage - Input (Min)"
+F15 "36V" -10 -1120 50 H I C CNN "Voltage - Input (Max)"
+F16 "1.25V" -10 -1210 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F17 "36V" -5 -1310 50 H I C CNN "Voltage - Output (Max)"
+F18 "1.5A (Switch)" 5 -1425 50 H I C CNN "Current - Output"
+F19 "Up to 180kHz" 0 -1535 50 H I C CNN "Frequency - Switching"
+F20 "No" 0 -1630 50 H I C CNN "Synchronous Rectifier"
+DRAW
+T 0 -175 -300 50 0 0 0 COMP Normal 0 C C
+T 0 -175 300 50 0 0 0 DRV_C Normal 0 C C
+T 0 200 -300 50 0 0 0 GND Normal 0 C C
+T 0 -225 100 50 0 0 0 Ipk Normal 0 C C
+T 0 175 300 50 0 0 0 SW_C Normal 0 C C
+T 0 175 100 50 0 0 0 SW_E Normal 0 C C
+T 0 125 -100 50 0 0 0 TIM_CAP Normal 0 C C
+T 0 -200 -100 50 0 0 0 VCC Normal 0 C C
+S -300 350 300 -350 0 0 0 f
+X Switch_Collector 1 400 300 100 L 50 50 1 1 I
+X Switch_Emitter 2 400 100 100 L 50 50 1 1 I
+X Timing_Capacitor 3 400 -100 100 L 50 50 1 1 I
+X GND 4 400 -300 100 L 50 50 1 1 I
+X Comp_in 5 -400 -300 100 R 50 50 1 1 I
+X VCC 6 -400 -100 100 R 50 50 1 1 I
+X Ipk_Sense 7 -400 100 100 R 50 50 1 1 I
+X Driver_Collector 8 -400 300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BQ25713
+#
+DEF BQ25713 U 0 40 Y Y 1 F N
+F0 "U" -1150 1300 60 H V C CNN
+F1 "BQ25713" -50 50 60 H V C CNN
+F2 "IC:32-QFN" -550 750 60 H I C CNN
+F3 "" -550 750 60 H I C CNN
+F4 "Digikey" -700 -2200 60 H I C CNN "Supplier"
+F5 " 296-50953-1-ND " 0 -2200 60 H I C CNN "Supplier PN"
+F6 "8,63$" 700 -2200 60 H I C CNN "Price"
+F7 "Battery Battery Monitor IC Multi-Chemistry 32-WQFN (4x4) " 100 -2000 60 H I C CNN "Description"
+F8 "Ti" -200 -1800 60 H I C CNN "Manufacturer"
+F9 "BQ25713" 100 -1800 60 H I C CNN "Manufacturer PN"
+DRAW
+S -1200 1200 1200 -1200 0 1 0 f
+X VBUS 1 -1300 700 100 R 50 50 0 0 W
+X PSYS 10 -500 -1300 100 U 50 50 0 0 O
+X PROCHOT 11 -300 -1300 100 U 50 50 0 0 O
+X SDA 12 -100 -1300 100 U 50 50 0 0 B
+X SCL 13 100 -1300 100 U 50 50 0 0 I
+X CMPIN 14 300 -1300 100 U 50 50 0 0 I
+X CMPOUT 15 500 -1300 100 U 50 50 0 0 O
+X COMP1 16 700 -1300 100 U 50 50 0 0 I
+X COMP2 17 1300 -700 100 L 50 50 0 0 I
+X CELL_BATPRE 18 1300 -500 100 L 50 50 0 0 I
+X SRN 19 1300 -300 100 L 50 50 0 0 W
+X ACN 2 -1300 500 100 R 50 50 0 0 W
+X SRP 20 1300 -100 100 L 50 50 0 0 W
+X BATDRV 21 1300 100 100 L 50 50 0 0 O
+X VSYS 22 1300 300 100 L 50 50 0 0 W
+X SW2 23 1300 500 100 L 50 50 0 0 W
+X HIDRV2 24 1300 700 100 L 50 50 0 0 O
+X BTST2 25 700 1300 100 D 50 50 0 0 W
+X LODRV2 26 500 1300 100 D 50 50 0 0 O
+X PGND 27 300 1300 100 D 50 50 0 0 w
+X REGN 28 100 1300 100 D 50 50 0 0 w
+X LODRV1 29 -100 1300 100 D 50 50 0 0 O
+X ACP 3 -1300 300 100 R 50 50 0 0 W
+X BTST1 30 -300 1300 100 D 50 50 0 0 W
+X HIDRV1 31 -500 1300 100 D 50 50 0 0 O
+X SW1 32 -700 1300 100 D 50 50 0 0 W
+X CHRG_OK 4 -1300 100 100 R 50 50 0 0 O
+X OTG/VAP 5 -1300 -100 100 R 50 50 0 0 I
+X ILIM_HIZ 6 -1300 -300 100 R 50 50 0 0 I
+X VDDA 7 -1300 -500 100 R 50 50 0 0 W
+X IADPT 8 -1300 -700 100 R 50 50 0 0 O
+X IBAT 9 -700 -1300 100 U 50 50 0 0 O
+X Ther_Pad 33 -1300 900 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# BTS50060-1TEA
+#
+DEF BTS50060-1TEA U 0 0 Y N 1 F N
+F0 "U" 0 350 60 H V C CNN
+F1 "BTS50060-1TEA" 0 -400 60 H V C CNN
+F2 "IC:TO-252" 0 -2425 60 H I C CNN
+F3 "https://www.infineon.com/dgdl/Infineon-BTS50060-1TEA-DS-v01_02-EN.pdf?fileId=5546d46259d9a4bf015a8518bd3f7781" 0 -2525 60 H I C CNN
+F4 "Digikey" 0 -1925 60 H I C CNN "Supplier"
+F5 "BTS500601TEAAUMA2CT-ND" 0 -2025 60 H I C CNN "Supplier Part Number"
+F6 "Infineon" 0 -2125 60 H I C CNN "Manufacturer"
+F7 "BTS500601TEAAUMA2" 0 -2225 60 H I C CNN "Manufacturer Part Number"
+F8 "IC PWR SW HI-SIDE 1CH TO252-5" 0 -2325 60 H I C CNN "Description"
+F9 "Switch" 5 -745 50 H I C CNN "Function"
+F10 "High-Side" -5 -830 50 H I C CNN "Output Configuration"
+F11 "1" -10 -1135 50 H I C CNN "Number of Outputs"
+DRAW
+T 0 100 -150 60 0 0 0 GND Normal 0 C C
+T 0 -150 0 60 0 0 0 IN Normal 0 C C
+T 0 -150 -200 60 0 0 0 Is Normal 0 C C
+T 0 100 150 60 0 0 0 OUT Normal 0 C C
+T 0 -150 200 60 0 0 0 Vs Normal 0 C C
+S -200 300 200 -300 0 0 0 f
+X GND 1 300 -150 100 L 50 50 1 1 I
+X IN 2 -300 0 100 R 50 50 1 1 I
+X OUT 3 300 150 100 L 50 50 1 1 I
+X IS 4 -300 -200 100 R 50 50 1 1 I
+X Vin 5 -300 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Current_Regulation_Management_INFO
+#
+DEF Current_Regulation_Management_INFO U 0 0 Y N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "Current_Regulation_Management_INFO" -10 -300 60 H V C CNN
+F2 "F" 10 -1390 60 H I C CNN
+F3 "D" 10 -1490 60 H I C CNN
+F4 "Supplier" 10 -890 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1290 60 H I C CNN "Description"
+F9 "Function" 0 -400 50 H I C CNN "Function"
+F10 "Sensing Method" 0 -480 50 H I C CNN "Sensing Method"
+F11 "Accuracy" 0 -560 50 H I C CNN "Accuracy"
+F12 "Voltage - Input" 0 -650 50 H I C CNN "Voltage - Input"
+F13 "Current - Output" 10 -725 50 H I C CNN "Current - Output"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DC-DC_Switching_Controllers_INFO
+#
+DEF DC-DC_Switching_Controllers_INFO U 0 0 Y N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "DC-DC_Switching_Controllers_INFO" -10 -300 60 H V C CNN
+F2 "F" 10 -1390 60 H I C CNN
+F3 "D" 10 -1490 60 H I C CNN
+F4 "Supplier" 10 -890 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1290 60 H I C CNN "Description"
+F9 "Number of Outputs" 0 -400 50 H I C CNN "Number of Outputs"
+F10 "Frequency - Max" 0 -480 50 H I C CNN "Frequency - Max"
+F11 "Duty Cycle" 0 -560 50 H I C CNN "Duty Cycle"
+F12 "Voltage - Supply" 0 -650 50 H I C CNN "Voltage - Supply"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# DC-DC_Switching_Regulators_INFO
+#
+DEF DC-DC_Switching_Regulators_INFO U 0 0 Y N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "DC-DC_Switching_Regulators_INFO" -10 -300 60 H V C CNN
+F2 "F" 0 -2125 60 H I C CNN
+F3 "D" 0 -2225 60 H I C CNN
+F4 "Supplier" 0 -1625 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -1825 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -2025 60 H I C CNN "Description"
+F9 "Function" 5 -445 50 H I C CNN "Function"
+F10 "Output Configuration" -5 -530 50 H I C CNN "Output Configuration"
+F11 "Topology" 5 -640 50 H I C CNN "Topology"
+F12 "Output Type" 10 -745 50 H I C CNN "Output Type"
+F13 "Number of Outputs" -10 -835 50 H I C CNN "Number of Outputs"
+F14 "Voltage - Input (Min)" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F15 "Voltage - Input (Max)" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F16 "Voltage - Output (Min/Fixed)" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F17 "Voltage - Output (Max)" -5 -1185 50 H I C CNN "Voltage - Output (Max)"
+F18 "Current - Output" 5 -1300 50 H I C CNN "Current - Output"
+F19 "Frequency - Switching" 0 -1410 50 H I C CNN "Frequency - Switching"
+F20 "Synchronous Rectifier" 0 -1505 50 H I C CNN "Synchronous Rectifier"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# GO_20_SME_SP3
+#
+DEF GO_20_SME_SP3 U 0 0 Y N 1 F N
+F0 "U" 0 350 60 H V C CNN
+F1 "GO_20_SME_SP3" 0 -150 60 H V C CNN
+F2 "IC:SOIC-8" 10 -740 60 H I C CNN
+F3 "" 10 -840 60 H I C CNN
+F4 "Digikey" 10 -240 60 H I C CNN "Supplier"
+F5 "398-GO20SME/SP3CT-ND" 10 -340 60 H I C CNN "Supplier Part Number"
+F6 "LEM USA Inc." 10 -440 60 H I C CNN "Manufacturer"
+F7 "GO_20_SME/SP3" 10 -540 60 H I C CNN "Manufacturer Part Number"
+F8 "CURRENT SENSOR 20A 1 CHANNEL HALL EFFECT" 10 -640 60 H I C CNN "Description"
+DRAW
+T 0 200 250 50 0 0 0 +Uc Normal 0 C C
+T 0 200 -50 50 0 0 0 GND Normal 0 C C
+T 0 -200 150 50 0 0 0 IP+ Normal 0 C C
+T 0 -200 250 50 0 0 0 IP+ Normal 0 C C
+T 0 -200 -50 50 0 0 0 IP- Normal 0 C C
+T 0 -200 80 50 0 0 0 IP- Normal 0 C T
+T 0 200 150 50 0 0 0 Uout Normal 0 C C
+T 0 200 50 50 0 0 0 Uref Normal 0 C C
+S -300 300 300 -100 0 0 0 f
+X IP+ 1 -500 250 200 R 50 50 1 1 I
+X IP+ 2 -500 150 200 R 50 50 1 1 I
+X IP- 3 -500 50 200 R 50 50 1 1 O
+X IP- 4 -500 -50 200 R 50 50 1 1 O
+X GND 5 500 -50 200 L 50 50 1 1 P
+X ~FAULT 6 500 50 200 L 50 50 1 1 I
+X VIOUT 7 500 150 200 L 50 50 1 1 O
+X VCC 8 500 250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# INA219BIDR
+#
+DEF INA219BIDR U 0 0 Y N 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "INA219BIDR" -10 -100 60 H V C CNN
+F2 "IC:SOIC-8" 10 -1190 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" 10 -1290 60 H I C CNN
+F4 "Digikey" 10 -690 60 H I C CNN "Supplier"
+F5 "296-27899-1-ND" 10 -790 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 10 -890 60 H I C CNN "Manufacturer"
+F7 "INA219BIDR" 10 -990 60 H I C CNN "Manufacturer Part Number"
+F8 "IC MONITOR PWR/CURR BIDIR 8-SOIC" 10 -1090 60 H I C CNN "Description"
+F9 "Current Monitor" 0 -200 50 H I C CNN "Function"
+F10 "High-Side" 0 -280 50 H I C CNN "Sensing Method"
+F11 "±0.5%" 0 -360 50 H I C CNN "Accuracy"
+F12 "0 V ~ 26 V" 0 -450 50 H I C CNN "Voltage - Input"
+F13 "10mA" 10 -525 50 H I C CNN "Current - Output"
+DRAW
+T 0 200 100 50 0 0 0 A0 Normal 0 C C
+T 0 200 0 50 0 0 0 A1 Normal 0 C C
+T 0 -200 0 50 0 0 0 GND Normal 0 C C
+T 0 -200 300 50 0 0 0 IN+ Normal 0 C C
+T 0 -200 200 50 0 0 0 IN- Normal 0 C C
+T 0 200 200 50 0 0 0 SCL Normal 0 C C
+T 0 200 300 50 0 0 0 SDA Normal 0 C C
+T 0 -200 100 50 0 0 0 Vs Normal 0 C C
+S -300 350 300 -50 0 0 0 f
+X A1 1 500 0 200 L 50 50 1 1 I
+X A0 2 500 100 200 L 50 50 1 1 I
+X SDA 3 500 300 200 L 50 50 1 1 I
+X SCL 4 500 200 200 L 50 50 1 1 I
+X Vs 5 -500 100 200 R 50 50 1 1 I
+X GND 6 -500 0 200 R 50 50 1 1 I
+X IN- 7 -500 200 200 R 50 50 1 1 I
+X IN+ 8 -500 300 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LM4040CYM3-4.1-TR
+#
+DEF LM4040CYM3-4.1-TR U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "LM4040CYM3-4.1-TR" -10 -300 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1390 60 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005757A.pdf" 10 -1490 60 H I C CNN
+F4 "Digikey" 10 -890 60 H I C CNN "Supplier"
+F5 "576-2568-1-ND" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Microchip Technology" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "LM4040CYM3-4.1-TR" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "IC VREF SHUNT 4.096V SOT23" 10 -1290 60 H I C CNN "Description"
+F9 "Shunt" 0 -400 50 H I C CNN "Reference Type"
+F10 "Fixed" 0 -480 50 H I C CNN "Output Type"
+F11 "4.096V" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "-" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "±0.5%" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "15mA" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 f
+X Cathode 1 0 200 105 D 50 50 1 1 I
+X Anode 2 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LM4040D25FTA
+#
+DEF LM4040D25FTA U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "LM4040D25FTA" -10 -300 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1390 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/LM4040.pdf" 10 -1490 60 H I C CNN
+F4 "Digikey" 10 -890 60 H I C CNN "Supplier"
+F5 "LM4040D25FCT-ND" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "LM4040D25FTA" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "IC VREF SHUNT 2.5V SOT23-3" 10 -1290 60 H I C CNN "Description"
+F9 "Shunt" 0 -400 50 H I C CNN "Reference Type"
+F10 "Fixed" 0 -480 50 H I C CNN "Output Type"
+F11 "2.5V" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "-" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "±1%" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "15mA" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 f
+X Cathode 1 0 200 105 D 50 50 1 1 I
+X Anode 2 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTC2992HMS#PBF
+#
+DEF LTC2992HMS#PBF U 0 0 Y N 1 F N
+F0 "U" 0 2250 60 H V C CNN
+F1 "LTC2992HMS#PBF" -10 -100 60 H V C CNN
+F2 "IC:AnalogDevices_16-MSOP" 10 -740 60 H I C CNN
+F3 "" 10 -840 60 H I C CNN
+F4 "Digikey" 10 -240 60 H I C CNN "Supplier"
+F5 "505-LTC2992HMS#PBF-ND" 10 -340 60 H I C CNN "Supplier Part Number"
+F6 "Analog Devices" 10 -440 60 H I C CNN "Manufacturer"
+F7 "LTC2992IMS#PBF" 10 -540 60 H I C CNN "Manufacturer Part Number"
+F8 "Power Supply Controller Telecommunications 16-MSOP" 10 -640 60 H I C CNN "Description"
+DRAW
+T 0 -450 1200 50 0 0 0 ADR0 Normal 0 L C
+T 0 -450 1100 50 0 0 0 ADR1 Normal 0 L C
+T 0 450 100 50 0 0 0 GND Normal 0 R C
+T 0 -450 500 50 0 0 0 GPIO1 Normal 0 L C
+T 0 -450 400 50 0 0 0 GPIO2 Normal 0 L C
+T 0 450 500 50 0 0 0 GPIO3 Normal 0 R C
+T 0 450 400 50 0 0 0 GPIO4 Normal 0 R C
+T 0 450 2000 50 0 0 0 INTVCC Normal 0 R C
+T 0 -450 900 50 0 0 0 SCL Normal 0 L C
+T 0 -450 800 50 0 0 0 SDAI Normal 0 L C
+T 0 -450 700 50 0 0 0 SDAO Normal 0 L C
+T 0 -450 1800 50 0 0 0 SENSE1+ Normal 0 L C
+T 0 -450 1700 50 0 0 0 SENSE1- Normal 0 L C
+T 0 -450 1500 50 0 0 0 SENSE2+ Normal 0 L C
+T 0 -450 1400 50 0 0 0 SENSE2- Normal 0 L C
+T 0 450 2100 50 0 0 0 VDD Normal 0 R C
+S -500 0 500 2200 1 1 10 f
+X SENSE1– 1 -700 1700 200 R 40 40 1 1 I
+X SDAI 10 -700 800 200 R 40 40 1 1 P
+X SDAO 11 -700 700 200 R 40 40 1 1 P
+X GND 12 700 100 200 L 40 40 1 1 W
+X GPIO4 13 700 400 200 L 40 40 1 1 B
+X GPIO2 14 -700 400 200 R 40 40 1 1 B
+X SENSE2+ 15 -700 1500 200 R 40 40 1 1 I
+X SENSE2– 16 -700 1400 200 R 40 40 1 1 I
+X SENSE1+ 2 -700 1800 200 R 40 40 1 1 I
+X GPIO1 3 -700 500 200 R 40 40 1 1 B
+X GPIO3 4 700 500 200 L 40 40 1 1 B
+X ADR1 5 -700 1100 200 R 40 40 1 1 I
+X ADR0 6 -700 1200 200 R 40 40 1 1 I
+X INTVCC 7 700 2000 200 L 40 40 1 1 P
+X VDD 8 700 2100 200 L 40 40 1 1 W
+X SCL 9 -700 900 200 R 40 40 1 1 I C
+ENDDRAW
+ENDDEF
+#
+# LTC3119
+#
+DEF LTC3119 U 0 40 Y Y 1 F N
+F0 "U" 0 1200 60 H V C CNN
+F1 "LTC3119" 350 -1200 60 H V C CNN
+F2 "IC:TSSOP-28" 50 -1850 60 H I C CNN
+F3 "http://cds.linear.com/docs/en/datasheet/3119fb.pdf" -50 -1950 60 H I C CNN
+F4 "Digikey" 0 -1350 60 H I C CNN "Supplier"
+F5 "LTC3119EFE#PBF-ND" 0 -1450 60 H I C CNN "Supplier Part Number"
+F6 "Linear Technology" 0 -1550 60 H I C CNN "Manufacturer"
+F7 "LTC3119EFE#PBF" 0 -1650 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG BCK BST 18V 5A TSSOP28" 0 -1750 60 H I C CNN "Description"
+DRAW
+S -350 1100 350 -1050 0 1 0 N
+X NC 1 -550 1000 200 R 50 50 1 1 I
+X PGOOD 10 -550 -350 200 R 50 50 1 1 P
+X SVCC 11 -550 -500 200 R 50 50 1 1 I
+X FB 12 -550 -650 200 R 50 50 1 1 I
+X VC 13 -550 -800 200 R 50 50 1 1 I
+X SGND 14 -550 -950 200 R 50 50 1 1 I
+X MPPC 15 550 -950 200 L 50 50 1 1 I
+X VCC 16 550 -800 200 L 50 50 1 1 I
+X RT 17 550 -650 200 L 50 50 1 1 I
+X RUN 18 550 -500 200 L 50 50 1 1 I
+X VIN 19 550 -350 200 L 50 50 1 1 P
+X NC 2 -550 850 200 R 50 50 1 1 I
+X PGND 20 550 -200 200 L 50 50 1 1 I
+X SW1 21 550 -50 200 L 50 50 1 1 I
+X PVIN 22 550 100 200 L 50 50 1 1 I
+X PVIN 23 550 250 200 L 50 50 1 1 I
+X SW1 24 550 400 200 L 50 50 1 1 I
+X PGND 25 550 550 200 L 50 50 1 1 I
+X BST1 26 550 700 200 L 50 50 1 1 P
+X NC 27 550 850 200 L 50 50 1 1 I
+X PWM/SYNC 28 550 1000 200 L 50 50 1 1 I
+X PGND 29 0 -1250 200 U 50 50 1 1 I
+X BST2 3 -550 700 200 R 50 50 1 1 P
+X PGND 4 -550 550 200 R 50 50 1 1 I
+X SW2 5 -550 400 200 R 50 50 1 1 I
+X PVOUT 6 -550 250 200 R 50 50 1 1 I
+X PVOUT 7 -550 100 200 R 50 50 1 1 I
+X SW2 8 -550 -50 200 R 50 50 1 1 I
+X PGND 9 -550 -200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LTC4412
+#
+DEF LTC4412 U 0 40 Y Y 1 F N
+F0 "U" -250 400 60 H V C CNN
+F1 "LTC4412" 0 -400 60 H V C CNN
+F2 "IC:SOT-23-6" 50 -1050 60 H I C CNN
+F3 "http://cds.linear.com/docs/en/datasheet/4412fb.pdf" 50 -1150 60 H I C CNN
+F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
+F5 "LTC4412ES6#TRMPBFCT-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Linear Technology" 0 -750 60 H I C CNN "Manufacturer"
+F7 "LTC4412ES6#TRMPBF" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "IC OR CTRLR SRC SELECT TSOT23-6" 0 -950 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X Vin 1 -500 200 200 R 50 50 1 1 P
+X GND 2 -500 0 200 R 50 50 1 1 P
+X CTL 3 -500 -200 200 R 50 50 1 1 P
+X STAT 4 500 -200 200 L 50 50 1 1 P
+X GATE 5 500 0 200 L 50 50 1 1 P
+X SENSE 6 500 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LTC4412HV
+#
+DEF LTC4412HV U 0 40 Y Y 1 F N
+F0 "U" -250 400 60 H V C CNN
+F1 "LTC4412HV" 0 -400 60 H V C CNN
+F2 "IC:SOT-23-6" 50 -1050 60 H I C CNN
+F3 "https://www.mouser.ca/datasheet/2/609/ltc4412hvf-1948688.pdf" 50 -1150 60 H I C CNN
+F4 "Mouser" 0 -550 60 H I C CNN "Supplier"
+F5 "584-4412HVIS6WTRMPBF" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Linear Technology" 0 -750 60 H I C CNN "Manufacturer"
+F7 "LTC4412HVIS6#WTRMPBF" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "IC OR CTRLR SRC SELECT TSOT23-6" 0 -950 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X Vin 1 -500 200 200 R 50 50 1 1 P
+X GND 2 -500 0 200 R 50 50 1 1 P
+X CTL 3 -500 -200 200 R 50 50 1 1 P
+X STAT 4 500 -200 200 L 50 50 1 1 P
+X GATE 5 500 0 200 L 50 50 1 1 P
+X SENSE 6 500 200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MAX6101EUR+T
+#
+DEF MAX6101EUR+T U 0 20 Y Y 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "MAX6101EUR+T" -10 -650 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1740 60 H I C CNN
+F3 "" 10 -1840 60 H I C CNN
+F4 "Digikey" 10 -1240 60 H I C CNN "Supplier"
+F5 "MAX6101EUR+T" 10 -1340 60 H I C CNN "Supplier Part Number"
+F6 "Analog Devices Inc./Maxim Integrated" 10 -1440 60 H I C CNN "Manufacturer"
+F7 "MAX6101EUR+T" 10 -1540 60 H I C CNN "Manufacturer Part Number"
+F8 "IC VREF SERIES 0.4% SOT23-3" 10 -1640 60 H I C CNN "Description"
+F9 "Series" 0 -750 50 H I C CNN "Reference Type"
+F10 "Fixed" 0 -830 50 H I C CNN "Output Type"
+F11 "1.25" 0 -910 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "-" 0 -1000 50 H I C CNN "Voltage - Output (Max)"
+F13 "±0.4%" 0 -1150 50 H I C CNN "Tolerance (%)"
+F14 "5mA" 0 -1080 50 H I C CNN "Current - Output"
+DRAW
+S -200 200 200 -250 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 I
+X OUT 2 300 0 100 L 50 50 1 1 O
+X GND 3 0 -350 100 U 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# MAX9938
+#
+DEF MAX9938 U 0 40 Y Y 1 F N
+F0 "U" 0 350 60 H V C CNN
+F1 "MAX9938" 0 -350 60 H V C CNN
+F2 "IC:SOT-23-5" 50 -1000 60 H I C CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX9938.pdf" 100 -1100 60 H I C CNN
+F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
+F5 "MAX9938FEUK+TCT-ND" 0 -600 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -700 60 H I C CNN "Manufacturer"
+F7 "Maxim Integrated" 0 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "IC OPAMP CURR SENS 60KHZ SOT23-5" 0 -900 60 H I C CNN "Description"
+DRAW
+S -300 250 300 -250 0 1 0 f
+X GND 1 -500 150 200 R 50 50 1 1 I
+X GND 2 -500 0 200 R 50 50 1 1 I
+X OUT 3 -500 -150 200 R 50 50 1 1 I
+X RS- 4 500 -150 200 L 50 50 1 1 I
+X RS+ 5 500 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NCP1117LPST33T3G
+#
+DEF NCP1117LPST33T3G U 0 0 Y N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "NCP1117LPST33T3G" 0 -400 60 H V C CNN
+F2 "IC:SOT-223-3" 0 -1805 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" 0 -1905 60 H I C CNN
+F4 "Digikey" 0 -1305 60 H I C CNN "Supplier"
+F5 "NCP1117LPST33T3GOSCT-ND" 0 -1405 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" 0 -1505 60 H I C CNN "Manufacturer"
+F7 "NCP1117LPST33T3G" 0 -1605 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 3.3V 1A SOT223" 0 -1705 60 H I C CNN "Description"
+F9 "Linear" 5 -645 50 H I C CNN "Regulator Topology"
+F10 "3.3V" -5 -730 50 H I C CNN "Voltage - Output"
+F11 "1A" 5 -840 50 H I C CNN "Current - Output"
+F12 "1.3V @ 1A" 10 -945 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Up to 18V" -10 -1115 50 H I C CNN "Voltage - Input"
+F14 "1.1A" -10 -1195 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 100 100 60 0 0 0 TAB Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 150 0 0 0 f
+X GND 1 0 -300 100 U 50 50 1 1 I
+X Vout 2 300 0 100 L 50 50 1 1 I
+X Vin 3 -300 0 100 R 50 50 1 1 I
+X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NCP1117ST50T3G
+#
+DEF NCP1117ST50T3G U 0 0 Y N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "NCP1117ST50T3G" 0 -400 60 H V C CNN
+F2 "IC:SOT-223-3" 0 -1805 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 0 -1905 60 H I C CNN
+F4 "Digikey" 0 -1305 60 H I C CNN "Supplier"
+F5 "NCP1117ST50T3GOSCT-ND" 0 -1405 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" 0 -1505 60 H I C CNN "Manufacturer"
+F7 "NCP1117ST50T3G" 0 -1605 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 5V 1A SOT223" 0 -1705 60 H I C CNN "Description"
+F9 "Linear" 5 -645 50 H I C CNN "Regulator Topology"
+F10 "5V" -5 -730 50 H I C CNN "Voltage - Output"
+F11 "1A" 5 -840 50 H I C CNN "Current - Output"
+F12 "1.07V @ 800mA" 10 -945 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Up to 20V" -10 -1115 50 H I C CNN "Voltage - Input"
+F14 "1A" -10 -1195 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 100 100 60 0 0 0 TAB Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 150 0 0 0 f
+X GND 1 0 -300 100 U 50 50 1 1 I
+X Vout 2 300 0 100 L 50 50 1 1 I
+X Vin 3 -300 0 100 R 50 50 1 1 I
+X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NCS1S2405SC
+#
+DEF NCS1S2405SC U 0 40 N Y 1 F N
+F0 "U" -250 400 60 H V C CNN
+F1 "NCS1S2405SC" 0 -400 60 H V C CNN
+F2 "IC:MSOP-8-EP" 50 -1050 60 H I C CNN
+F3 "http://power.murata.com/data/power/ncl/kdc_ncs1.pdf" 50 -1150 60 H I C CNN
+F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
+F5 "811-2948-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 0 -750 60 H I C CNN "Manufacturer"
+F7 "NCS1S2405SC" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 1W" 0 -950 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X -Vin 1 -500 200 200 R 50 50 1 1 I
+X +Vin 2 -500 0 200 R 50 50 1 1 I
+X Ctrl 3 -500 -200 200 R 50 50 1 1 P
+X +Vout 6 500 -200 200 L 50 50 1 1 I
+X -Vout 7 500 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OKI-78SR-12_1.0-W36H-C
+#
+DEF OKI-78SR-12_1.0-W36H-C U 0 0 Y N 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "OKI-78SR-12_1.0-W36H-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Horizontal" 0 -2125 60 H I C CNN
+F3 "" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "811-3294-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
+F7 "OKI-78SR-12/1.0-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "DC DC CONVERTER 12V 12W" 0 -2025 60 H I C CNN "Description"
+F9 "15V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F10 "36V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F11 "12V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1A" 5 -1300 50 H I C CNN "Current - Output"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 100 0 1 0 f
+X Vin 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 I
+X Vout 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OKI-78SR-5_1.5-W36-C
+#
+DEF OKI-78SR-5_1.5-W36-C U 0 0 Y N 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "OKI-78SR-5_1.5-W36-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Vertical" 0 -2125 60 H I C CNN
+F3 "http://power.murata.com/data/power/oki-78sr.pdf" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "811-2196-5-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
+F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"
+F9 "7V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F10 "36V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F11 "5V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1.5A" 5 -1300 50 H I C CNN "Current - Output"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 100 0 1 0 f
+X Vin 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 I
+X Vout 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OKI-78SR-5_1.5-W36H-C
+#
+DEF OKI-78SR-5_1.5-W36H-C U 0 0 Y N 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "OKI-78SR-5_1.5-W36H-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Horizontal" 0 -2125 60 H I C CNN
+F3 "" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "811-2692-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
+F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"
+F9 "7V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F10 "36V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F11 "5V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1.5A" 5 -1300 50 H I C CNN "Current - Output"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 100 0 1 0 f
+X Vin 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 I
+X Vout 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PQMC3-D12-D15-S
+#
+DEF PQMC3-D12-D15-S U 0 0 Y N 1 F N
+F0 "U" 0 350 60 H V C CNN
+F1 "PQMC3-D12-D15-S" 0 -350 60 H V C CNN
+F2 "Assembly:PQMC3" 0 -2125 60 H I C CNN
+F3 "http://www.cui.com/product/resource/pqmc3-s.pdf" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "102-2825-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "CUI Inc." 0 -1825 60 H I C CNN "Manufacturer"
+F7 "PQMC3-D12-D15-S" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER +/-15V 100MA 3W" 0 -2025 60 H I C CNN "Description"
+F9 "Isolated Module" 10 -745 50 H I C CNN "Output Type"
+F10 "2" -10 -835 50 H I C CNN "Number of Outputs"
+F11 "9V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F12 "18V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F13 "15V" -10 -1085 50 H I C CNN "Voltage - Output 1"
+F14 "-15V" -5 -1185 50 H I C CNN "Voltage - Output 2"
+F15 "100mA, 100mA" 5 -1300 50 H I C CNN "Current - Output"
+DRAW
+T 0 200 200 60 0 0 0 +Vo Normal 0 C C
+T 0 200 -200 60 0 0 0 -Vo Normal 0 C C
+T 0 -200 0 60 0 0 0 Ctrl Normal 0 C C
+T 0 -200 -200 60 0 0 0 GND Normal 0 C C
+T 0 200 0 60 0 0 0 GND Normal 0 C C
+T 0 -200 200 60 0 0 0 Vin Normal 0 C C
+S -300 300 300 -300 0 0 0 f
+X GND_in 1 -400 -200 100 R 50 50 1 1 I
+X Vin 2 -400 200 100 R 50 50 1 1 I
+X Ctrl 3 -400 0 100 R 50 50 1 1 I
+X VOP 6 400 200 100 L 50 50 1 1 I
+X GND_out 7 400 0 100 L 50 50 1 1 I
+X VON 8 400 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# R1SE-0505-R
+#
+DEF R1SE-0505-R U 0 40 Y Y 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "R1SE-0505-R" 0 -400 60 H V C CNN
+F2 "IC:8-SMD" 50 -1050 60 H I C CNN
+F3 "https://www.recom-power.com/pdf/Econoline/R1SE.pdf" 50 -1150 60 H I C CNN
+F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
+F5 "945-1659-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
+F6 "Recom Power" 0 -750 60 H I C CNN "Manufacturer"
+F7 "R1SE-0505-R" 0 -850 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 1W" 0 -950 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 f
+X -Vin 1 -500 -200 200 R 50 50 1 1 I
+X +Vin 2 -500 200 200 R 50 50 1 1 I
+X -Vout 4 500 -200 200 L 50 50 1 1 I
+X +Vout 5 500 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Shunt_Regulator_SYMBOL
+#
+DEF Shunt_Regulator_SYMBOL U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "Shunt_Regulator_SYMBOL" -10 -300 60 H V C CNN
+F2 "F" 10 -1390 60 H I C CNN
+F3 "D" 10 -1490 60 H I C CNN
+F4 "Supplier" 10 -890 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1290 60 H I C CNN "Description"
+F9 "Reference Type" 0 -400 50 H I C CNN "Reference Type"
+F10 "Output Type" 0 -480 50 H I C CNN "Output Type"
+F11 "Voltage - Output (Min/Fixed)" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "Voltage - Output (Max)" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "Tolerance" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "Current - Output" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 f
+X Cathode 1 0 200 105 D 50 50 1 1 I
+X Anode 2 0 -200 100 U 50 50 1 1 I
+X Vref ~ -100 0 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TEN_87211WI
+#
+DEF TEN_87211WI U 0 0 Y N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "TEN_87211WI" 0 -500 60 H V C CNN
+F2 "IC:TEN_8WI" 0 -1875 60 H I C CNN
+F3 "https://www.tracopower.com/products/ten8wi.pdf" 0 -1975 60 H I C CNN
+F4 "Digikey" 0 -1375 60 H I C CNN "Supplier"
+F5 "1951-2576-ND" 0 -1475 60 H I C CNN "Supplier Part Number"
+F6 "Traco Power" 0 -1575 60 H I C CNN "Manufacturer"
+F7 "TEN_87211WI" 0 -1675 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 5V 1.6A 43V - 160V Input" 0 -1775 60 H I C CNN "Description"
+F9 "43V" -10 -665 50 H I C CNN "Voltage - Input (Min)"
+F10 "160V" -10 -745 50 H I C CNN "Voltage - Input (Max)"
+F11 "5V" -10 -835 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1.6A" 5 -1050 50 H I C CNN "Current - Output"
+DRAW
+T 0 -300 50 60 0 0 0 +Vin Normal 0 C C
+T 0 -300 150 60 0 0 0 +Vin Normal 0 C C
+T 0 200 100 60 0 0 0 +Vout Normal 0 C C
+T 0 -300 -350 60 0 0 0 -Vin Normal 0 C C
+T 0 -300 -250 60 0 0 0 -Vin Normal 0 C C
+T 0 200 -300 60 0 0 0 -Vout Normal 0 C C
+T 0 -250 -100 60 0 0 0 On/Off Normal 0 C C
+S 350 -400 -400 200 0 1 0 f
+X Remote_On/Off 1 -500 -100 100 R 50 50 1 1 I
+X NC 11 200 300 100 D 50 50 1 1 O
+X +Vout 14 450 100 100 L 50 50 1 1 I
+X -Vout 16 450 -300 100 L 50 50 1 1 I
+X -Vin_(GND) 2 -500 -250 100 R 50 50 1 1 I
+X +Vin_(VCC) 22 -500 150 100 R 50 50 1 1 I
+X +Vin_(VCC) 23 -500 50 100 R 50 50 1 1 I
+X -Vin_(GND) 3 -500 -350 100 R 50 50 1 1 I
+X NC 9 -250 300 100 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# TEN_87212WI
+#
+DEF TEN_87212WI U 0 0 Y N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "TEN_87212WI" 0 -500 60 H V C CNN
+F2 "IC:TEN_8WI" 0 -1575 60 H I C CNN
+F3 "https://www.tracopower.com/products/ten8wi.pdf" 0 -1675 60 H I C CNN
+F4 "Digikey" 0 -1075 60 H I C CNN "Supplier"
+F5 "1951-2081-ND" 0 -1175 60 H I C CNN "Supplier Part Number"
+F6 "Traco Power" 0 -1275 60 H I C CNN "Manufacturer"
+F7 "TEN_87212WI" 0 -1375 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 12V 0.67A 43V - 160V Input" 0 -1475 60 H I C CNN "Description"
+F9 "43V" -10 -665 50 H I C CNN "Voltage - Input (Min)"
+F10 "160V" -10 -745 50 H I C CNN "Voltage - Input (Max)"
+F11 "12V" -10 -835 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "0.67A" 0 -950 50 H I C CNN "Current - Output"
+DRAW
+T 0 -300 50 60 0 0 0 +Vin Normal 0 C C
+T 0 -300 150 60 0 0 0 +Vin Normal 0 C C
+T 0 200 100 60 0 0 0 +Vout Normal 0 C C
+T 0 -300 -350 60 0 0 0 -Vin Normal 0 C C
+T 0 -300 -250 60 0 0 0 -Vin Normal 0 C C
+T 0 200 -300 60 0 0 0 -Vout Normal 0 C C
+T 0 -250 -100 60 0 0 0 On/Off Normal 0 C C
+S 350 -400 -400 200 0 1 0 f
+X Remote_On/Off 1 -500 -100 100 R 50 50 1 1 I
+X NC 11 200 300 100 D 50 50 1 1 O
+X +Vout 14 450 100 100 L 50 50 1 1 I
+X -Vout 16 450 -300 100 L 50 50 1 1 I
+X -Vin_(GND) 2 -500 -250 100 R 50 50 1 1 I
+X +Vin_(VCC) 22 -500 150 100 R 50 50 1 1 I
+X +Vin_(VCC) 23 -500 50 100 R 50 50 1 1 I
+X -Vin_(GND) 3 -500 -350 100 R 50 50 1 1 I
+X NC 9 -250 300 100 D 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# TL431AIDBZR
+#
+DEF TL431AIDBZR U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "TL431AIDBZR" -10 -300 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1390 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl431a.pdf" 10 -1490 60 H I C CNN
+F4 "Digikey" 10 -890 60 H I C CNN "Supplier"
+F5 "296-17329-1-ND" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "TL431AIDBZR" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "IC VREF SHUNT ADJ SOT23-3" 10 -1290 60 H I C CNN "Description"
+F9 "Shunt" 0 -400 50 H I C CNN "Reference Type"
+F10 "Adjustable" 0 -480 50 H I C CNN "Output Type"
+F11 "2.495V" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "36V" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "±1%" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "100mA" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 f
+X Cathode 1 0 200 105 D 50 50 1 1 I
+X Vref 2 -100 0 50 R 50 50 1 1 I
+X Anode 3 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TMR_3-7212WIR
+#
+DEF TMR_3-7212WIR U 0 0 Y N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "TMR_3-7212WIR" 0 -500 60 H V C CNN
+F2 "IC:Traco_TMR_DCDC" 0 -1875 60 H I C CNN
+F3 "https://www.tracopower.com/products/tmr3wir.pdf" 0 -1975 60 H I C CNN
+F4 "Digikey" 0 -1375 60 H I C CNN "Supplier"
+F5 "1951-2006-ND" 0 -1475 60 H I C CNN "Supplier Part Number"
+F6 "Traco Power" 0 -1575 60 H I C CNN "Manufacturer"
+F7 "TMR 3-7212WIR" 0 -1675 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 12V 250mA 43V - 160V Input" 0 -1775 60 H I C CNN "Description"
+F9 "43V" -10 -665 50 H I C CNN "Voltage - Input (Min)"
+F10 "160V" -10 -745 50 H I C CNN "Voltage - Input (Max)"
+F11 "12V" -10 -835 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "0.25A" 5 -1050 50 H I C CNN "Current - Output"
+DRAW
+T 0 -300 0 60 0 0 0 +Vin Normal 0 C C
+T 0 200 -150 60 0 0 0 +Vout Normal 0 C C
+T 0 -300 150 60 0 0 0 -Vin Normal 0 C C
+T 0 200 0 60 0 0 0 -Vout Normal 0 C C
+T 0 250 150 60 0 0 0 NC Normal 0 C C
+T 0 -250 -150 60 0 0 0 On/Off Normal 0 C C
+S 350 -200 -400 200 0 1 0 f
+X -Vin 1 -500 150 100 R 50 50 1 1 I
+X Vin 10 250 -300 100 U 50 50 1 1 I
+X GND 2 -500 0 100 R 50 50 1 1 I
+X Vout 3 -500 -150 100 R 50 50 1 1 I
+X Vin 6 450 -150 100 L 50 50 1 1 I
+X Vin 7 450 0 100 L 50 50 1 1 I
+X Vin 8 450 150 100 L 50 50 1 1 I
+X Vin 9 -300 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V110B24C150BL
+#
+DEF V110B24C150BL U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "V110B24C150BL" 0 -800 60 H I C CNN
+F2 "IC:Vicor_Mini" 0 -1400 60 H I C CNN
+F3 "" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "1102-1217-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "V110B24C150BL" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 24V 6.25A 66V - 154V Input" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 -350 -600 200 U 50 50 1 1 I
+X S 11 0 -600 200 U 50 50 1 1 I
+X S 12 350 -600 200 U 50 50 1 1 I
+X S 13 350 600 200 D 50 50 1 1 I
+X S 14 0 600 200 D 50 50 1 1 I
+X S 15 -350 600 200 D 50 50 1 1 I
+X PC 2 -800 100 200 R 50 50 1 1 I
+X PR 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X -S 6 800 -150 200 L 50 50 1 1 I
+X SC 7 800 0 200 L 50 50 1 1 I
+X +S 8 800 150 200 L 50 50 1 1 I
+X +Out 9 800 250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V110B24C200BL
+#
+DEF V110B24C200BL U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "V110B24C200BL" 0 -800 60 H I C CNN
+F2 "IC:Vicor_Mini" 0 -1400 60 H I C CNN
+F3 "http://cdn.vicorpower.com/documents/datasheets/ds_110vin-mini-family.pdf" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "1102-1218-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "V110B24C200BL" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 24V 8.33A 66V - 154V Input" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 -350 -600 200 U 50 50 1 1 I
+X S 11 0 -600 200 U 50 50 1 1 I
+X S 12 350 -600 200 U 50 50 1 1 I
+X S 13 350 600 200 D 50 50 1 1 I
+X S 14 0 600 200 D 50 50 1 1 I
+X S 15 -350 600 200 D 50 50 1 1 I
+X PC 2 -800 100 200 R 50 50 1 1 I
+X PR 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X -S 6 800 -150 200 L 50 50 1 1 I
+X SC 7 800 0 200 L 50 50 1 1 I
+X +S 8 800 150 200 L 50 50 1 1 I
+X +Out 9 800 250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V110C12C100BL
+#
+DEF V110C12C100BL U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "V110C12C100BL" 0 -800 60 H I C CNN
+F2 "IC:Vicor_Micro" 0 -1400 60 H I C CNN
+F3 "http://cdn.vicorpower.com/documents/datasheets/ds_110vin-micro-family.pdf" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "1102-1222-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "V110C12C100BL" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 12V 8.33A 66V - 154V Input" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 350 -600 200 U 50 50 1 1 I
+X S 11 350 600 200 D 50 50 1 1 I
+X S 12 0 600 200 D 50 50 1 1 I
+X S 13 -350 600 200 D 50 50 1 1 I
+X PC 2 -800 100 200 R 50 50 1 1 I
+X PR 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X SC 6 800 0 200 L 50 50 1 1 I
+X +Out 7 800 250 200 L 50 50 1 1 I
+X S 8 -350 -600 200 U 50 50 1 1 I
+X S 9 0 -600 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V150C12T150BL
+#
+DEF V150C12T150BL U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "V150C12T150BL" 0 -800 60 H I C CNN
+F2 "IC:Vicor_Micro" 0 -1400 60 H I C CNN
+F3 "http://cdn.vicorpower.com/documents/datasheets/ds_150vin-micro-family.pdf" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "V150C12T150BL-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "V150C12T150BL2" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "CONVERTER MOD DC/DC 12V 150W" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 350 -600 200 U 50 50 1 1 I
+X S 11 350 600 200 D 50 50 1 1 I
+X S 12 0 600 200 D 50 50 1 1 I
+X S 13 -350 600 200 D 50 50 1 1 I
+X PC 2 -800 100 200 R 50 50 1 1 I
+X PR 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X SC 6 800 0 200 L 50 50 1 1 I
+X +Out 7 800 250 200 L 50 50 1 1 I
+X S 8 -350 -600 200 U 50 50 1 1 I
+X S 9 0 -600 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V150C24T150BL
+#
+DEF V150C24T150BL U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "V150C24T150BL" 0 -800 60 H I C CNN
+F2 "IC:Vicor_Micro" 0 -1400 60 H I C CNN
+F3 "http://cdn.vicorpower.com/documents/datasheets/ds_150vin-micro-family.pdf" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "V150C24T150BL-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "V150C24T150BL" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "CONVERTER MOD DC/DC 24V 150W" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 350 -600 200 U 50 50 1 1 I
+X S 10 350 600 200 D 50 50 1 1 I
+X PC 2 -800 100 200 R 50 50 1 1 I
+X PR 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X SC 6 800 0 200 L 50 50 1 1 I
+X +Out 7 800 250 200 L 50 50 1 1 I
+X S 8 -350 -600 200 U 50 50 1 1 I
+X S 8 -350 600 200 D 50 50 1 1 I
+X S 9 0 -600 200 U 50 50 1 1 I
+X S 9 0 600 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# VI-2T1-CV
+#
+DEF VI-2T1-CV U 0 40 Y Y 1 F N
+F0 "U" 0 800 60 H V C CNN
+F1 "VI-2T1-CV" 0 -800 60 H I C CNN
+F2 "IC:Vicor_VI-200" 0 -1400 60 H I C CNN
+F3 "http://www.vicorpower.com/documents/datasheets/ds_vi-200.pdf" 50 -1500 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "VI-2T1-CV-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Vicor Corporation" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "VI-2T1-CV" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "Isolated Module DC DC Converter 1 Output 12V 12.5A 66V - 160V Input" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -600 400 600 -400 0 1 0 N
+X +In 1 -800 250 200 R 50 50 1 1 I
+X S 10 -350 -600 200 U 50 50 1 1 I
+X S 11 0 -600 200 U 50 50 1 1 I
+X S 12 350 -600 200 U 50 50 1 1 I
+X S 13 350 600 200 D 50 50 1 1 I
+X S 14 0 600 200 D 50 50 1 1 I
+X S 15 -350 600 200 D 50 50 1 1 I
+X GATE_IN 2 -800 100 200 R 50 50 1 1 I
+X GATE_OUT 3 -800 -100 200 R 50 50 1 1 I
+X -In 4 -800 -250 200 R 50 50 1 1 I
+X -Out 5 800 -250 200 L 50 50 1 1 I
+X -S 6 800 -150 200 L 50 50 1 1 I
+X TRIM 7 800 0 200 L 50 50 1 1 I
+X +S 8 800 150 200 L 50 50 1 1 I
+X +Out 9 800 250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# VNB14NV04TR-E
+#
+DEF VNB14NV04TR-E Load_switch 0 0 Y N 1 F N
+F0 "Load_switch" -50 200 60 H V C CNN
+F1 "VNB14NV04TR-E" 0 -400 60 H V C CNN
+F2 "Power Switch/Driver 1:1 N-Channel 12A D2PAK" 0 -1005 60 H I C CNN
+F3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/db/29/23/c8/33/5e/41/50/CD00002219.pdf/files/CD00002219.pdf/jcr:content/translations/en.CD00002219.pdf" 0 -1105 60 H I C CNN
+F4 "Digikey" 0 -505 60 H I C CNN "Supplier"
+F5 "497-18893-1-ND" 0 -605 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 0 -705 60 H I C CNN "Manufacturer"
+F7 "IC PWR DRIVER N-CHAN 1:1 D2PAK" 0 -905 60 H I C CNN "Description"
+DRAW
+T 0 50 50 60 0 0 0 Drain Normal 0 C C
+T 0 40 -200 60 0 0 0 Source Normal 0 C C
+T 0 -270 -50 60 0 0 0 Vin Normal 0 C C
+S -350 -300 200 150 0 0 0 f
+X Vin 1 -450 -50 100 R 50 50 1 1 I
+X Vout_(TAB) 2 300 50 100 L 50 50 1 1 I
+X Vout 3 300 -200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Voltage_Reference_INFO
+#
+DEF Voltage_Reference_INFO U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "Voltage_Reference_INFO" -10 -300 60 H V C CNN
+F2 "F" 10 -1390 60 H I C CNN
+F3 "D" 10 -1490 60 H I C CNN
+F4 "Supplier" 10 -890 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1290 60 H I C CNN "Description"
+F9 "Reference Type" 0 -400 50 H I C CNN "Reference Type"
+F10 "Output Type" 0 -480 50 H I C CNN "Output Type"
+F11 "Voltage - Output (Min/Fixed)" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "Voltage - Output (Max)" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "Tolerance" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "Current - Output" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# Voltage_Regulators-Linear_INFO
+#
+DEF Voltage_Regulators-Linear_INFO U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "Voltage_Regulators-Linear_INFO" -10 -300 60 H V C CNN
+F2 "F" 0 -1605 60 H I C CNN
+F3 "D" 0 -1705 60 H I C CNN
+F4 "Supplier" 0 -1105 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -1205 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -1305 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -1405 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -1505 60 H I C CNN "Description"
+F9 "Regulator Topology" 5 -445 50 H I C CNN "Regulator Topology"
+F10 "Voltage - Output" -5 -530 50 H I C CNN "Voltage - Output"
+F11 "Current - Output" 5 -640 50 H I C CNN "Current - Output"
+F12 "Voltage - Dropout (Typical)" 10 -745 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Number of Regulators" -10 -835 50 H I C CNN "Number of Regulators"
+F14 "Voltage - Input" -10 -915 50 H I C CNN "Voltage - Input"
+F15 "Current - Limit (Min)" -10 -995 50 H I C CNN "Current - Limit (Min)"
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,1250 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 150060BS75000
+#
+DEF 150060BS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150060BS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0603" 10 -1080 60 H I C CNN
+F3 "" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4966-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150060BS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED BLUE CLEAR 0603 SMD" 10 -980 60 H I C CNN "Description"
+F9 "BLUE" 0 -300 60 H I C CNN "Color"
+F10 "3.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150060GS75000
+#
+DEF 150060GS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150060GS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0603" 10 -1080 60 H I C CNN
+F3 "" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4971-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150060GS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN CLEAR 0603 SMD" 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
+F10 "3.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150060RS75000
+#
+DEF 150060RS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150060RS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0603" 10 -1080 60 H I C CNN
+F3 "" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4978-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150060RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED CLEAR 0603 SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150060YS75000
+#
+DEF 150060YS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150060YS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0603" 10 -1080 60 H I C CNN
+F3 "" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4981-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150060YS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW CLEAR 0603 SMD" 10 -980 60 H I C CNN "Description"
+F9 "YELLOW" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080BS75000
+#
+DEF 150080BS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080BS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_BLUE" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4982-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080BS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED BLUE CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "BLUE" 0 -300 60 H I C CNN "Color"
+F10 "3.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080RS75000
+#
+DEF 150080RS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080RS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_RED" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4984-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080VS75000
+#
+DEF 150080VS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080VS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_GREEN" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4986-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080VS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080YS75000
+#
+DEF 150080YS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080YS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_YELLOW" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4987-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080YS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "YELLOW" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150353RS74500
+#
+DEF 150353RS74500 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150353RS74500" 0 -200 60 H I C CNN
+F2 "Diodes:D_WL-SMDC" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.com/led/datasheet/150353RS74500.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-10351-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150353RS74500" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED 625NM SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H V C CNN "Color"
+F10 "2.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 3 0 1 0 -100 100 -50 100 -50 24 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+X pad 3 -200 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150353YS74500
+#
+DEF 150353YS74500 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150353YS74500" 0 -200 60 H I C CNN
+F2 "Diodes:D_WL-SMDC" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.com/led/datasheet/150353YS74500.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-10352-2-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150353YS74500" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW 590NM SMD" 10 -980 60 H I C CNN "Description"
+F9 "AMBER" 0 -300 60 H V C CNN "Color"
+F10 "2.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 0 -100 100 -100 100 N
+P 2 0 1 0 -100 100 -100 100 N
+P 2 0 1 0 -50 50 -50 25 N
+P 2 0 1 15 0 -50 0 50 N
+P 3 0 1 0 -100 100 -50 100 -50 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+X pad 3 -200 100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 30BQ200TR
+#
+DEF 30BQ200TR D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V L CNN
+F1 "30BQ200TR" -200 -150 60 H V L CNN
+F2 "Diodes:Diode_0805" -20 -800 60 H I C CNN
+F3 "" -20 -900 60 H I C CNN
+F4 "Digikey" -20 -300 60 H I C CNN "Supplier"
+F5 "1655-1391-1-ND" -20 -400 60 H I C CNN "Supplier Part Number"
+F6 "SMC Diode Solutions" -20 -500 60 H I C CNN "Manufacturer"
+F7 "30BQ200TR" -20 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V  Surface Mount SMC (DO-214AB)" -20 -700 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 50 -60 25 -60 25 -40 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+P 4 0 1 10 50 -60 50 60 75 60 75 40 N
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 8240026
+#
+DEF 8240026 D 0 0 N N 1 F N
+F0 "D" -50 250 60 H V C CNN
+F1 "8240026" 25 -475 60 H V C CNN
+F2 "Diodes:SOT-143-4" -25 -1095 60 H I C CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/8240026.pdf" -25 -1195 60 H I C CNN
+F4 "Digikey" -25 -595 60 H I C CNN "Supplier"
+F5 "732-4470-1-ND" -25 -695 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -25 -795 60 H I C CNN "Manufacturer"
+F7 "8240026" -25 -895 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 5V 9V SOT143-4" -25 -995 60 H I C CNN "Description"
+DRAW
+C -150 -150 9 1 1 0 F
+C -150 50 9 1 1 0 F
+C -25 -250 9 1 1 0 F
+C 25 -150 9 1 1 0 F
+C 150 -150 9 1 1 0 F
+C 150 50 9 1 1 0 F
+S -200 200 200 -400 0 1 0 f
+P 2 0 1 0 -150 -250 -150 50 N
+P 2 0 1 0 -100 -250 -150 -250 N
+P 2 0 1 0 -100 -175 -100 -125 N
+P 2 0 1 0 -100 -150 -150 -150 N
+P 2 0 1 0 -100 -125 -50 -150 N
+P 2 0 1 0 -50 -250 -25 -250 N
+P 2 0 1 0 -50 -175 -50 -125 N
+P 2 0 1 0 -50 -150 -100 -175 N
+P 2 0 1 0 -50 50 -200 50 N
+P 2 0 1 0 -25 -250 50 -250 N
+P 2 0 1 0 25 -200 200 -200 N
+P 2 0 1 0 25 -150 25 -200 N
+P 2 0 1 0 50 -150 -50 -150 N
+P 2 0 1 15 50 0 50 100 N
+P 2 0 1 15 50 0 75 0 N
+P 2 0 1 0 50 50 200 50 N
+P 2 0 1 15 50 100 25 100 N
+P 2 0 1 0 100 -150 150 -150 N
+P 3 0 1 0 -25 -250 -25 -200 -200 -200 N
+P 3 0 1 0 100 -250 150 -250 150 50 N
+P 4 0 1 10 -50 100 -50 0 50 50 -50 100 f
+P 2 1 1 0 -100 -275 -100 -225 N
+P 2 1 1 0 -100 -225 -50 -250 N
+P 2 1 1 0 -50 -275 -50 -225 N
+P 2 1 1 0 -50 -250 -100 -275 N
+P 2 1 1 0 50 -275 50 -225 N
+P 2 1 1 0 50 -225 100 -250 N
+P 2 1 1 0 50 -175 50 -125 N
+P 2 1 1 0 50 -125 100 -150 N
+P 2 1 1 0 100 -275 100 -225 N
+P 2 1 1 0 100 -250 50 -275 N
+P 2 1 1 0 100 -175 100 -125 N
+P 2 1 1 0 100 -150 50 -175 N
+X GND 1 -300 50 100 R 50 50 1 1 I
+X I/O_1 2 -300 -200 100 R 50 50 1 1 I
+X I/O_2 3 300 -200 100 L 50 50 1 1 I
+X VDD 4 300 50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# B240AQ-13-F
+#
+DEF B240AQ-13-F D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "B240AQ-13-F" -50 -150 60 H V C CNN
+F2 "Diodes:DO-214AC_SMA" 0 -1020 60 H I C CNN
+F3 "" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "B240AQ-13-FDICT-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Diode Incorporated" 0 -720 60 H I C CNN "Manufacturer"
+F7 "B240AQ-13-F" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 40V 2A SMA" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Bridge_Rectifier
+#
+DEF Bridge_Rectifier BR 0 0 N N 1 F N
+F0 "BR" -250 330 60 H V C CNN
+F1 "Bridge_Rectifier" 0 -500 60 H V C CNN
+F2 "F" 10 -1380 60 H I C CNN
+F3 "D" 10 -1480 60 H I C CNN
+F4 "Supplier" 10 -880 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -980 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -1080 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -1180 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1280 60 H I C CNN "Description"
+DRAW
+P 2 0 1 10 -145 -225 -75 -155 N
+P 2 0 1 10 -75 155 -145 225 N
+P 2 0 1 10 150 80 220 150 N
+P 2 0 1 10 220 -150 150 -80 N
+P 4 0 1 10 -145 85 -215 155 -110 190 -145 85 F
+P 4 0 1 10 -110 -190 -215 -155 -145 -85 -110 -190 F
+P 4 0 1 10 150 -220 80 -150 185 -115 150 -220 F
+P 4 0 1 10 185 115 80 150 150 220 185 115 F
+P 5 0 1 0 0 -300 300 0 0 300 -300 0 0 -300 N
+X + ~ 300 0 0 D 50 50 1 1 I
+X - ~ -300 0 0 D 50 50 1 1 I
+X AC ~ 0 -300 0 U 50 50 1 1 I
+X AC ~ 0 300 0 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C3D04060A
+#
+DEF C3D04060A D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "C3D04060A" -50 -150 60 H V C CNN
+F2 "Diodes:TO-220-2-D" 0 -1020 60 H I C CNN
+F3 "http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "C3D04060A-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Cree/Wolfspeed" 0 -720 60 H I C CNN "Manufacturer"
+F7 "C3D04060A" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 600V 4A TO220-2" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CDBZ310200H-HF
+#
+DEF CDBZ310200H-HF D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "CDBZ310200H-HF" 0 -150 60 H V C CNN
+F2 "Diodes:TO-277(Z3)" -20 -1000 60 H I C CNN
+F3 "http://www.comchiptech.com/cms/UserFiles/CDBZ310200H-HF RevA.pdf" -20 -1100 60 H I C CNN
+F4 "Digikey" -20 -500 60 H I C CNN "Supplier"
+F5 "641-1495-6-ND" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "Comchip Technology" -20 -700 60 H I C CNN "Manufacturer"
+F7 "CDBZ310200H-HF" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 10A TO277" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 50 100 R 50 50 1 1 P
+X Anode2 3 -200 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CDBZ320200-HF
+#
+DEF CDBZ320200-HF D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "CDBZ320200-HF" 0 -150 60 H V C CNN
+F2 "Diodes:TO-277(Z3)" -20 -1000 60 H I C CNN
+F3 "http://www.comchiptech.com/admin/files/product/CDBZ320200-HF%20%20RevA.pdf" -20 -1100 60 H I C CNN
+F4 "Digikey" -20 -500 60 H I C CNN "Supplier"
+F5 "641-1498-1-ND" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "Comchip Technology" -20 -700 60 H I C CNN "Manufacturer"
+F7 "CDBZ320200-HF" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 20A TO277" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 50 100 R 50 50 1 1 P
+X Anode2 3 -200 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D1213A
+#
+DEF D1213A Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V L CNN
+F1 "D1213A" -150 -150 60 H V L CNN
+F2 "Diodes:DO-214AA_SMB" 0 -870 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds32185.pdf" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "D1213A-01SO-7DICT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -570 60 H I C CNN "Manufacturer"
+F7 "D1213A-01SO-7" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 3.3VWM 10VC SOT23" 0 -770 60 H I C CNN "Description"
+F9 "3.3V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 50 -55 20 -55 N
+P 3 0 1 15 50 -55 50 55 80 55 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# D1213A-02SOL-7
+#
+DEF D1213A-02SOL-7 D 0 0 Y N 1 F N
+F0 "D" 0 200 60 H V C CNN
+F1 "D1213A-02SOL-7" 0 -250 60 H V C CNN
+F2 "IC:SOT-23-3" 0 -1020 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "D1213A-02SOL-7DICT-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -720 60 H I C CNN "Manufacturer"
+F7 "D1213A-02SOL-7" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 3.3VWM 10VC SOT23" 0 -920 60 H I C CNN "Description"
+DRAW
+S -200 -150 200 150 0 1 0 f
+P 2 0 1 0 -140 0 -30 0 N
+P 2 0 1 0 -100 -90 -100 -50 N
+P 2 0 1 0 -100 40 -100 80 N
+P 2 0 1 0 -50 -70 50 -70 N
+P 2 0 1 0 -50 60 50 60 N
+P 2 0 1 0 -30 -20 -50 -40 N
+P 2 0 1 0 -30 -20 -30 20 N
+P 2 0 1 0 -30 20 -10 40 N
+P 2 0 1 0 20 0 140 0 N
+P 2 0 1 0 50 -90 50 -50 N
+P 2 0 1 0 50 40 50 80 N
+P 2 0 1 0 140 0 200 0 N
+P 3 0 1 0 -200 -100 0 -100 0 -70 N
+P 3 0 1 0 -200 100 0 100 0 60 N
+P 3 0 1 0 -140 0 -140 -70 -100 -70 N
+P 3 0 1 0 -140 0 -140 60 -100 60 N
+P 3 0 1 0 100 -70 130 -70 130 0 N
+P 3 0 1 0 100 60 140 60 140 0 N
+P 4 1 1 0 -50 -50 -50 -90 -100 -70 -50 -50 N
+P 4 1 1 0 -50 80 -50 40 -100 60 -50 80 N
+P 4 1 1 0 20 20 20 -20 -30 0 20 20 N
+P 4 1 1 0 100 -50 100 -90 50 -70 100 -50 N
+P 4 1 1 0 100 80 100 40 50 60 100 80 N
+X CH1 1 -300 100 100 R 50 50 1 1 I
+X CH2 2 -300 -100 100 R 50 50 1 1 I
+X GND 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Diode
+#
+DEF Diode D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Diode" -50 -150 60 H V C CNN
+F2 "F" 0 -1020 60 H I C CNN
+F3 "D" 0 -1120 60 H I C CNN
+F4 "Supplier" 0 -520 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -720 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# LED
+#
+DEF LED D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "LED" 0 -200 60 H V C CNN
+F2 "F" 10 -1080 60 H I C CNN
+F3 "D" 10 -1180 60 H I C CNN
+F4 "Supplier" 10 -580 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -780 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -980 60 H I C CNN "Description"
+F9 "C" 0 -300 60 H I C CNN "Color"
+F10 "Voltage - Forward (Vf) (Typ)" 0 -1250 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MMBZ12VALT1G
+#
+DEF MMBZ12VALT1G D 0 0 N N 2 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "MMBZ12VALT1G" 0 -150 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1190 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" 10 -1290 60 H I C CNN
+F4 "Digikey" 10 -690 60 H I C CNN "Supplier"
+F5 "MMBZ12VALT1GOSCT-ND" 10 -790 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" 10 -890 60 H I C CNN "Manufacturer"
+F7 "MMBZ12VALT1G" 10 -990 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 8.5VWM 17VC SOT23" 10 -1090 60 H I C CNN "Description"
+F9 "11.4V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 10 0 -55 35 -70 N
+P 3 0 1 10 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 3 -200 0 100 R 50 50 1 1 P
+X Cathode 2 100 0 100 L 50 50 2 1 I
+X Anode 3 -200 0 100 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# MMSZ5244ET1G
+#
+DEF MMSZ5244ET1G Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V L CNN
+F1 "MMSZ5244ET1G" -150 -150 60 H V L CNN
+F2 "Diodes:SOD-123FL" 0 -870 60 H I C CNN
+F3 "" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "MMSZ5244ET1GOSCT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "onsemi" 0 -570 60 H I C CNN "Manufacturer"
+F7 "MMSZ5244ET1G" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "ZENER DIODE 14V SOD-123" 0 -770 60 H I C CNN "Description"
+F9 "14V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 50 -55 20 -55 N
+P 3 0 1 15 50 -55 50 55 80 55 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MMSZ5245B-TP
+#
+DEF MMSZ5245B-TP Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "MMSZ5245B-TP" 0 -150 60 H V C CNN
+F2 "Diodes:SOD123" 0 -870 60 H I C CNN
+F3 "http://www.mccsemi.com/up_pdf/MMSZ5221-MMSZ5267(SOD123)-J.pdf" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "MMSZ5245B-TPMSCT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -570 60 H I C CNN "Manufacturer"
+F7 "MMSZ5245B-TP" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE ZENER 15V 500MW SOD123" 0 -770 60 H I C CNN "Description"
+F9 "15V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NRVBS3200T3G
+#
+DEF NRVBS3200T3G D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "NRVBS3200T3G" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" -20 -1000 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/MBRS3200T3-D.PDF" -20 -1100 60 H I C CNN
+F4 "Digikey" -20 -500 60 H I C CNN "Supplier"
+F5 "NRVBS3200T3GOSCT-ND" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" -20 -700 60 H I C CNN "Manufacturer"
+F7 "NRVBS3200T3G" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 3A SMB" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NSR0530HT1G
+#
+DEF NSR0530HT1G D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "NSR0530HT1G" 0 -150 60 H V C CNN
+F2 "Diodes:SOD-323" -20 -1000 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF" -20 -1100 60 H I C CNN
+F4 "Digikey" -20 -500 60 H I C CNN "Supplier"
+F5 "NSR0530HT1GOSCT-ND" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" -20 -700 60 H I C CNN "Manufacturer"
+F7 "NSR0530HT1G" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 30V 500MA SOD323" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# P4SMAJ13ADF-13
+#
+DEF P4SMAJ13ADF-13 Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "P4SMAJ13ADF-13" 0 -150 60 H V C CNN
+F2 "Diodes:D-FLAT" 0 -870 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "P4SMAJ13ADF-13DICT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -570 60 H I C CNN "Manufacturer"
+F7 "P4SMAJ13ADF-13" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 13VWM 21.5VC DFLAT" 0 -770 60 H I C CNN "Description"
+F9 "13V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# P4SMAJ26ADF-13
+#
+DEF P4SMAJ26ADF-13 Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "P4SMAJ26ADF-13" 0 -150 60 H V C CNN
+F2 "Diodes:D-FLAT" 0 -870 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/P4SMAJ50ADF_P4SMAJ85ADF.pdf" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "P4SMAJ26ADF-13DICT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -570 60 H I C CNN "Manufacturer"
+F7 "P4SMAJ26ADF-13" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 26VWM 42.1VC DFLAT" 0 -770 60 H I C CNN "Description"
+F9 "26V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PMEG045T100EPDZ
+#
+DEF PMEG045T100EPDZ D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "PMEG045T100EPDZ" -50 -150 60 H V C CNN
+F2 "Diodes:TO-277(Z3)" 0 -820 60 H I C CNN
+F3 "" 0 -920 60 H I C CNN
+F4 "Digikey" 0 -320 60 H I C CNN "Supplier"
+F5 "1727-8326-1-ND" 0 -420 60 H I C CNN "Supplier Part Number"
+F6 "Nexperia USA Inc." 0 -520 60 H I C CNN "Manufacturer"
+F7 "PMEG045T100EPDZ" 0 -620 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 45V 10A" 0 -720 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 -25 100 R 50 50 1 1 P
+X Anode 2 -200 25 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PMEG3005AEA,115
+#
+DEF PMEG3005AEA,115 D 0 40 Y N 1 F N
+F0 "D" 0 0 60 H V C CNN
+F1 "PMEG3005AEA,115" 0 -250 60 H V C CNN
+F2 "Diodes:SOD-323" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 3 1 1 10 50 -160 25 -160 25 -140 N
+P 4 1 1 10 -50 -50 -50 -150 50 -100 -50 -50 f
+P 4 1 1 10 50 -160 50 -40 75 -40 75 -60 N
+X Cathode 1 150 -100 100 L 50 50 1 1 I
+X Anode 2 -150 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RBR3MM40BTFTR
+#
+DEF RBR3MM40BTFTR D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V L CNN
+F1 "RBR3MM40BTFTR" -350 -150 60 H V L CNN
+F2 "Diodes:SOD-123FL" -20 -800 60 H I C CNN
+F3 "" -20 -900 60 H I C CNN
+F4 "Digikey" -20 -300 60 H I C CNN "Supplier"
+F5 "RBR3MM40BTFCT-ND" -20 -400 60 H I C CNN "Supplier Part Number"
+F6 "Rohm Semiconductor" -20 -500 60 H I C CNN "Manufacturer"
+F7 "RBR3MM40BTFTR" -20 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 40V 3A SOD-123F" -20 -700 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 50 -60 25 -60 25 -40 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+P 4 0 1 10 50 -60 50 60 75 60 75 40 N
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# S1KB-13-F
+#
+DEF S1KB-13-F D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "S1KB-13-F" -50 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" 0 -770 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" 0 -870 60 H I C CNN
+F4 "Digikey" 0 -270 60 H I C CNN "Supplier"
+F5 "S1KB-13-F" 0 -370 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -470 60 H I C CNN "Manufacturer"
+F7 "S1KB-13-F" 0 -570 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE GEN PURP 800V 1A SMB" 0 -670 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SD0805_copy
+#
+DEF SD0805_copy D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V L CNN
+F1 "SD0805_copy" -200 -150 60 H V L CNN
+F2 "Diodes:Diode_0805" -20 -800 60 H I C CNN
+F3 "http://datasheets.avx.com/schottky.pdf" -20 -900 60 H I C CNN
+F4 "Digikey" -20 -300 60 H I C CNN "Supplier"
+F5 "478-7800-1-ND" -20 -400 60 H I C CNN "Supplier Part Number"
+F6 "AVX Corporation" -20 -500 60 H I C CNN "Manufacturer"
+F7 "SD0805S020S1R0" -20 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 20V 1A 0805" -20 -700 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 50 -60 25 -60 25 -40 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+P 4 0 1 10 50 -60 50 60 75 60 75 40 N
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SK3200B-LTP
+#
+DEF SK3200B-LTP D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SK3200B-LTP" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" -20 -850 60 H I C CNN
+F3 "" -20 -950 60 H I C CNN
+F4 "Digikey" -20 -350 60 H I C CNN "Supplier"
+F5 "SK3200B-LTPMSCT-ND" -20 -450 60 H I C CNN "Supplier Part Number"
+F6 "Micro Commercial Co" -20 -550 60 H I C CNN "Manufacturer"
+F7 "SK3200B-LTP" -20 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 3A SMB" -20 -750 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SK320ATR
+#
+DEF SK320ATR D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SK320ATR" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" -20 -850 60 H I C CNN
+F3 "" -20 -950 60 H I C CNN
+F4 "Digikey" -20 -350 60 H I C CNN "Supplier"
+F5 "1655-1899-1-ND" -20 -450 60 H I C CNN "Supplier Part Number"
+F6 "SMC Diode Solutions" -20 -550 60 H I C CNN "Manufacturer"
+F7 "SK320ATR" -20 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 3A SMB" -20 -750 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SK320BTR
+#
+DEF SK320BTR D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SK320BTR" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" -20 -850 60 H I C CNN
+F3 "" -20 -950 60 H I C CNN
+F4 "Digikey" -20 -350 60 H I C CNN "Supplier"
+F5 "NRVBS3200T3GOSCT-ND" -20 -450 60 H I C CNN "Supplier Part Number"
+F6 "SMC Diode Solutions" -20 -550 60 H I C CNN "Manufacturer"
+F7 "SK320BTR" -20 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 200V 3A SMB" -20 -750 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SK34BTR
+#
+DEF SK34BTR D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SK34BTR" -50 -150 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" -50 -770 60 H I C CNN
+F3 "" -50 -870 60 H I C CNN
+F4 "Digikey" -50 -270 60 H I C CNN "Supplier"
+F5 "1655-1592-1-ND" -50 -370 60 H I C CNN "Supplier Part Number"
+F6 "SMC Diode Solutions" -50 -470 60 H I C CNN "Manufacturer"
+F7 "SK34BTR" -50 -570 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 40V 3A DO-214AA" -50 -670 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SM74611KTTR
+#
+DEF SM74611KTTR D 0 20 N N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "SM74611KTTR" 15 -170 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+F4 "Digikey" 0 -560 50 H I C CNN "Supplier"
+F5 "296-35688-1-ND" 10 -645 50 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 5 -715 50 H I C CNN "Manufacturer"
+F7 "SM74611KTTR" 5 -800 50 H I C CNN "Manufacturer Part Number"
+F8 "Smart Bypass Diode" 20 -875 50 H I C CNN "Description"
+DRAW
+P 2 1 1 15 50 -50 50 50 N
+P 4 1 1 10 -50 50 -50 -50 50 0 -50 50 f
+X ~ 1 -155 30 100 R 50 50 1 1 I
+X ~ 2 150 0 100 L 50 50 1 1 O
+X ~ 3 -155 -30 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMAJ160A
+#
+DEF SMAJ160A D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SMAJ160A" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AC_SMA" 10 -890 60 H I C CNN
+F3 "" 10 -990 60 H I C CNN
+F4 "Digikey" 10 -390 60 H I C CNN "Supplier"
+F5 "SMAJ160ABCT-ND" 10 -490 60 H I C CNN "Supplier Part Number"
+F6 "Fairchild/ON Semiconductor" 10 -590 60 H I C CNN "Manufacturer"
+F7 "SMAJ160A" 10 -690 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 160VWM 259VC SMA" 10 -790 60 H I C CNN "Description"
+F9 "160V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 10 0 -55 35 -70 N
+P 3 0 1 10 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMAJ26A
+#
+DEF SMAJ26A Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "SMAJ26A" 0 -150 60 H V C CNN
+F2 "Diodes:DO-214AC_SMA" 0 -870 60 H I C CNN
+F3 "" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "SMAJ26ALFCT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -570 60 H I C CNN "Manufacturer"
+F7 "SMAJ26A" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 26VWM 42.1VC DO214AC" 0 -770 60 H I C CNN "Description"
+F9 "26V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMAJ26AQ-13-F
+#
+DEF SMAJ26AQ-13-F Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "SMAJ26AQ-13-F" 0 -150 60 H V C CNN
+F2 "Diodes:D-FLAT" 0 -870 60 H I C CNN
+F3 "" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "P4SMAJ13ADF-13DICT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -570 60 H I C CNN "Manufacturer"
+F7 "SMAJ26AQ-13-FDICT-ND" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 26V 42.1VC 400W DFLAT" 0 -770 60 H I C CNN "Description"
+F9 "26V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMBJ14CA
+#
+DEF SMBJ14CA D 0 0 N N 1 F N
+F0 "D" 0 150 60 H V C CNN
+F1 "SMBJ14CA" -45 -135 60 H V C CNN
+F2 "Diodes:DO-214AA_SMB" 0 -1120 60 H I C CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" 0 -1220 60 H I C CNN
+F4 "Digikey" 0 -620 60 H I C CNN "Supplier"
+F5 "SMBJ14CALFCT-ND" 0 -720 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -820 60 H I C CNN "Manufacturer"
+F7 "SMBJ14CA" 0 -920 60 H I C CNN "Manufacturer Part Number"
+F8 "Bidirectional TVS" 0 -1020 60 H I C CNN "Description"
+F9 "15.6V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 10 0 -55 35 -70 N
+P 3 0 1 10 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 0 100 50 100 -50 0 0 f
+X 1 1 200 0 100 L 50 50 1 1 I
+X 2 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMBJ3V3
+#
+DEF SMBJ3V3 Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V L CNN
+F1 "SMBJ3V3" -200 -150 60 H V L CNN
+F2 "Diodes:DO-214AA-SMBJ" 0 -870 60 H I C CNN
+F3 "http://www.vishay.com/docs/88940/smbj3v3.pdf" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "SMBJ3V3-E3/52GICT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Vishay Semiconductor Diodes Division" 0 -570 60 H I C CNN "Manufacturer"
+F7 "SMBJ3V3-E3/52" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "10.3V Clamp 200A (8/20µs) Ipp Tvs Diode Surface Mount DO-214AA (SMBJ) " -50 -750 60 H I C TNN "Description"
+F9 "3.3V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 50 -55 20 -55 N
+P 3 0 1 15 50 -55 50 55 80 55 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SZESD8351HT1G
+#
+DEF SZESD8351HT1G Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V L CNN
+F1 "SZESD8351HT1G" -200 -150 60 H V L CNN
+F2 "Diodes:SOD-323" 0 -870 60 H I C CNN
+F3 "" 0 -970 60 H I C CNN
+F4 "Digikey" 0 -370 60 H I C CNN "Supplier"
+F5 "SZESD8351HT1GOSCT-ND" 0 -470 60 H I C CNN "Supplier Part Number"
+F6 "Onsemi" 0 -570 60 H I C CNN "Manufacturer"
+F7 "SZESD8351HT1G" 0 -670 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 3.3VWM 11.2VC SOD323" -50 -750 60 H I C TNN "Description"
+F9 "3.3V" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 50 -55 20 -55 N
+P 3 0 1 15 50 -55 50 55 80 55 N
+P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
+X Cathode 1 150 0 100 L 50 50 1 1 I
+X Anode 2 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Schottky
+#
+DEF Schottky D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Schottky" 0 -150 60 H V C CNN
+F2 "F" -20 -1000 60 H I C CNN
+F3 "D" -20 -1100 60 H I C CNN
+F4 "Supplier" -20 -500 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" -20 -700 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TVS_Bidirectional
+#
+DEF TVS_Bidirectional D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "TVS_Bidirectional" -45 -135 60 H V C CNN
+F2 "F" 0 -1120 60 H I C CNN
+F3 "D" 0 -1220 60 H I C CNN
+F4 "Supplier" 0 -620 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -720 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -820 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -920 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -1020 60 H I C CNN "Description"
+F9 "V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 10 0 -55 35 -70 N
+P 3 0 1 10 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 0 100 50 100 -50 0 0 f
+X 1 1 200 0 100 L 50 50 1 1 I
+X 2 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TVS_Unidirectional
+#
+DEF TVS_Unidirectional D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "TVS_Unidirectional" 0 -150 60 H V C CNN
+F2 "F" 10 -1190 60 H I C CNN
+F3 "D" 10 -1290 60 H I C CNN
+F4 "Supplier" 10 -690 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 10 -790 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 10 -890 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 10 -990 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 10 -1090 60 H I C CNN "Description"
+F9 "V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 10 0 -55 35 -70 N
+P 3 0 1 10 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V15P45HM3_A_H
+#
+DEF V15P45HM3_A_H D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "V15P45HM3_A_H" 0 -150 60 H V C CNN
+F2 "Diodes:TO-277(Z3)" -20 -1000 60 H I C CNN
+F3 "" -20 -1100 60 H I C CNN
+F4 "Mouser" -20 -500 60 H I C CNN "Supplier"
+F5 "78-V15P45HM3_A/H" -20 -600 60 H I C CNN "Supplier Part Number"
+F6 "Vishay General Semiconductor" -20 -700 60 H I C CNN "Manufacturer"
+F7 "V15P45HM3_A/H" -20 -800 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 45V 15A TO277" -20 -900 60 H I C CNN "Description"
+DRAW
+P 3 0 1 10 0 -60 -25 -60 -25 -40 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 -60 0 60 25 60 25 40 N
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 50 100 R 50 50 1 1 P
+X Anode2 3 -200 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XSDG43MB
+#
+DEF XSDG43MB D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "XSDG43MB" 0 -200 60 H V C CNN
+F2 "Diodes:XSXX43MB" 10 -1080 60 H I C CNN
+F3 "http://www.sunledusa.com/products/spec/XSDG43MB.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "1497-1043-ND " 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "SunLED " 10 -780 60 H I C CNN "Manufacturer"
+F7 "XSDG43MB " 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN DIFF 3MM SQUARE T/H " 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
+F10 "3.3V " 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XSMDK43MB
+#
+DEF XSMDK43MB D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "XSMDK43MB" 0 -200 60 H V C CNN
+F2 "Diodes:XSXX43MB" 10 -1005 60 H I C CNN
+F3 "http://www.sunledusa.com/products/spec/XSMDK43MB.pdf" -100 -1000 60 H I C CNN
+F4 "Digikey" 10 -505 60 H I C CNN "Supplier"
+F5 "1497-1047-ND" 10 -605 60 H I C CNN "Supplier Part Number"
+F6 "SunLED " 10 -705 60 H I C CNN "Manufacturer"
+F7 "XSMDK43MB " 10 -805 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED DIFF 3MM SQUARE T/H " 10 -905 60 H I C CNN "Description"
+F9 "Red " 0 -300 60 H I C CNN "Color"
+F10 "1.95V " 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XSMOK43MB
+#
+DEF XSMOK43MB D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "XSMOK43MB" 0 -200 60 H V C CNN
+F2 "Diodes:XSXX43MB" 10 -1005 60 H I C CNN
+F3 "http://www.sunledusa.com/products/spec/XSMOK43MB.pdf" -100 -1000 60 H I C CNN
+F4 "Digikey" 10 -505 60 H I C CNN "Supplier"
+F5 "1497-1050-ND " 10 -605 60 H I C CNN "Supplier Part Number"
+F6 "SunLED " 10 -705 60 H I C CNN "Manufacturer"
+F7 "XSMOK43MB " 10 -805 60 H I C CNN "Manufacturer Part Number"
+F8 "LED ORANGE DIFF 3MM SQUARE T/H " 10 -905 60 H I C CNN "Description"
+F9 "Orange " 0 -300 60 H I C CNN "Color"
+F10 "2.1V " 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# XSMYK43MB
+#
+DEF XSMYK43MB D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "XSMYK43MB" 0 -200 60 H V C CNN
+F2 "Diodes:XSXX43MB" 10 -1080 60 H I C CNN
+F3 "" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "1497-1052-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "SunLED " 10 -780 60 H I C CNN "Manufacturer"
+F7 "XSMYK43MB" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW DIFF 3MM SQUARE T/H " 10 -980 60 H I C CNN "Description"
+F9 "Yellow " 0 -300 60 H I C CNN "Color"
+F10 "2V " 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Zener
+#
+DEF Zener Z 0 0 N N 1 F N
+F0 "Z" -50 150 50 H V C CNN
+F1 "Zener" 0 -150 60 H V C CNN
+F2 "F" 0 -1120 60 H I C CNN
+F3 "D" 0 -1220 60 H I C CNN
+F4 "Supplier" 0 -620 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -720 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -820 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -920 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -1020 60 H I C CNN "Description"
+F9 "Vz" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
+DRAW
+P 2 0 1 15 0 -55 -30 -55 N
+P 3 0 1 15 0 -55 0 55 30 55 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

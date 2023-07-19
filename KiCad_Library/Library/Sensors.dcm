@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACPL-C87A-500E
+D ACPL-C87A-500E
+K Voltage, Sense, Sensor
+F https://docs.broadcom.com/docs/AV02-3563EN
+$ENDCMP
+#
+$CMP AD7314
+D AD7314
+K Sensor, Temp, Temperature
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7314.pdf
+$ENDCMP
+#
+$CMP NCP15WB473F03RC
+D NCP15WB473F03RC
+K Sensor, Temp, Temperature, NTC, Thermistors
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/ntc/r44e.ashx
+$ENDCMP
+#
+$CMP NTCS0805E3473FHT
+D NCP15WB473F03RC
+K Sensor, Temp, Temperature, NTC, Thermistors
+$ENDCMP
+#
+#End Doc Library

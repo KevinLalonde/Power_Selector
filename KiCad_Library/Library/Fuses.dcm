@@ -1,0 +1,98 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 047706.3MRET1P
+D FUSE CERM 500VAC/400VDC AXIAL 6.3A
+K FUSE, CERM, 500VAC, 400VDC, AXIAL, 6.3A
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_477_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 0697H0800-01
+D FUSE BOARD MNT 800MA 350VAC 100VDC, SB
+K FUSE, BOARD MNT, 800MA, 350VAC, 100VDC
+F https://belfuse.com/resources/CircuitProtection/datasheets/0697H%20Mar2016.pdf
+$ENDCMP
+#
+$CMP 0697H9120-01
+D FUSE BRD MNT 12A 350VAC 72VDC
+K FUSE, BOARD MNT, 12A, 350VAC, 72VDC
+F https://belfuse.com/resources/CircuitProtection/datasheets/0698Q%20Mar2016.pdf
+$ENDCMP
+#
+$CMP 0698Q2000-02
+D FUSE BOARD MNT 2A 140VAC 350VDC
+K FUSE, BOARD MNT, 2A, 140VAC, 350VDC
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0698q-series.pdf
+$ENDCMP
+#
+$CMP 0698Q6300-01
+D FUSE BOARD MNT 6.3A 350VAC 140VDC
+K FUSE, BOARD MNT, 6.3A, 350VAC, 140VDC
+F https://belfuse.com/resources/CircuitProtection/datasheets/0698Q%20Mar2016.pdf
+$ENDCMP
+#
+$CMP 1812L075_33DR
+D PTC RESET FUSE 33V 750MA 1812
+K 1812L075/33DR
+F http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 39505000440
+D FUSE BOARD MNT 500mA 125VAC RADIAL
+K Fast Blow, Radial, Box
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 39511000440
+D FUSE BOARD MNT 1A 125VAC RADIAL
+K Fast Blow, Radial, Box
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 7100.1016.13
+D FUSE 250V 1.25A
+K 250V, 1.25A
+F https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FRT_250T.pdf
+$ENDCMP
+#
+$CMP 80812000440
+D FUSE BOARD MNT 2A 250VAC 450VDC
+K FUSE, BOARD MNT, 2A, 250VAC, 450VDC
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP BK_PCC-3-R
+D FUSE BOARD MNT 3A 250VAC 450VDC
+K FUSE, BOARD MNT, 3A, 250VAC, 450VDC
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP BK_PCC-4-R
+D FUSE BOARD MNT 4A 250VAC 450VDC
+K FUSE, BOARD MNT, 4A, 250VAC, 450VDC
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP BK_PCC-5-R
+D FUSE BOARD MNT 5A 125VAC 400VDC
+K FUSE, BOARD MNT, 5A, 125VAC, 400VDC
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP Fuse
+D Fuse SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP RSTA_3.15_AMMO
+D FUSE BOARD MNT 3.15A 250VAC 63VDC
+K FUSE, BOARD MNT, 3.15A, 250VAC, 63VDC
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-rsta-series.pdf
+$ENDCMP
+#
+$CMP RST_250-BULK
+D FUSE BOARD MNT 250MA 250VAC 100VDC, SB
+K FUSE, BOARD MNT, 250MA, 350VAC, 100VDC
+F https://belfuse.com/resources/CircuitProtection/datasheets/0697H%20Mar2016.pdf
+$ENDCMP
+#
+#End Doc Library

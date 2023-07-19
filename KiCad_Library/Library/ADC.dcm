@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 649003127222
+D 4.20MM MALE SINGLE ROW RIGHT ANGLE HEADER WITH MOUNTING PEGSS
+K 649003127222
+F http://katalog.we-online.de/em/datasheet/6490xx127222.pdf
+$ENDCMP
+#
+$CMP ACZ09BR1E
+D ENCODER ROTARY 9MM HORIZ 20PPR
+K CUI Inc.
+F http://www.cui.com/product/resource/acz09.pdf
+$ENDCMP
+#
+$CMP ADC121C021CIMM_NOPB
+D IC ADC 12BIT I2C ALERT 8VSSOP
+K 12 Bit, Single Ended, S/H-ADC
+F http://www.ti.com/lit/ds/symlink/adc121c021.pdf
+$ENDCMP
+#
+$CMP ADC121S021CIMF_NOPB
+D ADC 12BIT 1CH 50-200KSPS SOT23-6
+K 12 Bit, Single Ended, S/H-ADC, SPI
+F http://www.ti.com/lit/ds/symlink/adc121s021.pdf
+$ENDCMP
+#
+$CMP ADC141S626CIMM_NOPB
+D IC ADC 14BIT 50-250KSPS 10MSOP
+K Differential, SAR, SPI
+F http://www.ti.com/lit/ds/symlink/adc141s626.pdf
+$ENDCMP
+#
+$CMP ADS7950SBRGER
+D IC ADC 12BIT 1MSPS 4CH 24VQFN
+K 4CH, SAR, SPI
+F http://www.ti.com/lit/ds/symlink/ads7950.pdf
+$ENDCMP
+#
+$CMP Buzzer12V
+D BUZZER PIEZO 12V 16.9MM SMD
+K CUI Inc.
+F http://www.cui.com/product/resource/cmi-1240-smt.pdf
+$ENDCMP
+#
+$CMP CMI-1240-SMT
+D BUZZER PIEZO 12V 16.9MM SMD
+K CUI Inc.
+F http://www.cui.com/product/resource/cmi-1240-smt.pdf
+$ENDCMP
+#
+$CMP Encodeur
+D ENCODER ROTARY 11MM VERT 20PPR
+K CUI Inc.
+F http://www.cui.com/product/resource/acz11.pdf
+$ENDCMP
+#
+$CMP LTC-4624JR
+D LED 7-SEG .4" 3DGT SUPER RED CA
+K Lite-On Inc. 7 segements
+F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTC-4624JR.pdf
+$ENDCMP
+#
+$CMP SN74HC595
+D IC 8BIT SHIFT REGISTER 16-TSSOP
+K Shift Registers
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+$ENDCMP
+#
+#End Doc Library

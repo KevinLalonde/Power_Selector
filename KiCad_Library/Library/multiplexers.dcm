@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX1208PWR
+D Current Sensor 12.5A 1 Channel Hall Effect, Open Loop Bidirectional 8-SOIC
+K Current Sensor Bidirectional
+F https://www.ti.com/lit/ds/symlink/tmux1208.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1608590218234
+$ENDCMP
+#
+#End Doc Library

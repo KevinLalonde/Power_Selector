@@ -1,0 +1,14 @@
+(module Keystone_5001 (layer F.Cu) (tedit 58FF36A4)
+  (fp_text reference TP202 (at 0.508 -2.794) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2032)))
+  )
+  (fp_text value Test_Point_THM (at 0 3.556) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 4 2) (drill 1.1 (offset 0.7 0)) (layers *.Cu *.Mask))
+  (model Connectors/Test_Point_Keystone_5001_BLACK.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+)
