@@ -481,6 +481,14 @@
     [
       "809bdac1-fe7e-479d-b3c2-abd6ebce72b5",
       ""
+    ],
+    [
+      "c8dd6968-27fd-46e9-bc25-cf95ac0a1b0e",
+      "PCB_Gauche"
+    ],
+    [
+      "01a8522b-18e6-465b-b2cb-1d0f4aea8e80",
+      "PCB_Droit"
     ]
   ],
   "text_variables": {}
