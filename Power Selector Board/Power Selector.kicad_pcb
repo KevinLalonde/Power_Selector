@@ -905,7 +905,7 @@
 
   (footprint "Relays:G6SK-2G DC3_OMR" (layer "F.Cu")
     (tstamp 67499cc1-b4ca-46df-a80e-f42965affbd6)
-    (at 93.32 84.2)
+    (at 93.300002 84.2)
     (tags "G6SK-2G DC24 ")
     (property "Sheetfile" "PCB_Gauche.kicad_sch")
     (property "Sheetname" "PCB_Gauche")
@@ -1760,6 +1760,8 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c43ba9b8-ae10-4e81-a409-96aaff947912))
   (gr_line (start 141.32 130.4) (end 141.32 69.6)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ea4087aa-3c49-4ae9-8071-8e26727b47a7))
+  (gr_line (start 108.1 126.3) (end 101.9 130.5)
+    (stroke (width 0.2) (type default)) (layer "Margin") (tstamp 903c10c6-8013-41f1-b082-4ed0132c420d))
   (gr_text "PFE ÉTS E2023 - Pour WINDO\nContrôle d'alimentation pour drone\nSchéma électrique : Kevin Lalonde\nDesign PCB : Tristan Legault\nReview : Guyaume Morand" (at 96.6 127) (layer "B.SilkS") (tstamp 364d45e1-daa7-467d-a87c-92968ab230c8)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
